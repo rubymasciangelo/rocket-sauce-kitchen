@@ -3,10 +3,10 @@ body {
 }
 
 .exhaust-box img {
-  /* top: 0;
-  left: 0; */
+  top: 0;
+  left: 0;
   display: block;
-  position: absolute;
+  position: sticky;
   /* transition: opacity 0s;
   opacity: 0; */
   width: 800px;
