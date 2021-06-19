@@ -1,22 +1,25 @@
+body {
+  height: 500vh;
+}
+
 .exhaust-box img {
   /* top: 0;
   left: 0; */
   display: block;
   position: absolute;
-  transition: opacity 0s;
-  opacity: 0;
+  /* transition: opacity 0s;
+  opacity: 0; */
   width: 800px;
   height: 500px;
   margin: auto;
 }
 
-.exhaust-box img:first-child {
+/* .exhaust-box img:first-child {
   z-index: 2;
   opacity: 1;
-  /* opacity: .25; */
 }
 
 .exhaust-box img:last-child {
   z-index: 1;
   opacity: 0;
-}
+} */
