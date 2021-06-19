@@ -1,15 +1,12 @@
-body {
-  background-color: black;
-}
-
-/* The container for all images
- Fixed positioned, so it won't be affected by default scroll
- It will be moved using `transform`, to achieve a custom scroll behavior*/
- .exhaust-box {
+// The container for all images
+.exhaust-box {
+  // Fixed positioned, so it won't be affected by default scroll
+  // It will be moved using `transform`, to achieve a custom scroll behavior
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  background-color: black;
 }
 
 /*Styles for image elements
@@ -26,4 +23,12 @@ hiding feature*/
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
+
+
+  /* Set each `background-image` using a SCSS `for` loop */
+  @for $i from 1 through 192 {
+    &:nth-child(#{$i}) {
+      background-image: url('./Exhaust-Sequence');
+    }
+  }
 }
