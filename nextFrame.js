@@ -55,26 +55,6 @@ preloadImages();
 //is transparent that is not the vibe. ALSO
 //something bad is going on with the sizing?
 
-
-//this is the only thing that needs to be in body
-//<canvas id="hero-lightpass" />
-
-
-//html {
- //   height: 100vh;
-  //}
-  
-  /* taller body to give us enough scroll room */
- // body {
-   // height: 500vh;
- // }
-  
-  /* does not exceed dimension of viewport */
- // canvas {
-   // position: fixed;
-  //  left: 50%;
-    //top: 50%;
-   // max-height: 100vh;
-   // max-width: 50vw;
-   // transform: translate(-50%, -50%);
- // }
+//This works but is flashy because of the transparent
+//repainting, if the image was on an opaque
+//baclground it would be fine probably
