@@ -58,3 +58,9 @@ preloadImages();
 //This works but is flashy because of the transparent
 //repainting, if the image was on an opaque
 //baclground it would be fine probably
+
+
+//6/24/21
+//it seems like the best way to do this is to have
+//them animate the exhaust over a logo. this is
+//extra important because of mobile responsive issues
