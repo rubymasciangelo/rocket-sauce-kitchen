@@ -16,6 +16,7 @@ html {
 } */
 .canvasbox {
   height: 1200vh;
+  width: 300vw;
   width: 100%;
   background-color: rgba(126, 252, 0, 0.274);
 }
@@ -25,8 +26,7 @@ canvas {
   left: 50%;
   top: 60%;
   max-height: 120vh;
-  width: 300vw;
-  transform: translate(-34%, -50%);
+  transform: translate(-24%, -50%);
   background-color: rgba(26, 94, 94, 0.219);
 }
 
@@ -49,6 +49,7 @@ canvas {
 @media only screen and (min-width: 800px) {
   .canvasbox {
     height: 780vh;
+    width: 100vw;
   }
 
   canvas {
