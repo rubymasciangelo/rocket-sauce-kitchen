@@ -11,27 +11,27 @@
             <div class="tip">
             <h1>Transparency Issue Page</h1>
             <p>This page illustrates the issue with files that contain transparency. Without transparency handling, there is a visual stacking effect. As of now, the transparency handling causes a flickering/flashing effect. I am actively investigating workarounds for this. Potentially, using SVG files instead of PNGs could resolve the issue since SVGs are smaller and load faster than PNGs.</p>
-            <button><a href="nobg.html">Transparency Issue</a></button>
+            <a href="nobg.html">Transparency Issue</a>
             </div>
             <div class="opt1 opt">
             <h1>Option 1</h1>
             <h3>(Where the body of text slides up the page)</h3>
             <p>This option is only flashing because it is set up to exclusively handle images with transparency. The assets that I would need for this option would be SVGs of every frame with no transparency anywhere. The end title would either need to be animated into the frame sequence and centered and large, like the opening title, or it could be a part of the body of text that slides up the page.</p>
-            <button><a href="opt1.html">Option 1</a></button></div>
+            <a href="opt1.html">Option 1</a></div>
             <div class="opt2 opt">
             <h1>Option 2</h1>
             <h3>(Where the animation reveals the body of text like a curtain being raised)</h3>
             <p>This option does not flash during the beginning of the animation because it is set up to handle opaque and transparent images. That's why the images without opacity don't flash and the images with opacity do. The assets I would need for this option would be SVGs of every frame with the existing opacity/transparency combination. I would not need the end title to be a part of this animation frame set because it can be a part of the body text section.</p>
-            <button><a href="opt2.html">Option 2</a></button></div>
+            <a href="opt2.html">Option 2</a></div>
             <div class="opt3 opt">
             <h1>Option 3</h1>
             <p>A third option exists! For this option I would need one mv4 file of the animation for desktop screens and one for mobile screens. The mv4 files would use the scroll action to scrub through the animation, instead of painting each frame like in the first two options. This would probably not be slower than the other two options because they have to load 262 files while this option only loads 2. If you like option 2 the best and I'm not able to resolve the flickering issue in the working timeframe, this would be a good alternative. The body of text could either sit below the animation section, or the animation section could lift up to reveal the body of text. It wouldn't be quite the same visually as option 2 though, because transparency isn't possible in this option. It would be more like a rectangle raising to reveal the body of text instead of the exhaust with its organic edges.</p>
             </div>
         </div>
         <div class="btns">
-        <button><a href="nobg.html">Transparency Issue</a></button>
-        <button><a href="opt1.html">Option 1</a></button>
-        <button><a href="opt2.html">Option 2</a></button></div>
+        <a href="nobg.html">Transparency Issue</a>
+        <a href="opt1.html">Option 1</a>
+        <a href="opt2.html">Option 2</a></div>
     </body>
     <script type="text/javascript" src="noBG.js"></script>
 

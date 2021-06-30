@@ -109,11 +109,11 @@ canvas {
   text-align: left;
 }
 
-.warnbox button {
+/* .warnbox button {
   height: 50px;
   background-color: white;
   width: auto;
-}
+} */
 
 .info {
   background-color: whitesmoke;
@@ -134,22 +134,32 @@ canvas {
   background-color: black;
 }
 
-.info button {
+/* .info button {
   background-color: black;
-}
+} */
 
 a {
   text-decoration: none;
   color: black;
   background-color: white;
   border-radius: 20px;
+  margin: 150px 10px !important;
+  padding: 10px 13px;
+  font-size: 20px;
 }
 
 a:hover {
   color: red;
+  background-color: rgb(211, 207, 207);
 }
 
+.info p {
+  padding-bottom: 50px;
+}
 
+.splashbtn {
+  margin-top: 50px;
+}
 
 @media only screen and (min-width: 800px) {
   .canvasbox {
