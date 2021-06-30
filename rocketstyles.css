@@ -46,8 +46,7 @@ canvas {
   -webkit-transform: translateZ(0);
   /* top: 1150vh; */
   top: 0%;
-  left: 20%;
-  width: 60vw;
+  width: 100vw;
   z-index: -10;
   margin: 0 auto;
   background-color: purple;
@@ -61,6 +60,10 @@ canvas {
   width: 0 !important;
 }
 
+.rsauce {
+  width: 60%;
+  margin: 0 auto;
+}
 
 .rsauce h1 {
   color: red;
