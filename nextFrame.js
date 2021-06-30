@@ -72,6 +72,7 @@ preloadImages();
 
 
 
-//either do this as fixed or last frame has 
-//absolute text div stacked over opaque bg with 
+//either do this as fixed with no auto transparent paint 
+//and then at transparent section insert a file every other png
+//or last frame has absolute text div stacked over opaque bg with 
 //transparent bg canvas stacked over it
