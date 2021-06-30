@@ -3,13 +3,13 @@ const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
 //const frameCount = 192;
-const frameCount = 262;
+const frameCount = 77;
 
 
 //gets the image from the directory, padstart handles the 000 naming aspect
 const currentFrame = index => (
     //`./Exhaust-Sequence/RocketExhaust${index.toString().padStart(3, '0')}.png`
-    `./PNG Sequence w Text-BG/Scroll Mockup_${index.toString().padStart(5, '0')}.png`
+    `./PNG Sequence w Text-BG/Scroll Mockup_${index.toString().padStart(5, '186')}.png`
 )
 
 const preloadImages = () => {
@@ -44,14 +44,11 @@ const frameIndex = Math.min(
     Math.floor(scrollFraction * frameCount)
     );
 
-    if (frameIndex < 196) {
-        //update image source and draw new image on canvas
-    requestAnimationFrame(() => updateImage(frameIndex + 1));
+
     
-    } else if(frameIndex > 195) {
-        requestAnimationFrame(() => updateImage(frameIndex + 1));
-        context.clearRect(0, 0, context.canvas.width, context.canvas.height);
-    }
+//update image source and draw new image on canvas
+requestAnimationFrame(() => updateImage(frameIndex + 1))
+//context.clearRect(0, 0, context.canvas.width, context.canvas.height);
 });
 
 
