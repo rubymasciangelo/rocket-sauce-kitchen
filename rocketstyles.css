@@ -88,6 +88,38 @@ canvas {
 
 .nbgb {
   margin-top: -400px;
+  z-index: 1000;
+}
+
+.warnbox {
+    text-align: center;
+    margin: 200px auto;
+    width: 500px;
+}
+
+.warnbox h1 {
+  color: yellow;
+}
+
+.warnbox p {
+  text-align: left;
+}
+
+.warnbox button {
+  height: 50px;
+  background-color: white;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+
+a:hover {
+  color: red;
 }
 
 @media only screen and (min-width: 800px) {
@@ -107,6 +139,7 @@ canvas {
     width: 100vw;
     transform: translate(-1%, -50%);
   }
+
 
   /* .rsauce {
     top: 2180vh;
