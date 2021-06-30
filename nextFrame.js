@@ -44,11 +44,11 @@ const frameIndex = Math.min(
     Math.floor(scrollFraction * frameCount)
     );
 
-    if (frameIndex < 196) {
+    if (frameIndex < 186) {
         //update image source and draw new image on canvas
     requestAnimationFrame(() => updateImage(frameIndex + 1));
     
-    } else if(frameIndex > 195) {
+    } else if(frameIndex > 185) {
         requestAnimationFrame(() => updateImage(frameIndex + 1));
         context.clearRect(0, 0, context.canvas.width, context.canvas.height);
     }
@@ -71,10 +71,6 @@ preloadImages();
 //it seems like the best way to do this is to have
 //them animate the exhaust over a logo. this is
 //extra important because of mobile responsive issues
-
-
-
-
 
 
 //either do this as fixed with no auto transparent paint 
