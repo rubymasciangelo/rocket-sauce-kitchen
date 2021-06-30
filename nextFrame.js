@@ -3,7 +3,7 @@ const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
 //const frameCount = 192;
-const frameCount = 271;
+const frameCount = 262;
 
 
 //gets the image from the directory, padstart handles the 000 naming aspect
@@ -66,3 +66,12 @@ preloadImages();
 //it seems like the best way to do this is to have
 //them animate the exhaust over a logo. this is
 //extra important because of mobile responsive issues
+
+
+
+
+
+
+//either do this as fixed or last frame has 
+//absolute text div stacked over opaque bg with 
+//transparent bg canvas stacked over it

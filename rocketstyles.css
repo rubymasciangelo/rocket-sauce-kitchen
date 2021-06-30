@@ -31,15 +31,27 @@ canvas {
 }
 
 
-.rsauce {
-  position: absolute;
-  top: 1150vh;
+.rsaucebox {
+  position: fixed;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  /* top: 1150vh; */
+  top: 0%;
   left: 20%;
   width: 60vw;
   z-index: -10;
   margin: 0 auto;
   background-color: purple;
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+
+.rsaucebox::-webkit-scrollbar {
+  width: 0 !important;
+}
+
 
 .rsauce h1 {
   color: red;
@@ -48,7 +60,7 @@ canvas {
 
 @media only screen and (min-width: 800px) {
   .canvasbox {
-    height: 3080vh;
+    height: 3880vh;
     width: 100vw;
   }
 
@@ -56,11 +68,12 @@ canvas {
     max-height: 130vh;
     transform: translate(-6%, -50%);
     width: 110vw;
+    /* display: none; */
   }
 
-  .rsauce {
-    top: 680vh;
-  }
+  /* .rsauce {
+    top: 2180vh;
+  } */
 }
 
 /* body {
