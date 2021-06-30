@@ -3,7 +3,7 @@ const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
 //const frameCount = 192;
-const frameCount = 262;
+const frameCount = 271;
 
 
 //gets the image from the directory, padstart handles the 000 naming aspect
