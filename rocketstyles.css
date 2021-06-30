@@ -97,6 +97,11 @@ canvas {
     /* display: none; */
   }
 
+  .c2 {
+    width: 100vw;
+    transform: translate(-1%, -50%);
+  }
+
   /* .rsauce {
     top: 2180vh;
   } */
