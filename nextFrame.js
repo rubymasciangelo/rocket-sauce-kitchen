@@ -2,12 +2,14 @@ const html = document.documentElement;
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
-const frameCount = 192;
+//const frameCount = 192;
+const frameCount = 262;
 
 
 //gets the image from the directory, padstart handles the 000 naming aspect
 const currentFrame = index => (
-    `./Exhaust-Sequence/RocketExhaust${index.toString().padStart(3, '0')}.png`
+    //`./Exhaust-Sequence/RocketExhaust${index.toString().padStart(3, '0')}.png`
+    `./PNG Sequence w Text-BG/Scroll Mockup_${index.toString().padStart(5, '0')}.png`
 )
 
 const preloadImages = () => {
