@@ -70,6 +70,10 @@ canvas {
   font-size: 50px;
 }
 
+.btns {
+  margin: 100px auto;
+}
+
 @media only screen and (min-width: 800px) {
   .canvasbox {
     height: 3880vh;
