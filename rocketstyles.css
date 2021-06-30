@@ -13,6 +13,10 @@ html {
   color: white;
 }
 
+body {
+  font-family: Verdana, sans-serif;
+}
+
 /* body {
   background-color: orange;
 } */
@@ -87,13 +91,13 @@ canvas {
 }
 
 .nbgb {
-  margin-top: -400px;
+  margin-top: -200px;
   z-index: 1000;
 }
 
 .warnbox {
     text-align: center;
-    margin: 200px auto;
+    margin: 100px auto;
     width: 500px;
 }
 
@@ -111,6 +115,29 @@ canvas {
   width: auto;
 }
 
+.info {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.infobox {
+  width: 60vw;
+  margin: 100px auto;
+}
+
+.opt {
+  margin: 75px auto;
+}
+
+.info a {
+  color: whitesmoke;
+  background-color: black;
+}
+
+.info button {
+  background-color: black;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -121,6 +148,8 @@ a {
 a:hover {
   color: red;
 }
+
+
 
 @media only screen and (min-width: 800px) {
   .canvasbox {
