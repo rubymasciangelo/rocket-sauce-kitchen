@@ -2,6 +2,10 @@ const html = document.documentElement;
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
+//buffer canvas
+const canvas2 = document.createElement("canvas");
+const context2 = canvas2.getContext("2d")
+
 //const frameCount = 192;
 const frameCount = 262;
 
@@ -23,15 +27,19 @@ const img = new Image()
     img.src = currentFrame(1);
     canvas.width=1158;
     canvas.height=770;
+    canvas2.width=1158;
+    canvas2.height=770;
     img.onload=function(){
-    context.drawImage(img, 0, 0, img.width, img.height, //source rectangle
-                            0, 0, canvas.width, canvas.height); //destination rectangle
+    context2.drawImage(img, 0, 0, img.width, img.height, //source rectangle
+                            0, 0, canvas2.width, canvas2.height); //destination rectangle
+    context.drawImage(canvas2, 0, 0);
 }
 
 const updateImage = index => {
     img.src = currentFrame(index);
-    context.drawImage(img, 0, 0, img.width, img.height, //source rectangle
-        0, 0, canvas.width, canvas.height); //destination rectangle
+    context2.drawImage(img, 0, 0, img.width, img.height, //source rectangle
+        0, 0, canvas2.width, canvas2.height); //destination rectangle
+    context.drawImage(canvas2, 0, 0);
 }
 
 
@@ -50,12 +58,9 @@ const frameIndex = Math.min(
     requestAnimationFrame(() => updateImage(frameIndex + 1));
     
     } else if(frameIndex > 185) {
-        //context.clearRect(0, 0, context.canvas.width, context.canvas.height);
-        animationTimeout = setTimeout(clearCanvas, 90);
-        function clearCanvas()
-        {
-            context.clearRect(0, 0, context.canvas.width, context.canvas.height);
-        }
+        context2.clearRect(0, 0, context2.canvas.width, context2.canvas.height);
+        context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+
         requestAnimationFrame(() => updateImage(frameIndex + 1));
     }
 });
