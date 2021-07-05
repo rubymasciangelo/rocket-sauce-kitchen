@@ -1,5 +1,5 @@
-const html = document.documentElement;
-const canvas = document.getElementById("hero-lightpass");
+//const html = document.documentElement;
+const canvas = document.getElementById("hero-lightpass2");
 const context = canvas.getContext("2d");
 
 //const frameCount = 192;
@@ -36,17 +36,22 @@ const updateImage = index => {
 
 //get the scroll position and attribute it to an index position from the animation frame sequence
 window.addEventListener('scroll', () => {  
-const scrollTop = html.scrollTop;
-const maxScrollTop = html.scrollHeight - window.innerHeight;
+const scrollTop = canvas.scrollTop;
+const maxScrollTop = canvas.scrollHeight - window.innerHeight;
 const scrollFraction = scrollTop / maxScrollTop;
 const frameIndex = Math.min(
     frameCount - 1,
     Math.floor(scrollFraction * frameCount)
     );
 
-//update image source and draw new image on canvas
-requestAnimationFrame(() => updateImage(frameIndex + 1))
-context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+    if (frameIndex < 186) {
+        //update image source and draw new image on canvas
+    requestAnimationFrame(() => updateImage(frameIndex + 1));
+    
+    } else if(frameIndex > 185) {
+        requestAnimationFrame(() => updateImage(frameIndex + 1));
+        context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+    }
 });
 
 

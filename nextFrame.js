@@ -34,6 +34,7 @@ const updateImage = index => {
         0, 0, canvas.width, canvas.height); //destination rectangle
 }
 
+
 //get the scroll position and attribute it to an index position from the animation frame sequence
 window.addEventListener('scroll', () => {  
 const scrollTop = html.scrollTop;
@@ -44,13 +45,33 @@ const frameIndex = Math.min(
     Math.floor(scrollFraction * frameCount)
     );
 
+    function resizeCO() {
+        var newCW = canvas.width + 1;
+        var newCH = canvas.height + 1;
+        canvas.width = newCW;
+        canvas.height = newCH;
+        requestAnimationFrame(() => updateImage(frameIndex + 1));
+    }
+    
+    function resizeCE() {
+        var newCW = canvas.width - 1;
+        var newCH = canvas.height - 1;
+        canvas.width = newCW;
+        canvas.height = newCH;
+        requestAnimationFrame(() => updateImage(frameIndex + 1));
+    }
+    
+
     if (frameIndex < 186) {
         //update image source and draw new image on canvas
     requestAnimationFrame(() => updateImage(frameIndex + 1));
     
-    } else if(frameIndex > 185) {
-        context.clearRect(0, 0, context.canvas.width, context.canvas.height);
-        requestAnimationFrame(() => updateImage(frameIndex + 1));
+    } else if(frameIndex > 185 && frameIndex%2 == 0) {
+        //context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+        //requestAnimationFrame(() => updateImage(frameIndex + 1));
+        resizeCE();
+    } else {
+        resizeCO();
     }
 });
 
@@ -77,3 +98,9 @@ preloadImages();
 //and then at transparent section insert a file every other png
 //or last frame has absolute text div stacked over opaque bg with 
 //transparent bg canvas stacked over it
+
+
+
+//7/5/21
+//this commit has the canvas get re-drawn instead of clearing the rect
+//didn't resolve flickering, this option will live in optTWO.js
