@@ -45,33 +45,13 @@ const frameIndex = Math.min(
     Math.floor(scrollFraction * frameCount)
     );
 
-    function resizeCO() {
-        var newCW = canvas.width + 1;
-        var newCH = canvas.height + 1;
-        canvas.width = newCW;
-        canvas.height = newCH;
-        requestAnimationFrame(() => updateImage(frameIndex + 1));
-    }
-    
-    function resizeCE() {
-        var newCW = canvas.width - 1;
-        var newCH = canvas.height - 1;
-        canvas.width = newCW;
-        canvas.height = newCH;
-        requestAnimationFrame(() => updateImage(frameIndex + 1));
-    }
-    
-
     if (frameIndex < 186) {
         //update image source and draw new image on canvas
     requestAnimationFrame(() => updateImage(frameIndex + 1));
     
-    } else if(frameIndex > 185 && frameIndex%2 == 0) {
-        //context.clearRect(0, 0, context.canvas.width, context.canvas.height);
-        //requestAnimationFrame(() => updateImage(frameIndex + 1));
-        resizeCE();
-    } else {
-        resizeCO();
+    } else if(frameIndex > 185) {
+        context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+        requestAnimationFrame(() => updateImage(frameIndex + 1));
     }
 });
 
