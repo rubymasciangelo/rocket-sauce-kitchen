@@ -49,8 +49,8 @@ const frameIndex = Math.min(
     requestAnimationFrame(() => updateImage(frameIndex + 1));
     
     } else if(frameIndex > 185) {
-        requestAnimationFrame(() => updateImage(frameIndex + 1));
         context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+        requestAnimationFrame(() => updateImage(frameIndex + 1));
     }
 });
 
