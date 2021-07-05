@@ -50,7 +50,12 @@ const frameIndex = Math.min(
     requestAnimationFrame(() => updateImage(frameIndex + 1));
     
     } else if(frameIndex > 185) {
-        context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+        //context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+        animationTimeout = setTimeout(clearCanvas, 90);
+        function clearCanvas()
+        {
+            context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+        }
         requestAnimationFrame(() => updateImage(frameIndex + 1));
     }
 });
@@ -82,5 +87,10 @@ preloadImages();
 
 
 //7/5/21
-//this commit has the canvas get re-drawn instead of clearing the rect
-//didn't resolve flickering, this option will live in optTWO.js
+//another option is for canvas to get re-drawn instead of clearing the rect
+//didn't resolve flickering, this option lives in optTWO.js
+
+//setInterval attempt at making the canvas clearing not attached to the scrolling.
+//even worse flickering. If I could leave the clearing in the scrolling and just
+//make it have the clear screen for less time that might work
+//Tried setTimeout and that also did not work, left the screen clear.
