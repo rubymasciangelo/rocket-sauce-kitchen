@@ -82,7 +82,7 @@ canvas {
 }
 
 .rsauce h1, .rsauce1 h1 {
-  color: orange;
+  color: purple;
   font-size: 50px;
 }
 
@@ -220,5 +220,6 @@ a:hover {
 
 #anim {
   max-width: 800px;
+  height: 800px;
   margin: 0 auto;
 }
