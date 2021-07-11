@@ -76,12 +76,12 @@ canvas {
   width: 0 !important;
 }
 
-.rsauce, .rsauce2 {
+.rsauce, .rsauce2, .rsauce1 {
   width: 60%;
   margin: 0 auto;
 }
 
-.rsauce h1 {
+.rsauce h1, .rsauce1 {
   color: red;
   font-size: 50px;
 }
