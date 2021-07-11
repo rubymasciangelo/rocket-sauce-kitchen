@@ -227,15 +227,13 @@ a:hover {
 
 .main {
   overflow-x: hidden;
-  background-color: royalblue;
 }
 
 
 .scroll-element {
     display: block;
     width: 100%;
-    height: 50vh;
-    background-color: purple;
+    height: 100vh;
 }
 
 .blastoff {
@@ -243,5 +241,4 @@ a:hover {
       width: 100% !important;
       height: 50vh !important;
       margin: 0 auto;
-      background-color: red;
     }
