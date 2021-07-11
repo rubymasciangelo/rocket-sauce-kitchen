@@ -82,7 +82,7 @@ canvas {
 }
 
 .rsauce h1, .rsauce1 h1 {
-  color: rgb(202, 45, 207);
+  color: red;
   font-size: 50px;
 }
 
@@ -224,16 +224,13 @@ a:hover {
   margin: 0 auto;
 }
 
-body, html {
-  margin: 0;
-  padding: 0;
-}
-body {
+
+.main {
   overflow-x: hidden;
 }
 
 
-.scroll-element {
+.scroll-element-new {
     display: block;
     width: 100%;
     height: 50vh;
