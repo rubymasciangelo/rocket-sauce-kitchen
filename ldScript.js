@@ -1,7 +1,13 @@
 var animation = bodymovin.loadAnimation({
     container: document.getElementById('anim'),
     renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    path: 'Rocket-Exhaust.json'
-})
+    path: 'Rocket-Exhaust.json',
+    mode: 'scroll',
+    actions: [
+        {
+            visibility: [0,1],
+            type: 'seek',
+            frames: [0, 100],
+        },
+    ],
+});
