@@ -8,8 +8,10 @@
         <link rel="stylesheet" href="rocketstyles.css">
     </head>
     <body>
-        <div id="anim">
-        </div>
+        <!--<div id="anim">
+        </div>-->
+
+        <lottie-player id="firstLottie" src="Rocket-Exhaust.json" style="width:400px; height: 400px;">"></lottie-player>
 
         <div class="shhh1"></div>
         <div class="rsaucebox1">
@@ -27,9 +29,23 @@
         </div>
     </div>
     </body> 
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
+    <script>
+        LottieInteractivity.create({
+            mode:"scroll",
+            player:'#firstLottie',
+            actions: [
+            {
+                visibility: [0,1],
+                type: "seek",
+                frames: [0, 100]
+            }]
+        });
+    </script>
+
     <!--<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js" integrity="sha512-jbTBHn1aXqglu6As1bUWxdPYc9b1uMHtreBM30oW3HbNFDS/eO1n+f98l4qcmw2l7CAdjWSbu3wVjm9SKISOaw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
-    <script src="ldScript.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js" integrity="sha512-jbTBHn1aXqglu6As1bUWxdPYc9b1uMHtreBM30oW3HbNFDS/eO1n+f98l4qcmw2l7CAdjWSbu3wVjm9SKISOaw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+    <script src="ldScript.js"></script>-->
     <!--<lottie-player src="Rocket-Exhaust.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  mode="scroll"  actions="visibility: [0,1], type: "seek", frames: [0, 100]"></lottie-player>-->
 
 
