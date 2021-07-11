@@ -215,3 +215,10 @@ a:hover {
   z-index: 1;
   opacity: 0;
 } */
+
+
+
+#anim {
+  max-width: 800px;
+  margin: 0 auto;
+}
