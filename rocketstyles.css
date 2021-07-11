@@ -81,8 +81,8 @@ canvas {
   margin: 0 auto;
 }
 
-.rsauce h1, .rsauce1 {
-  color: pink;
+.rsauce h1, .rsauce1 h1 {
+  color: orange;
   font-size: 50px;
 }
 
