@@ -6,7 +6,7 @@ var elem = document.getElementById('blastoff');
 LottieScrollTrigger({
   target: "#blastoff",
   path: "RocketSauce_Full.json",
-  speed: "medium",
+  speed: "slow",
   pin: ".main",
   start: "center center",
   end: () => `+=${elem.offsetHeight}`,
