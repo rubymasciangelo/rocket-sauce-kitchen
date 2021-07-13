@@ -5,7 +5,7 @@ var elem = document.getElementById('blastoff');
 
 LottieScrollTrigger({
   target: "#blastoff",
-  path: "Rocket-Exhaust.json",
+  path: "RocketSauce_Full.json",
   speed: "medium",
   pin: ".main",
   start: "center center",
