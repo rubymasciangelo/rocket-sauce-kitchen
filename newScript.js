@@ -13,6 +13,7 @@ LottieScrollTrigger({
   start: "top",
   end: () => `+=${elem.offsetHeight * 30}`,
   scrub: 1,
+  rotation: 0.1,
   markers: false
 });
 
