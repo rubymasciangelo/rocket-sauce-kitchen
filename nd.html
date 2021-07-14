@@ -6,22 +6,34 @@
         <meta http-equiv="X-AU-compatible" content="ie=edge">
         <title>Kitchen</title>
         <link rel="stylesheet" href="rocketstyles.css">
-    </head>
-    <body class"ndb">
-    <style> .loader {
-        position: fixed;
-        background-color: #fff;
-        opacity: 1;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        z-index: 10000;
-    }
+    <style media="screen" type="text/css">
+      .layer1_class { position: absolute; z-index: 1; top: 100px; left: 0px; visibility: visible; }
+      .layer2_class { position: absolute; z-index: 2; top: 10px; left: 10px; visibility: hidden }
     </style>
-    <div class="loader">
-        <h1>ethically sourcing rocket fuel<h1>
+    <script>
+      function downLoad(){
+        if (document.all){
+            document.all["layer1"].style.visibility="hidden";
+            document.all["layer2"].style.visibility="visible";
+        } else if (document.getElementById){
+            node = document.getElementById("layer1").style.visibility='hidden';
+            node = document.getElementById("layer2").style.visibility='visible';
+        }
+      }
+    </script>
+    </head>
+    <body onload="downLoad()" class"ndb">
+    <div id="layer1" class="layer1_class">
+      <table width="100%">
+        <tr>
+          <td align="center"><strong><em>Please wait while this page is loading...</em></strong></p></td>
+        </tr>
+      </table>
     </div>
+    <div id="layer2" class="layer2_class">
+        <script type="text/javascript">
+                alert('Just holding things up here.  While you are reading this, the body of the page is not loading and the onload event is being delayed');
+        </script>
         <div class="main">
             <div class="scroll-element">
                 <div id="blastoff"></div>
@@ -48,36 +60,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
     <script src="newScript.js"></script>
+    </div>
     </body> 
-    <style>
-    .loader {
-        -webkit-animation: load-out 1s;
-        animation: load-out 1s;
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-    }
-    @-webkit-keyframes load-out {
-        from {
-            top: 0;
-            opacity: 1;
-        }
-        to {
-            top: 100%;
-            opacity: 0;
-        }
-    }
 
-    @keyframes load-out {
-        from {
-            top: 0;
-            opacity: 1;
-        }
-        to {
-            top: 100%;
-            opacity: 0;
-        }
-    }
-    </style>
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js" integrity="sha512-jbTBHn1aXqglu6As1bUWxdPYc9b1uMHtreBM30oW3HbNFDS/eO1n+f98l4qcmw2l7CAdjWSbu3wVjm9SKISOaw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
     <script src="ldScript.js"></script>-->
     <!--<lottie-player src="Rocket-Exhaust.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  mode="scroll"  actions="visibility: [0,1], type: "seek", frames: [0, 100]"></lottie-player>-->
