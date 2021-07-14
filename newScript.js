@@ -27,7 +27,8 @@ function LottieScrollTrigger(vars) {
 			renderer: vars.renderer || "svg",
 			loop: false,
 			autoplay: false,
-			path: vars.path
+			path: vars.path,
+			rotation: 0.1
 		});
 	for (let p in vars) { // let users override the ScrollTrigger defaults
 		st[p] = vars[p];
