@@ -238,8 +238,8 @@ a:hover {
 }
 
 .main {
-  overflow: visible;
-  width: 100%;
+  overflow-x: hidden;
+  width: 105%;
   height: 100%;
   z-index: 10;
 }
