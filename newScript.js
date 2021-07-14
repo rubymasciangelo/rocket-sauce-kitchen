@@ -14,6 +14,7 @@ LottieScrollTrigger({
   end: () => `+=${elem.offsetHeight * 30}`,
   scrub: 1,
   rotation: 0.1,
+  force3D: true,
   markers: false
 });
 
@@ -29,7 +30,8 @@ function LottieScrollTrigger(vars) {
 			loop: false,
 			autoplay: false,
 			path: vars.path,
-			rotation: 0.1
+			rotation: 0.1,
+			force3D: true
 		});
 	for (let p in vars) { // let users override the ScrollTrigger defaults
 		st[p] = vars[p];
