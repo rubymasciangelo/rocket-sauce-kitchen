@@ -7,14 +7,8 @@
         <title>Kitchen</title>
         <link rel="stylesheet" href="rocketstyles.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script>
-        $(window).load(function() {      //Do the code in the {}s when the window has loaded 
-            $("#loader").fadeOut("fast");  //Fade out the #loader div
-        });
-        </script>
     </head>
     <body class"ndb">
-    <div id="loader"></div>
         <div class="main">
             <div class="scroll-element">
                 <div id="blastoff"></div>
@@ -37,12 +31,24 @@
         </div>
     </div>
     </div>
-
+<script>
+  $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
+$(window).on('load', function(){
+  setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
+});
+function removeLoader(){
+    $( "#loadingDiv" ).fadeOut(500, function() {
+      // fadeOut complete. Remove the loading div
+      $( "#loadingDiv" ).remove(); //makes page more lightweight 
+  });  
+}
+</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
     <script src="newScript.js"></script>
-    </body> 
+    </body>
+     
 
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js" integrity="sha512-jbTBHn1aXqglu6As1bUWxdPYc9b1uMHtreBM30oW3HbNFDS/eO1n+f98l4qcmw2l7CAdjWSbu3wVjm9SKISOaw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
     <script src="ldScript.js"></script>-->
