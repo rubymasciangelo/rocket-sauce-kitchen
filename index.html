@@ -15,6 +15,10 @@
             </div>
         </div>
 
+        <div class="ffwarning">
+            <p>Hi there! It looks like you're using Firefox, please use Chrome or Safari to view this page!</p>
+        </div>
+
         <div class="shh">
         <div class="rsaucebox">
         <div class="rsauce">
@@ -29,7 +33,7 @@
     </div>
     </div>
 <script>
-  $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
+  $('body').append('<div style="" id="loadingDiv"><div class="loader"></h1 style="color:white;">Loading...</h1></div></div>');
 $(window).on('load', function(){
   setTimeout(removeLoader, 7000); //wait for page load PLUS two seconds.
 });
@@ -38,6 +42,17 @@ function removeLoader(){
       // fadeOut complete. Remove the loading div
       $( "#loadingDiv" ).remove(); //makes page more lightweight 
   });  
+}
+
+var main = document.getElementsByClassName('main');
+var warning = document.getElementsByClassName('ffwarning');
+var FF = !(window.mozInnerScreenX == null);
+if(FF) {
+    main.style.display = "none";
+    warning.style.display = "block";
+} else {
+    main.style.display = "block";
+    warning.style.display = "none"
 }
 </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>

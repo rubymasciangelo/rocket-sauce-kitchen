@@ -316,3 +316,16 @@ a:hover {
     height:110vh;
     background-color:#000;
 }
+
+.ffwarning {
+  background-color: #ffffff;
+  width: 300px;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  z-index: 1000;
+}
+
+.ffwarning p {
+  padding: 15px 20px;
+}
