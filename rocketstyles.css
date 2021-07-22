@@ -318,6 +318,7 @@ a:hover {
 }
 
 .ffwarning {
+  display: none;
   background-color: #ffffff;
   width: 300px;
   position: absolute;
