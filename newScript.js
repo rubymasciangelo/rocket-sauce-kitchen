@@ -1,14 +1,3 @@
-var main = document.getElementsByClassName('main');
-var warning = document.getElementsByClassName('ffwarning');
-var FF = !(window.mozInnerScreenX == null);
-if(FF) {
-    main.style.opacity = 0;
-    warning.style.opacity = 1;
-} else {
-    main.style.opacity = 1;
-    warning.style.opacity = 0;
-}
-
 gsap.registerPlugin(ScrollTrigger);
 
 var elem = document.getElementById('blastoff');
