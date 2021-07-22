@@ -2,11 +2,11 @@ var main = document.getElementsByClassName('main');
 var warning = document.getElementsByClassName('ffwarning');
 var FF = !(window.mozInnerScreenX == null);
 if(FF) {
-    main.style.display = "none";
-    warning.style.display = "block";
+    main.style.opacity = 0;
+    warning.style.opacity = 1;
 } else {
-    main.style.display = "block";
-    warning.style.display = "none";
+    main.style.opacity = 1;
+    warning.style.opacity = 0;
 }
 
 gsap.registerPlugin(ScrollTrigger);
