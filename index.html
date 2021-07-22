@@ -43,17 +43,6 @@ function removeLoader(){
       $( "#loadingDiv" ).remove(); //makes page more lightweight 
   });  
 }
-
-var main = document.getElementsByClassName('main');
-var warning = document.getElementsByClassName('ffwarning');
-var FF = !(window.mozInnerScreenX == null);
-if(FF) {
-    main.style.display = "none";
-    warning.style.display = "block";
-} else {
-    main.style.display = "block";
-    warning.style.display = "none";
-}
 </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>

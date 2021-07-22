@@ -1,3 +1,14 @@
+var main = document.getElementsByClassName('main');
+var warning = document.getElementsByClassName('ffwarning');
+var FF = !(window.mozInnerScreenX == null);
+if(FF) {
+    main.style.display = "none";
+    warning.style.display = "block";
+} else {
+    main.style.display = "block";
+    warning.style.display = "none";
+}
+
 gsap.registerPlugin(ScrollTrigger);
 
 var elem = document.getElementById('blastoff');
