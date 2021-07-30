@@ -320,11 +320,11 @@ a:hover {
 #loadingDiv {
     position:absolute;
     background-image: url('Loading-Animation.gif');
-    background-position: 30% 50%;
+    background-position: center;
     background-size: auto 90%;
     background-repeat: no-repeat;
     top:0;
-    left:0;
+    left:-5vw;
     width:110vw;
     height:110vh;
     background-color: #333;
