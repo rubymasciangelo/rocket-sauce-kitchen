@@ -233,7 +233,7 @@ a:hover {
   position: absolute;
   background-color: white;
   color: black;
-  top: -10px;
+  top: -3%;
   left: -9px;
 }
 
@@ -327,7 +327,7 @@ a:hover {
     left:-5vw;
     width:110vw;
     height:120vh;
-    background-color: rgb(228, 61, 172);
+    background-color: rgb(61, 175, 228);
 }
 
 .loader {
