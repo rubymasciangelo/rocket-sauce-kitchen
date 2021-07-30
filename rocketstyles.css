@@ -309,12 +309,20 @@ a:hover {
     }
 }
 #loadingDiv {
-    position:absolute;;
+    position:absolute;
     top:0;
     left:0;
     width:110vw;
     height:110vh;
     background-color:#000;
+}
+
+.loadtext {
+  color: #ffffff;
+  position: absolute;
+  top: -500px;
+  left: 0;
+  z-index: 10000;
 }
 
 .ffwarning {

@@ -33,9 +33,9 @@
     </div>
     </div>
 <script>
-  $('body').append('<div style="" id="loadingDiv"><div class="loader"></h1 style="color:white;">Loading...</h1></div></div>');
+  $('body').append('<div style="" id="loadingDiv"><div class="loader"><h4 class ="loadtext">brb ethically sourcing rocket fuel</p></div></div>');
 $(window).on('load', function(){
-  setTimeout(removeLoader, 7000); //wait for page load PLUS two seconds.
+  setTimeout(removeLoader, 500); //wait for page load PLUS two seconds.
 });
 function removeLoader(){
     $( "#loadingDiv" ).fadeOut(500, function() {
