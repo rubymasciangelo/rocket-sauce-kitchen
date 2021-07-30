@@ -327,7 +327,7 @@ a:hover {
     left:-5vw;
     width:110vw;
     height:120vh;
-    background-color: #333;
+    background-color: rgb(228, 61, 172);
 }
 
 .loader {
