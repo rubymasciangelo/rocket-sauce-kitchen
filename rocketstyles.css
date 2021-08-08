@@ -321,7 +321,7 @@ a:hover {
     position:absolute;
     background-image: url('Loading-Animation.gif');
     background-position: center;
-    background-size: auto 90%;
+    background-size: auto 30%;
     background-repeat: no-repeat;
     top:-5vw;
     left:-5vw;
