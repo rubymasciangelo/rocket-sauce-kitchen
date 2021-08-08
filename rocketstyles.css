@@ -88,8 +88,16 @@ canvas {
 }
 
 .btns {
-  margin: 100px auto;
+  margin: 50vh auto;
   width: 60vw;
+}
+
+.optbox {
+  text-align: center;
+}
+
+.optindex {
+  background-color: #333;
 }
 
 .nbgb {
