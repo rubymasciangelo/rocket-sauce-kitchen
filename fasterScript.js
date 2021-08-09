@@ -12,7 +12,7 @@ LottieScrollTrigger({
   anticipatePin: true,
   start: "top",
   end: () => `+=${elem.offsetHeight * 30}`,
-  scrub: 1,
+  scrub: 0,
   rotation: 0.1,
   force3D: true,
   markers: false
@@ -22,8 +22,8 @@ LottieScrollTrigger({
 function LottieScrollTrigger(vars) {
 	let playhead = {frame: 0},
 		target = gsap.utils.toArray(vars.target)[0],
-		speeds = {slow: "+=10000", medium: "+=1000", fast: "+=500"},
-		st = {trigger: target, pin: true, start: "top top", end: speeds[vars.speed] || "+=10000", scrub: 1},
+		speeds = {slow: "+=5000", medium: "+=1000", fast: "+=500"},
+		st = {trigger: target, pin: true, start: "top top", end: speeds[vars.speed] || "+=5000", scrub: 0},
 		animation = lottie.loadAnimation({
 			container: target,
 			renderer: vars.renderer || "svg",
