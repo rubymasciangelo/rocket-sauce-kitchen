@@ -278,7 +278,7 @@ a:hover {
     .shh {
       position: absolute;
       top: 0%;
-      height: 160%;
+      height: 120%;
       width: 100%;
       z-index: -100;
     }
@@ -325,17 +325,24 @@ a:hover {
         transform: rotate(360deg);
     }
 }*/
+#loadingDiv, #loadingDiv2 {
+  position:absolute;
+  background-position: center;
+  background-size: auto 30%;
+  background-repeat: no-repeat;
+  top:-5vw;
+  left:-5vw;
+  width:110vw;
+  height:120vh;
+  background-color: #333;
+}
+
 #loadingDiv {
-    position:absolute;
-    background-image: url('Loading-Animation.gif');
-    background-position: center;
-    background-size: auto 30%;
-    background-repeat: no-repeat;
-    top:-5vw;
-    left:-5vw;
-    width:110vw;
-    height:120vh;
-    background-color: #333;
+    background-image: url('Loading-Animation-V2_dither.gif');
+}
+
+#loadingDiv2 {
+  background-image: url('Loading-Animation-V2_noDither.gif');
 }
 
 .loader {
