@@ -22,8 +22,8 @@ LottieScrollTrigger({
 function LottieScrollTrigger(vars) {
 	let playhead = {frame: 0},
 		target = gsap.utils.toArray(vars.target)[0],
-		speeds = {slow: "+=2500", medium: "+=1000", fast: "+=500"},
-		st = {trigger: target, pin: true, start: "top top", end: speeds[vars.speed] || "+=500", scrub: 1},
+		speeds = {slow: "+=2500", medium: "+=1000", fast: "+=250"},
+		st = {trigger: target, pin: true, start: "top top", end: speeds[vars.speed] || "+=250", scrub: 1},
 		animation = lottie.loadAnimation({
 			container: target,
 			renderer: vars.renderer || "svg",
