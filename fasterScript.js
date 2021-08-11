@@ -7,7 +7,7 @@ var hit = document.getElementsByClassName('main');
 LottieScrollTrigger({
   target: "#blastoff",
   path: "RocketSauce_Full V2.json",
-  speed: "slow",
+  speed: "medium",
   pin: ".main",
   anticipatePin: true,
   start: "top",
@@ -23,7 +23,7 @@ function LottieScrollTrigger(vars) {
 	let playhead = {frame: 0},
 		target = gsap.utils.toArray(vars.target)[0],
 		speeds = {slow: "+=5000", medium: "+=1000", fast: "+=500"},
-		st = {trigger: target, pin: true, start: "top top", end: speeds[vars.speed] || "+=5000", scrub: 0},
+		st = {trigger: target, pin: true, start: "top top", end: speeds[vars.speed] || "+=1000", scrub: 0},
 		animation = lottie.loadAnimation({
 			container: target,
 			renderer: vars.renderer || "svg",
