@@ -7,7 +7,7 @@ gsap.from(".star-6", {
         trigger: "#stars",
         start: "top 95%",
         scrub: true,
-        markers: true
+        // markers: true
     },
 });
 
@@ -18,7 +18,7 @@ gsap.from(".star-5", {
         trigger: "#stars",
         start: "top 95%",
         scrub: true,
-        markers: true
+        // markers: true
     },
 });
 
@@ -29,7 +29,7 @@ gsap.from(".star-4", {
         trigger: "#stars",
         start: "top 95%",
         scrub: true,
-        markers: true
+        // markers: true
     },
 });
 
@@ -40,7 +40,7 @@ gsap.from(".star-3", {
         trigger: "#stars",
         start: "top 95%",
         scrub: true,
-        markers: true
+        // markers: true
     },
 });
 
@@ -51,7 +51,7 @@ gsap.from(".star-2", {
         trigger: "#stars",
         start: "top 95%",
         scrub: true,
-        markers: true
+        // markers: true
     },
 });
 
@@ -62,6 +62,6 @@ gsap.from(".star-1", {
         trigger: "#stars",
         start: "top 95%",
         scrub: true,
-        markers: true
+        // markers: true
     },
 });
