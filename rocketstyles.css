@@ -406,6 +406,7 @@ LANDING PAGE
   height: 150px;
   left: 456px;
   top: 94px;
+  animation: blink 10s linear infinite;
 }
 
 .star-2 {
@@ -413,6 +414,7 @@ LANDING PAGE
   height: 150px;
   left: 737px;
   top: 10px;
+  animation: blink 8s linear infinite;
 }
 
 .star-3 {
@@ -420,6 +422,7 @@ LANDING PAGE
   height: 100px;
   left: 946px;
   top: 194px;
+  animation: blink 15s linear infinite;
 }
 
 .star-4 {
@@ -427,6 +430,7 @@ LANDING PAGE
   height: 200px;
   left: 1190px;
   top: 69px;
+  animation: blink 18s linear infinite;
 }
 
 .star-5 {
@@ -434,6 +438,7 @@ LANDING PAGE
   height: 250px;
   left: 814px;
   top: 355px;
+  animation: blink 20s linear infinite;
 }
 
 .star-6 {
@@ -441,6 +446,11 @@ LANDING PAGE
   height: 300px;
   left: 1140px;
   top: 497px;
+  animation: blink 9s linear infinite;
+}
+@keyframes blink {
+  0% {opacity: .5;}
+  5% {opacity: 1;}
 }
 
 .entry-text {
