@@ -383,6 +383,10 @@ a:hover {
 /*--------------------------------------------
 LANDING PAGE
 ---------------------------------------------*/
+.spacing {
+  height: 500px;
+}
+
 
 .landing-entry {
   position: relative;
