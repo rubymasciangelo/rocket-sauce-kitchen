@@ -442,3 +442,41 @@ LANDING PAGE
   left: 1140px;
   top: 497px;
 }
+
+.entry-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 609px;
+  height: 208px;
+  left: 128px;
+  top: 515px;
+}
+
+.heading {
+  /* font-family: Interstate;
+  font-style: normal;
+  font-weight: bold; */
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.white {
+  color: #f9f9f9;
+}
+
+.entry-p {
+  position: static;
+  width: 609px;
+  height: 128px;
+  top: 80px;
+  /* font-family: Museo Sans;
+  font-style: normal;
+  font-weight: normal; */
+  font-size: 24px;
+  line-height: 32px;
+}
