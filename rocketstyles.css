@@ -376,3 +376,69 @@ a:hover {
 .ffwarning p {
   padding: 15px 20px;
 }
+
+
+
+
+/*--------------------------------------------
+LANDING PAGE
+---------------------------------------------*/
+
+.landing-entry {
+  position: relative;
+  width: 100%;
+  height: 851px;
+  left: 0px;
+  top: 0px;
+  background: #292929;
+}
+
+.image-holder {
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.star-1 {
+  width: 150px;
+  height: 150px;
+  left: 456px;
+  top: 94px;
+}
+
+.star-2 {
+  width: 150px;
+  height: 150px;
+  left: 737px;
+  top: 10px;
+}
+
+.star-3 {
+  width: 100px;
+  height: 100px;
+  left: 946px;
+  top: 194px;
+}
+
+.star-4 {
+  width: 200px;
+  height: 200px;
+  left: 1190px;
+  top: 69px;
+}
+
+.star-5 {
+  width: 250px;
+  height: 250px;
+  left: 814px;
+  top: 355px;
+}
+
+.star-6 {
+  width: 300px;
+  height: 300px;
+  left: 1140px;
+  top: 497px;
+}
