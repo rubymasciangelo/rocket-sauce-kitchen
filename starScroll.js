@@ -1,61 +1,66 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".star-6", {
-    yPercent: -10,
+gsap.from(".star-6", {
+    y: "-100px",
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: 'top bottom',
+        start: "top 95%",
         scrub: true,
         markers: true
     },
 });
 
-gsap.to(".star-5", {
-    yPercent: -10,
+gsap.from(".star-5", {
+    y: "100px",
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
+        start: "top 95%",
         scrub: true,
         markers: true
     },
 });
 
-gsap.to(".star-4", {
-    yPercent: 10,
+gsap.from(".star-4", {
+    y: "-50px",
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
+        start: "top 95%",
         scrub: true,
         markers: true
     },
 });
 
-gsap.to(".star-3", {
-    yPercent: -30,
+gsap.from(".star-3", {
+    y: "-15px",
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
+        start: "top 95%",
         scrub: true,
         markers: true
     },
 });
 
-gsap.to(".star-2", {
-    yPercent: -50,
+gsap.from(".star-2", {
+    y: "-30px",
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
+        start: "top 95%",
         scrub: true,
         markers: true
     },
 });
 
-gsap.to(".star-1", {
-    yPercent: -800,
+gsap.from(".star-1", {
+    y: "100px",
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
+        start: "top 95%",
         scrub: true,
         markers: true
     },
