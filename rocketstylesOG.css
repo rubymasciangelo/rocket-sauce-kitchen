@@ -1,0 +1,713 @@
+
+/* taller body to give us enough scroll room */
+/* body {
+  height: 780vh;
+  width: 100%;
+} */
+
+html {
+  /* background-color: red; */
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+/* body {
+  background-color: orange;
+} */
+.canvasbox {
+  height: 1200vh;
+  width: 300vw;
+  width: 100%;
+  /* background-color: rgba(126, 252, 0, 0.274); */
+}
+/* does not exceed dimension of viewport */
+canvas {
+  position: sticky;
+  left: 50%;
+  top: 50%;
+  max-height: 120vh;
+  transform: translate(-24%, -50%);
+  /* background-color: rgba(26, 94, 94, 0.219); */
+}
+
+.c2 {
+  top: 60%;
+}
+
+.shhh {
+  position: absolute;
+  top: 0%;
+  height: 4000%;
+  width: 100vw;
+  z-index: -100;
+  /* background-color: rgba(255, 255, 0, 0.267); */
+}
+
+
+
+.rsaucebox2 {
+  position: absolute;
+  z-index: -10;
+  top: 3710%;
+}
+
+.rsaucebox {
+  position: fixed;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  /* top: 1150vh; */
+  top: 0%;
+  width: 100vw;
+  z-index: -10;
+  margin: 0 auto;
+  /* background-color: purple; */
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  /* background-color: rgba(0, 0, 255, 0.363); */
+}
+
+.rsaucebox::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.rsauce, .rsauce2, .rsauce1, .text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.rsauce h1, .rsauce1 h1, .text h1 {
+  color: red;
+  font-size: 50px;
+}
+
+.btns {
+  margin: 50vh auto;
+  width: 60vw;
+}
+
+.optbox {
+  text-align: center;
+}
+
+.optindex {
+  background-color: #333;
+}
+
+.nbgb {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -200px;
+  z-index: 1000;
+}
+
+.warnbox {
+    text-align: center;
+    margin: 100px auto;
+    width: 500px;
+}
+
+.warnbox h1 {
+  color: yellow;
+}
+
+.warnbox p {
+  text-align: left;
+}
+
+/* .warnbox button {
+  height: 50px;
+  background-color: white;
+  width: auto;
+} */
+
+.info {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.infobox {
+  width: 60vw;
+  margin: 100px auto;
+}
+
+.opt {
+  margin: 75px auto;
+}
+
+.info a {
+  color: whitesmoke;
+  background-color: black;
+}
+
+/* .info button {
+  background-color: black;
+} */
+
+/* a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  margin: 150px 10px !important;
+  padding: 10px 13px;
+  font-size: 20px;
+} */
+
+/* a:hover {
+  color: red;
+  background-color: rgb(211, 207, 207);
+} */
+
+.info p {
+  padding-bottom: 50px;
+}
+
+.splashbtn {
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 800px) {
+  .canvasbox {
+    height: 3880vh;
+    width: 100vw;
+  }
+
+  canvas {
+    max-height: 130vh;
+    transform: translate(-6%, -50%);
+    width: 110vw;
+    /* display: none; */
+  }
+
+  .c2 {
+    width: 100vw;
+    transform: translate(-1%, -50%);
+  }
+
+
+  /* .rsauce {
+    top: 2180vh;
+  } */
+}
+
+/* body {
+  height: 500vh;
+}
+
+
+.exhaust-box img {
+  top: 0;
+  left: 0;
+  display: block;
+  position: absolute;
+  transition: opacity 0s;
+  opacity: 0;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+} */
+
+/* .exhaust-box img:first-child {
+  z-index: 2;
+  opacity: 1;
+}
+
+.exhaust-box img:last-child {
+  z-index: 1;
+  opacity: 0;
+} */
+
+
+
+#anim {
+  max-width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+
+
+
+
+.nd {
+  position: absolute;
+  background-color: white;
+  color: black;
+  top: -3%;
+  left: -9px;
+}
+
+.main {
+  margin-left: -2.5%;
+  overflow-x: hidden;
+  width: 105%;
+  height: 110%;
+  z-index: 10;
+  /* background-color: rgba(255, 0, 0, 0.548); */
+  /*position: relative;
+  top: -400px;
+  this makes it not take so much scrolling in the beginning but that seems intentional?
+  */
+}
+
+.scroll-element {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 166, 0, 0.473); */
+    /*
+    position: relative;
+    top: -5%;
+    this makes it higher but on full screen in chrome on my mac it causes a gap at the bottom
+    */
+}
+
+#blastoff {
+  overflow: visible;
+      display: block;
+      object-fit: cover;
+      margin: 0 auto;
+      /* background-color: rgba(255, 255, 0, 0.466); */
+    }
+
+    .shh {
+      position: absolute;
+      top: 0%;
+      height: 120%;
+      width: 100%;
+      z-index: -100;
+      /* background-color: rgba(0, 128, 0, 0.507); */
+      /* background-color: rgba(0, 255, 255, 0.377); */
+    }
+/*
+.loader,
+.loader:after {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+.loader {            
+    margin: 200px auto;
+    font-size: 10px;
+    position: relative;
+    left: -5vw;
+    text-indent: -9999em;
+    border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+    border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+    border-left: 1.1em solid #ffffff;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+}
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}*/
+#loadingDiv, #loadingDiv2 {
+  position:absolute;
+  background-position: center;
+  background-size: auto 30%;
+  background-repeat: no-repeat;
+  top:-5vw;
+  left:-5vw;
+  width:110vw;
+  height:120vh;
+  background-color: #333;
+}
+
+#loadingDiv {
+    background-image: url('Loading-Animation-V2_dither.gif');
+}
+
+#loadingDiv2 {
+  background-image: url('Loading-Animation-V2_noDither.gif');
+}
+
+.loader {
+  display: none;
+}
+
+.gif {
+  position: relative;
+  height: 100vh;
+  background-color: #333;
+}
+
+.loadtext {
+  color: #ffffff;
+  position: absolute;
+  top: -500px;
+  left: 0;
+  z-index: 10000;
+}
+
+.ffwarning {
+  background-color: #ffffff;
+  width: 300px;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  z-index: 1000;
+  border: black solid 2px;
+}
+
+.ffwarning p {
+  padding: 15px 20px;
+}
+
+
+
+
+/*--------------------------------------------
+LANDING PAGE
+---------------------------------------------*/
+.spacing {
+  height: 500px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.landing-entry {
+  position: relative;
+  width: 100%;
+  height: 851px;
+  left: 0px;
+  top: 0px;
+  background: #292929;
+}
+
+.image-holder {
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.star-1 {
+  width: 150px;
+  height: 150px;
+  left: 456px;
+  top: 94px;
+  animation: blink 10s linear infinite;
+}
+
+.star-2 {
+  width: 150px;
+  height: 150px;
+  left: 737px;
+  top: 10px;
+  animation: blink 8s linear infinite;
+}
+
+.star-3 {
+  width: 100px;
+  height: 100px;
+  left: 946px;
+  top: 194px;
+  animation: blink 15s linear infinite;
+}
+
+.star-4 {
+  width: 200px;
+  height: 200px;
+  left: 1190px;
+  top: 69px;
+  animation: blink 18s linear infinite;
+}
+
+.star-5 {
+  width: 250px;
+  height: 250px;
+  left: 814px;
+  top: 355px;
+  animation: blink 20s linear infinite;
+}
+
+.star-6 {
+  width: 300px;
+  height: 300px;
+  left: 1140px;
+  top: 497px;
+  animation: blink 9s linear infinite;
+}
+@keyframes blink {
+  0% {opacity: .5;}
+  5% {opacity: 1;}
+}
+
+.entry-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 609px;
+  height: 208px;
+  left: 128px;
+  top: 515px;
+}
+
+.heading {
+  /* font-family: Interstate;
+  font-style: normal;
+  font-weight: bold; */
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.white {
+  color: #f9f9f9;
+}
+
+.entry-p {
+  position: static;
+  width: 609px;
+  height: 128px;
+  top: 80px;
+  /* font-family: Museo Sans;
+  font-style: normal;
+  font-weight: normal; */
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.landing-main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 128px;
+  position: absolute;
+  width: 100%;
+  height: 926px;
+  left: 0px;
+  top: 851px;
+  background: #f2f1ed;
+}
+
+.landing-heading {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  width: 560px;
+  height: 336px;
+  left: 128px;
+  top: 128px;
+}
+
+.red {
+  color: #ff2800;
+}
+
+.landing-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  width: 560px;
+  height: 670px;
+  left: 752px;
+  top: 128px;
+}
+
+.vl {
+  position: relative;
+  background: #ff2800;
+  height: 584px;
+  width: 2.52px;
+  left: 0.43%;
+  top: 0px;
+  flex: none;
+  order: 0;
+}
+
+.landing-text {
+  position: absolute;
+  width: 523.68px;
+  height: 584px;
+  left: calc(50% - 523.68px/2 + 18.16px);
+  top: 0px;
+  /* font-style: normal; */
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  flex: none;
+  order: 1;
+  margin-bottom: 32px;
+}
+
+.landing-text p {
+  margin-top: 0px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 5px;
+  /* font-family: Museo Sans; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f9f9f9;
+}
+
+a.return-btn { 
+  position: absolute;
+  /* width: 238px;
+  height: 54px; */
+  left: calc(50% - 238px/2 - 161px);
+  top: 616px;
+  background: #cc2000;
+  flex: none;
+  order: 3;
+  margin: 64px 0 32px;
+  /* ^^^should just be 32 after real font added */
+}
+
+.landing-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 128px;
+  position: absolute;
+  width: 100%;
+  height: 682px;
+  left: 0px;
+  top: 1777px;
+  background: #292929;
+}
+
+.projects-heading {
+  position: static;
+  width: 1184px;
+  height: 48px;
+  margin: 32px 0px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 1184px;
+  height: 260px;
+  left: 128px;
+  top: 208px;
+  margin: 32px 0px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 352px;
+  height: 260px;
+  flex: none;
+  border-radius: 5px;
+}
+
+.project-one {
+  background: url(hele-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0px;
+}
+
+.project-two {
+  background: url(hele-2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 415px;
+  margin: 0px 64px;
+}
+
+.project-three {
+  background: url(hele-3.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 832px;
+}
+
+.project-title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 352px;
+  height: 60px;
+  left: 0px;
+  top: 200px;
+  background: rgba(249, 249, 249, 0.5);
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+}
+
+.project-title {
+  position: static;
+  /* font-family: Museo Sans; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 8px 8px 4px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.project-client {
+  position: static;
+    /* font-family: Museo Sans; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.75);
+  margin: 0px 8px;
+}
+
+a.projects-btn {
+  border: 3px solid #ff2800;
+  box-sizing: border-box;
+}
