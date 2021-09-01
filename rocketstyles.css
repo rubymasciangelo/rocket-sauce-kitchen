@@ -387,6 +387,9 @@ LANDING PAGE
   height: 500px;
 }
 
+a {
+  text-decoration: none;
+}
 
 .landing-entry {
   position: relative;
@@ -563,28 +566,142 @@ LANDING PAGE
   margin-top: 0px;
 }
 
-a.return-btn {
+.btn {
   display: flex;
   justify-content: center;
   padding: 16px;
-  position: absolute;
-  /* width: 238px;
-  height: 54px; */
-  left: calc(50% - 238px/2 - 161px);
-  top: 616px;
-  background: #cc2000;
   border-radius: 5px;
-  flex: none;
-  order: 3;
-  margin: 64px 0 32px;
-  /* ^^^should just be 32 after real font added */
-    /* font-family: Museo Sans; */
+  /* font-family: Museo Sans; */
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 22px;
   text-align: center;
   text-transform: uppercase;
-  text-decoration: none;
   color: #f9f9f9;
+}
+
+a.return-btn { 
+  position: absolute;
+  /* width: 238px;
+  height: 54px; */
+  left: calc(50% - 238px/2 - 161px);
+  top: 616px;
+  background: #cc2000;
+  flex: none;
+  order: 3;
+  margin: 64px 0 32px;
+  /* ^^^should just be 32 after real font added */
+}
+
+.landing-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 128px;
+  position: absolute;
+  width: 100%;
+  height: 682px;
+  left: 0px;
+  top: 1777px;
+  background: #292929;
+}
+
+.projects-heading {
+  position: static;
+  width: 1184px;
+  height: 48px;
+  margin: 32px 0px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 1184px;
+  height: 260px;
+  left: 128px;
+  top: 208px;
+  margin: 32px 0px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 352px;
+  height: 260px;
+  flex: none;
+  border-radius: 5px;
+}
+
+.project-one {
+  background: url(/hele-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0px;
+}
+
+.project-two {
+  background: url(/hele-2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 415px;
+  margin: 0px 64px;
+}
+
+.project-three {
+  background: url(/hele-3.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 832px;
+}
+
+.project-title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 352px;
+  height: 60px;
+  left: 0px;
+  top: 200px;
+  background: rgba(249, 249, 249, 0.5);
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+}
+
+.project-title {
+  position: static;
+  /* font-family: Museo Sans; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 8px 8px 4px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.project-client {
+  position: static;
+    /* font-family: Museo Sans; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.75);
+  margin: 0px 8px;
+}
+
+a.projects-btn {
+  border: 3px solid #ff2800;
+  box-sizing: border-box;
 }
