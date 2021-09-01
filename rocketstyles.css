@@ -71,6 +71,7 @@ canvas {
   overflow-y: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  background-color: rgba(0, 0, 255, 0.363);
 }
 
 .rsaucebox::-webkit-scrollbar {
@@ -251,6 +252,7 @@ canvas {
   width: 105%;
   height: 110%;
   z-index: 10;
+  background-color: rgba(255, 0, 0, 0.548);
   /*position: relative;
   top: -400px;
   this makes it not take so much scrolling in the beginning but that seems intentional?
@@ -261,6 +263,7 @@ canvas {
     display: block;
     width: 100%;
     height: 100%;
+    background-color: rgba(255, 166, 0, 0.473);
     /*
     position: relative;
     top: -5%;
@@ -273,6 +276,7 @@ canvas {
       display: block;
       object-fit: cover;
       margin: 0 auto;
+      background-color: rgba(255, 255, 0, 0.466);
     }
 
     .shh {
@@ -281,6 +285,7 @@ canvas {
       height: 120%;
       width: 100%;
       z-index: -100;
+      background-color: rgba(0, 128, 0, 0.507);
       /* background-color: rgba(0, 255, 255, 0.377); */
     }
 /*
