@@ -151,7 +151,7 @@ canvas {
   background-color: black;
 } */
 
-a {
+/* a {
   text-decoration: none;
   color: black;
   background-color: white;
@@ -159,12 +159,12 @@ a {
   margin: 150px 10px !important;
   padding: 10px 13px;
   font-size: 20px;
-}
+} */
 
-a:hover {
+/* a:hover {
   color: red;
   background-color: rgb(211, 207, 207);
-}
+} */
 
 .info p {
   padding-bottom: 50px;
@@ -493,4 +493,98 @@ LANDING PAGE
   font-weight: normal; */
   font-size: 24px;
   line-height: 32px;
+}
+
+.landing-main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 128px;
+  position: absolute;
+  width: 100%;
+  height: 926px;
+  left: 0px;
+  top: 851px;
+  background: #f2f1ed;
+}
+
+.landing-heading {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  width: 560px;
+  height: 336px;
+  left: 128px;
+  top: 128px;
+}
+
+.red {
+  color: #ff2800;
+}
+
+.landing-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  width: 560px;
+  height: 670px;
+  left: 752px;
+  top: 128px;
+}
+
+.vl {
+  position: relative;
+  background: #ff2800;
+  height: 584px;
+  width: 2.52px;
+  left: 0.43%;
+  top: 0px;
+  flex: none;
+  order: 0;
+}
+
+.landing-text {
+  position: absolute;
+  width: 523.68px;
+  height: 584px;
+  left: calc(50% - 523.68px/2 + 18.16px);
+  top: 0px;
+  /* font-style: normal; */
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  flex: none;
+  order: 1;
+  margin-bottom: 32px;
+}
+
+.landing-text p {
+  margin-top: 0px;
+}
+
+a.return-btn {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  position: absolute;
+  /* width: 238px;
+  height: 54px; */
+  left: calc(50% - 238px/2 - 161px);
+  top: 616px;
+  background: #cc2000;
+  border-radius: 5px;
+  flex: none;
+  order: 3;
+  margin: 64px 0 32px;
+  /* ^^^should just be 32 after real font added */
+    /* font-family: Museo Sans; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f9f9f9;
 }
