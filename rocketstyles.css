@@ -641,7 +641,7 @@ a.return-btn {
 }
 
 .project-one {
-  background: url(/hele-1.jpg);
+  background: url(hele-1.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -649,7 +649,7 @@ a.return-btn {
 }
 
 .project-two {
-  background: url(/hele-2.jpg);
+  background: url(hele-2.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -658,7 +658,7 @@ a.return-btn {
 }
 
 .project-three {
-  background: url(/hele-3.jpg);
+  background: url(hele-3.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
