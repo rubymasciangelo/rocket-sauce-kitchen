@@ -358,7 +358,7 @@ LANDING PAGE
     align-items: flex-start;
     position: relative;
     width: 100%;
-    height: calc(28vw + 234px);
+    height: calc(36vw + 202px);
     left: 0px;
     background: #292929;
   }
@@ -367,7 +367,7 @@ LANDING PAGE
     position: static;
     width: 84vw;
     height: 48px;
-    margin: 32px 8vw;
+    margin: 8vw 32px 8vw;
   }
   
   .project-container {
@@ -457,7 +457,7 @@ LANDING PAGE
   
   a.projects-btn {
     position: absolute;
-    top: calc(20vw + 176px);
+    top: calc(28vw + 144px);
     border: 3px solid #ff2800;
     box-sizing: border-box;
     margin: 0px 8vw 8vw;
