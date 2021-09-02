@@ -137,8 +137,6 @@ LANDING PAGE
     position: relative;
     width: 100%;
     height: 851px;
-    left: 0px;
-    top: 0px;
     background: #292929;
   }
   
@@ -151,49 +149,49 @@ LANDING PAGE
   }
   
   .star-1 {
-    width: 150px;
-    height: 150px;
-    left: 456px;
+    width: 10vw;
+    height: 10vw;
+    left: 18%;
     top: 94px;
     animation: blink 10s linear infinite;
   }
   
   .star-2 {
-    width: 150px;
-    height: 150px;
-    left: 737px;
+    width: 10vw;
+    height: 10vw;
+    left: 38%;
     top: 10px;
     animation: blink 8s linear infinite;
   }
   
   .star-3 {
-    width: 100px;
-    height: 100px;
-    left: 946px;
+    width: 8vw;
+    height: 8vw;
+    left: 62%;
     top: 194px;
     animation: blink 15s linear infinite;
   }
   
   .star-4 {
-    width: 200px;
-    height: 200px;
-    left: 1190px;
+    width: 15vw;
+    height: 15vw;
+    left: 80%;
     top: 69px;
     animation: blink 18s linear infinite;
   }
   
   .star-5 {
-    width: 250px;
-    height: 250px;
-    left: 814px;
+    width: 20vw;
+    height: 20vw;
+    left: 48%;
     top: 355px;
     animation: blink 20s linear infinite;
   }
   
   .star-6 {
-    width: 300px;
-    height: 300px;
-    left: 1140px;
+    width: 25vw;
+    height: 25vw;
+    left: 75%;
     top: 497px;
     animation: blink 9s linear infinite;
   }
@@ -208,9 +206,8 @@ LANDING PAGE
     align-items: flex-start;
     padding: 0px;
     position: absolute;
-    width: 609px;
-    height: 208px;
-    left: 128px;
+    width: 40vw;
+    left: 8vw;
     top: 515px;
   }
   
@@ -230,26 +227,24 @@ LANDING PAGE
   
   .entry-p {
     position: static;
-    width: 609px;
-    height: 128px;
+    width: 50vw;
     top: 80px;
     /* font-family: Museo Sans;
     font-style: normal;
     font-weight: normal; */
     font-size: 24px;
     line-height: 32px;
+    padding-bottom: 8vw;
   }
   
   .landing-main-content {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 128px;
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 926px;
+    height: calc(670px + 16vw);
     left: 0px;
-    top: 851px;
     background: #f2f1ed;
   }
   
@@ -257,10 +252,11 @@ LANDING PAGE
     display: flex;
     flex-direction: column;
     position: static;
-    width: 560px;
+    width: 40vw;
     height: 336px;
-    left: 128px;
+    left: 8vw;
     top: 128px;
+    margin: 8vw;
   }
   
   .red {
@@ -272,10 +268,10 @@ LANDING PAGE
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    width: 560px;
+    width: 40vw;
     height: 670px;
-    left: 752px;
-    top: 128px;
+    right: 8vw;
+    top: 8vw;
   }
   
   .vl {
@@ -283,7 +279,7 @@ LANDING PAGE
     background: #ff2800;
     height: 584px;
     width: 2.52px;
-    left: 0.43%;
+    left: 0px;
     top: 0px;
     flex: none;
     order: 0;
@@ -291,9 +287,9 @@ LANDING PAGE
   
   .landing-text {
     position: absolute;
-    width: 523.68px;
+    width: 38vw;
     height: 584px;
-    left: calc(50% - 523.68px/2 + 18.16px);
+    left: calc(50% - 40vw/2 + 18.16px);
     top: 0px;
     /* font-style: normal; */
     font-weight: 300;
@@ -302,10 +298,20 @@ LANDING PAGE
     flex: none;
     order: 1;
     margin-bottom: 32px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* background-color: rgba(0, 0, 255, 0.363); */
+  }
+  
+  .landing-text::-webkit-scrollbar {
+    width: 0 !important;
   }
   
   .landing-text p {
-    margin-top: 0px;
+    position: relative;
+    top: 0px;
   }
   
   .btn {
@@ -327,33 +333,28 @@ LANDING PAGE
     position: absolute;
     /* width: 238px;
     height: 54px; */
-    left: calc(50% - 238px/2 - 161px);
+    left: calc(50% - 40/2 - 161px);
     top: 616px;
     background: #cc2000;
     flex: none;
     order: 3;
-    margin: 64px 0 32px;
-    /* ^^^should just be 32 after real font added */
   }
   
   .landing-projects {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 128px;
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 682px;
     left: 0px;
-    top: 1777px;
     background: #292929;
   }
   
   .projects-heading {
     position: static;
-    width: 1184px;
+    width: 84vw;
     height: 48px;
-    margin: 32px 0px;
+    margin: 32px 8vw;
   }
   
   .project-container {
@@ -362,11 +363,11 @@ LANDING PAGE
     align-items: flex-start;
     padding: 0px;
     position: static;
-    width: 1184px;
+    width: 84vw;
     height: 260px;
-    left: 128px;
+    left: 8vw;
     top: 208px;
-    margin: 32px 0px;
+    margin: 32px 8vw;
   }
   
   .project {
@@ -375,8 +376,8 @@ LANDING PAGE
     align-items: flex-start;
     padding: 0px;
     position: static;
-    width: 352px;
-    height: 260px;
+    width: calc(76vw / 3);
+    height: 20vw;
     flex: none;
     border-radius: 5px;
   }
@@ -394,8 +395,7 @@ LANDING PAGE
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    left: 415px;
-    margin: 0px 64px;
+    margin: 0px 3.5vw;
   }
   
   .project-three {
@@ -403,7 +403,6 @@ LANDING PAGE
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    left: 832px;
   }
   
   .project-title-box {
@@ -411,10 +410,10 @@ LANDING PAGE
     flex-direction: column;
     align-items: flex-start;
     position: relative;
-    width: 352px;
+    width: calc(76vw / 3);
     height: 60px;
     left: 0px;
-    top: 200px;
+    top: calc(20vw - 60px);
     background: rgba(249, 249, 249, 0.5);
     border-radius: 5px;
     flex: none;
@@ -446,4 +445,5 @@ LANDING PAGE
   a.projects-btn {
     border: 3px solid #ff2800;
     box-sizing: border-box;
+    margin: 0px 8vw 8vw;
   }
