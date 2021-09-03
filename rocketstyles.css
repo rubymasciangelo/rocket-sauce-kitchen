@@ -70,6 +70,12 @@ body {
     top: -400px;
     this makes it not take so much scrolling in the beginning but that seems intentional?
     */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .main::-webkit-scrollbar {
+    width: 0 !important;
   }
 
   .scroll-element {
@@ -82,7 +88,13 @@ body {
     top: -5%;
     this makes it higher but on full screen in chrome on my mac it causes a gap at the bottom
     */
-}
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .scroll-element::-webkit-scrollbar {
+    width: 0 !important;
+  }
 
 #blastoff {
     overflow: visible;
@@ -90,7 +102,13 @@ body {
     object-fit: cover;
     margin: 0 auto;
     /* background-color: rgba(255, 255, 0, 0.466); */
-}
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  #blastoff::-webkit-scrollbar {
+    width: 0 !important;
+  }
 
 @media (max-aspect-ratio: 9/21) {
   .main {
