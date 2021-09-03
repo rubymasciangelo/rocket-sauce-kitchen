@@ -129,9 +129,9 @@ body {
 } */
 
 @media (min-aspect-ratio: 5/4) {
-  /* .main {
-    background-color: pink;
-  }  */
+  .main {
+    background-color: transparent;
+  } 
 
   .scroll-element {
     margin-left: -17vw;
