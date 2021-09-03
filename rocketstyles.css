@@ -4,6 +4,10 @@ html {
     overflow-x: hidden;
     background-color: black;
     color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
   }
 
   .nd {
@@ -40,8 +44,27 @@ html {
     background-color: #333;
   }
 
+  
+.ffwarning {
+  background-color: #ffffff;
+  width: 300px;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  z-index: 1000;
+  border: black solid 2px;
+}
+
+.ffwarning p {
+  padding: 15px 20px;
+}
+
 body {
     font-family: Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
 }
 
   .main {
@@ -77,19 +100,8 @@ body {
     /* background-color: rgba(255, 255, 0, 0.466); */
 }
 
-.ffwarning {
-    background-color: #ffffff;
-    width: 300px;
-    position: absolute;
-    right: 50px;
-    top: 50px;
-    z-index: 1000;
-    border: black solid 2px;
-}
-  
-.ffwarning p {
-    padding: 15px 20px;
-}
+
+
 
 .shh {
     position: absolute;
