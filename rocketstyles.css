@@ -129,30 +129,30 @@ body {
   .main {
     background-color: hotpink;
   } 
+}
+
+@media (min-aspect-ratio: 1/1) {
+  .main {
+    background-color: transparent;
+  } 
 
   .scroll-element {
-    margin-left: -28vw;
-    width: 160vw;
+    margin-left: -37vw;
+    width: 180vw;
     height: auto;
   }
 }
 
-/* @media (min-aspect-ratio: 1/1) {
-  .main {
-    background-color: yellow;
-  } 
-}
-
-@media (min-aspect-ratio: 11/9) {
+/*@media (min-aspect-ratio: 11/9) {
   .main {
     background-color: orange;
   } 
 } */
 
 @media (min-aspect-ratio: 5/4) {
-  .main {
+  /* .main {
     background-color: transparent;
-  } 
+  }  */
 
   .scroll-element {
     margin-left: -20vw;
