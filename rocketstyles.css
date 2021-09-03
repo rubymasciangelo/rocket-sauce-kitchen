@@ -324,9 +324,9 @@ LANDING PAGE
   }
   
   .heading {
-    /* font-family: Interstate;
+    /* font-family: Interstate; */
     font-style: normal;
-    font-weight: bold; */
+    font-weight: bold;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0.01em;
@@ -341,9 +341,9 @@ LANDING PAGE
     position: static;
     width: 50vw;
     top: 80px;
-    /* font-family: Museo Sans;
+    /* font-family: Museo Sans; */
     font-style: normal;
-    font-weight: normal; */
+    font-weight: normal;
     font-size: 24px;
     line-height: 32px;
     padding-bottom: 8vw;
