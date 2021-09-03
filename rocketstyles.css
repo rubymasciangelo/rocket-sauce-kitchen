@@ -4,10 +4,6 @@ html {
     overflow-x: hidden;
     background-color: black;
     color: white;
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
-    width: 100%;
   }
 
   .nd {
@@ -61,17 +57,13 @@ html {
 
 body {
     font-family: Verdana, sans-serif;
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
-    width: 100%;
 }
 
   .main {
     margin-left: -2.5%;
     overflow-x: hidden;
-    width: 105%;
-    height: 110%;
+    min-width: 105%;
+    min-height: 110%;
     z-index: 10;
     /* background-color: rgba(255, 0, 0, 0.548); */
     /*position: relative;
@@ -100,7 +92,82 @@ body {
     /* background-color: rgba(255, 255, 0, 0.466); */
 }
 
+@media (max-aspect-ratio: 9/21) {
+  .main {
+    background-color: blue;
+  } 
+}
 
+@media (min-aspect-ratio: 9/21) {
+  .main {
+    background-color: rebeccapurple;
+  } 
+}
+
+@media (min-aspect-ratio: 9/16) {
+  .main {
+    background-color: hotpink;
+  } 
+
+  .scroll-element {
+    margin-left: -27vw;
+    width: 160vw;
+    height: auto;
+  }
+}
+
+/* @media (min-aspect-ratio: 1/1) {
+  .main {
+    background-color: yellow;
+  } 
+}
+
+@media (min-aspect-ratio: 11/9) {
+  .main {
+    background-color: orange;
+  } 
+} */
+
+@media (min-aspect-ratio: 5/4) {
+  /* .main {
+    background-color: pink;
+  }  */
+
+  .scroll-element {
+    margin-left: -17vw;
+    width: 145vw;
+    height: auto;
+  }
+}
+
+@media (min-aspect-ratio: 4/3) {
+  /* .main {
+    background-color: aqua;
+  } */
+
+  .scroll-element {
+    margin-left: -17vw;
+    width: 140vw;
+    height: auto;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  /* .main {
+    background-color: chartreuse;
+  }  */
+
+  .scroll-element {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+
+/* @media (min-aspect-ratio: 21/9) {
+  .main {
+    background-color: red;
+  } 
+} */
 
 
 .shh {

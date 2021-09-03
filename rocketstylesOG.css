@@ -711,3 +711,51 @@ a.projects-btn {
   border: 3px solid #ff2800;
   box-sizing: border-box;
 }
+
+@media (max-aspect-ratio: 9/16) {
+  .main {
+    background-color: hotpink;
+  } 
+}
+
+@media (min-aspect-ratio: 9/16) {
+  .main {
+    background-color: hotpink;
+  } 
+}
+
+/* @media (min-aspect-ratio: 1/1) {
+  .main {
+    background-color: yellow;
+  } 
+}
+
+@media (min-aspect-ratio: 11/9) {
+  .main {
+    background-color: orange;
+  } 
+} */
+
+@media (min-aspect-ratio: 5/4) {
+  .main {
+    background-color: pink;
+  } 
+}
+
+@media (min-aspect-ratio: 4/3) {
+  .main {
+    background-color: aqua;
+  } 
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .main {
+    background-color: chartreuse;
+  } 
+}
+
+@media (min-aspect-ratio: 21/9) {
+  .main {
+    background-color: red;
+  } 
+}
