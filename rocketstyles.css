@@ -57,7 +57,7 @@ html {
 }
 
 body {
-    font-family: Verdana, sans-serif;
+    /* font-family: Verdana, sans-serif; */
     padding: 0px;
     margin: 0px;
 }
@@ -324,7 +324,7 @@ LANDING PAGE
   }
   
   .heading {
-    /* font-family: Interstate; */
+    font-family: Interstate;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -341,7 +341,7 @@ LANDING PAGE
     position: static;
     width: 50vw;
     top: 80px;
-    /* font-family: Museo Sans; */
+    font-family: Museo Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -431,7 +431,7 @@ LANDING PAGE
     justify-content: center;
     padding: 16px;
     border-radius: 5px;
-    /* font-family: Museo Sans; */
+    font-family: Museo Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -539,7 +539,7 @@ LANDING PAGE
   
   .project-title {
     position: static;
-    /* font-family: Museo Sans; */
+    font-family: Museo Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -550,7 +550,7 @@ LANDING PAGE
   
   .project-client {
     position: static;
-      /* font-family: Museo Sans; */
+      font-family: Museo Sans;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
