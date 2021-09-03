@@ -4,6 +4,8 @@ html {
     overflow-x: hidden;
     background-color: black;
     color: white;
+    padding: 0px;
+    margin: 0px;
   }
 
   .nd {
@@ -11,7 +13,6 @@ html {
     background-color: white;
     color: black;
     top: -3%;
-    left: -9px;
   }
 
   #loadingDiv2 {
@@ -57,6 +58,8 @@ html {
 
 body {
     font-family: Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
   .main {
@@ -128,7 +131,7 @@ body {
   } 
 
   .scroll-element {
-    margin-left: -27vw;
+    margin-left: -28vw;
     width: 160vw;
     height: auto;
   }
@@ -152,7 +155,7 @@ body {
   } 
 
   .scroll-element {
-    margin-left: -17vw;
+    margin-left: -20vw;
     width: 145vw;
     height: auto;
   }
@@ -176,7 +179,7 @@ body {
   }  */
 
   .scroll-element {
-    margin-left: 0px;
+    margin-left: -2.5vw;
     width: 100%;
   }
 }
