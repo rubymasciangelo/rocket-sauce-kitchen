@@ -574,3 +574,20 @@ LANDING PAGE
     box-sizing: border-box;
     margin: 0px 8vw 8vw;
   }
+
+  @media only screen and (min-width: 1000px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+  * {
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  width: 0 !important;
+}
