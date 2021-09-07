@@ -262,7 +262,7 @@ LANDING PAGE
     max-width: 150px;
     max-height: 150px;
     left: 10%;
-    top: 250px;
+    top: 350px;
     animation: blink 10s linear infinite;
   }
   
@@ -271,8 +271,8 @@ LANDING PAGE
     height: 8vw;
     max-width: 150px;
     max-height: 150px;
-    left: 48%;
-    top: 40px;
+    left: 50%;
+    top: 80px;
     animation: blink 8s linear infinite;
   }
   
@@ -281,28 +281,28 @@ LANDING PAGE
     height: 5vw;
     max-width: 100px;
     max-height: 100px;
-    left: 30%;
-    top: 194px;
+    left: 35%;
+    top: 280px;
     animation: blink 15s linear infinite;
   }
   
   .star-4 {
-    width: 13vw;
-    height: 13vw;
+    width: 15vw;
+    height: 15vw;
     max-width: 200px;
     max-height: 200px;
     left: 70%;
-    top: 89px;
+    top: 230px;
     animation: blink 18s linear infinite;
   }
   
   .star-5 {
-    width: 10vw;
-    height: 10vw;
+    width: 12vw;
+    height: 12vw;
     max-width: 250px;
     max-height: 250px;
-    left: 40%;
-    top: 300px;
+    left: 38%;
+    top: 450px;
     animation: blink 20s linear infinite;
   }
   
@@ -312,7 +312,7 @@ LANDING PAGE
     max-width: 300px;
     max-height: 300px;
     left: 75%;
-    top: 297px;
+    top: 497px;
     animation: blink 9s linear infinite;
   }
   @keyframes blink {
@@ -326,17 +326,17 @@ LANDING PAGE
     align-items: flex-start;
     padding: 0px;
     position: absolute;
-    width: 40vw;
+    width: 84vw;
     left: 8vw;
-    top: 515px;
+    top: 644px;
   }
   
   .heading {
     /* font-family: Interstate; */
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 30px;
+    line-height: 36px;
     letter-spacing: 0.01em;
     text-transform: uppercase;
   }
@@ -347,13 +347,13 @@ LANDING PAGE
   
   .entry-p {
     position: static;
-    width: 50vw;
-    top: 80px;
+    width: 100%;
+    top: 52px;
     /* font-family: Museo Sans; */
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 24px;
     padding-bottom: 8vw;
   }
   
@@ -616,6 +616,23 @@ LANDING PAGE
       height: 25vw;
       left: 75%;
       top: 497px;
+    }
+
+    .entry-text {
+      width: 40vw;
+      top: 515px;
+    }
+    
+    .heading {
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+    .entry-p {
+      font-size: 24px;
+      line-height: 32px;
+      width: 50vw;
+      top: 80px;
     }
   }
 
