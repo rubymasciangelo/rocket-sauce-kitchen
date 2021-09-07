@@ -372,10 +372,10 @@ LANDING PAGE
     display: flex;
     flex-direction: column;
     position: static;
-    width: 40vw;
-    height: 336px;
+    width: 84vw;
+    height: 180px;
     left: 8vw;
-    top: 128px;
+    top: 0px;
     margin: 8vw;
   }
   
@@ -388,16 +388,16 @@ LANDING PAGE
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    width: 40vw;
-    height: 670px;
+    width: 84vw;
+    height: 450px;
     right: 8vw;
-    top: 8vw;
+    top: calc(180px + 12vw);
   }
   
   .vl {
     position: relative;
     background: #ff2800;
-    height: 584px;
+    height: 384px;
     width: 2.52px;
     left: 0px;
     top: 0px;
@@ -407,14 +407,14 @@ LANDING PAGE
   
   .landing-text {
     position: absolute;
-    width: 38vw;
-    height: 584px;
-    left: calc(50% - 40vw/2 + 18.16px);
+    width: 82vw;
+    height: 384px;
+    left: calc(50% - 84vw/2 + 18.16px);
     top: 0px;
     /* font-style: normal; */
     font-weight: 300;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 24px;
     flex: none;
     order: 1;
     margin-bottom: 32px;
@@ -432,6 +432,7 @@ LANDING PAGE
   .landing-text p {
     position: relative;
     top: 0px;
+    margin-top: 0%;
   }
   
   .btn {
@@ -454,7 +455,7 @@ LANDING PAGE
     /* width: 238px;
     height: 54px; */
     left: calc(50% - 40/2 - 161px);
-    top: 616px;
+    top: 416px;
     background: #cc2000;
     flex: none;
     order: 3;
@@ -633,6 +634,34 @@ LANDING PAGE
       line-height: 32px;
       width: 50vw;
       top: 80px;
+    }
+
+    .landing-heading {
+      width: 40vw;
+      height: 336px;
+      top: 128px;
+    }
+
+    .landing-text-container {
+      width: 40vw;
+      height: 670px;
+      top: 8vw;
+    }
+
+    .vl {
+      height: 584px;
+    }
+
+    .landing-text {
+      width: 38vw;
+      height: 584px;
+      left: calc(50% - 40vw/2 + 18.16px);
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    a.return-btn { 
+      top: 616px;
     }
   }
 
