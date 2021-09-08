@@ -244,7 +244,7 @@ LANDING PAGE
   .landing-entry {
     position: relative;
     width: 100%;
-    height: 950px;
+    height: 1000px;
     background: #292929;
   }
   
@@ -582,7 +582,23 @@ LANDING PAGE
     margin: 0px 8vw 8vw;
   }
 
+  @media only screen and (min-width: 300px) {
+    .landing-entry {
+      height: 975px;
+    }
+  }
+
+  @media only screen and (min-width: 330px) {
+    .landing-entry {
+      height: 925px;
+    }
+  }
+
   @media only screen and (min-width: 550px) {
+    .landing-entry {
+      height: 900px;
+    }
+
     .star-1 {
       width: 15vw;
       height: 15vw;
