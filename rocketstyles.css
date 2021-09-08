@@ -257,62 +257,62 @@ LANDING PAGE
   }
   
   .star-1 {
-    width: 8vw;
-    height: 8vw;
+    width: 18vw;
+    height: 18vw;
     max-width: 150px;
     max-height: 150px;
     left: 10%;
-    top: 350px;
+    top: 124px;
     animation: blink 10s linear infinite;
   }
   
   .star-2 {
-    width: 8vw;
-    height: 8vw;
+    width: 18vw;
+    height: 18vw;
     max-width: 150px;
     max-height: 150px;
     left: 50%;
-    top: 80px;
+    top: 60px;
     animation: blink 8s linear infinite;
   }
   
   .star-3 {
-    width: 5vw;
-    height: 5vw;
+    width: 11vw;
+    height: 11vw;
     max-width: 100px;
     max-height: 100px;
-    left: 35%;
+    left: 25%;
     top: 280px;
     animation: blink 15s linear infinite;
   }
   
   .star-4 {
-    width: 15vw;
-    height: 15vw;
+    width: 28vw;
+    height: 28vw;
     max-width: 200px;
     max-height: 200px;
-    left: 70%;
-    top: 230px;
+    left: 65%;
+    top: 200px;
     animation: blink 18s linear infinite;
   }
   
   .star-5 {
-    width: 12vw;
-    height: 12vw;
+    width: 22vw;
+    height: 22vw;
     max-width: 250px;
     max-height: 250px;
-    left: 38%;
-    top: 450px;
+    left: 55%;
+    top: 400px;
     animation: blink 20s linear infinite;
   }
   
   .star-6 {
-    width: 18vw;
-    height: 18vw;
+    width: 35vw;
+    height: 35vw;
     max-width: 300px;
     max-height: 300px;
-    left: 75%;
-    top: 497px;
+    left: 8%;
+    top: 450px;
     animation: blink 9s linear infinite;
   }
   @keyframes blink {
@@ -580,6 +580,50 @@ LANDING PAGE
     border: 3px solid #ff2800;
     box-sizing: border-box;
     margin: 0px 8vw 8vw;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .star-1 {
+      width: 10vw;
+      height: 10vw;
+      left: 10%;
+      top: 350px;
+    }
+
+    .star-2 {
+      width: 10vw;
+      height: 10vw;
+      left: 50%;
+      top: 80px;
+    }
+
+    .star-3 {
+      width: 8vw;
+    height: 8vw;
+      left: 35%;
+      top: 280px;
+    }
+
+    .star-4 {
+      width: 18vw;
+    height: 18vw;
+      left: 70%;
+      top: 230px;
+    }
+
+    .star-5 {
+      width: 15vw;
+    height: 15vw;
+      left: 38%;
+      top: 450px;
+    }
+
+    .star-6 {
+      width: 20vw;
+    height: 20vw;
+      left: 75%;
+      top: 497px;
+    }  
   }
 
   @media only screen and (min-width: 1000px) {
