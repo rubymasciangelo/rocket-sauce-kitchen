@@ -363,7 +363,7 @@ LANDING PAGE
     align-items: flex-start;
     position: relative;
     width: 100%;
-    height: calc(670px + 16vw);
+    height: calc(990px + 16vw);
     left: 0px;
     background: #f2f1ed;
   }
@@ -391,7 +391,7 @@ LANDING PAGE
     width: 84vw;
     height: 450px;
     right: 8vw;
-    top: calc(180px + 12vw);
+    top: calc(500px + 12vw);
   }
   
   .vl {
@@ -592,7 +592,25 @@ LANDING PAGE
     .landing-entry {
       height: 925px;
     }
+
+    .landing-main-content {
+      height: calc(940px + 16vw);
+    }
+  
+    .landing-text-container {
+      top: calc(450px + 12vw);
+    }
   }
+
+  @media only screen and (min-width: 400px) {
+  .landing-main-content {
+    height: calc(840px + 16vw);
+  }
+
+  .landing-text-container {
+    top: calc(350px + 12vw);
+  }
+}
 
   @media only screen and (min-width: 550px) {
     .landing-entry {
@@ -656,6 +674,36 @@ LANDING PAGE
       animation: blink 9s linear infinite;
     }
 
+    .entry-p {
+      position: static;
+      width: 100%;
+      top: 52px;
+      /* font-family: Museo Sans; */
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+      padding-bottom: 8vw;
+    }
+
+    .landing-main-content {
+      height: calc(790px + 16vw);
+    }
+
+    .landing-text-container {
+      top: calc(300px + 12vw);
+    }
+
+  }
+
+  @media only screen and (min-width: 600px) {
+    .landing-main-content {
+      height: calc(740px + 16vw);
+    }
+
+    .landing-text-container {
+      top: calc(250px + 12vw);
+    }
   }
 
   @media only screen and (min-width: 800px) {
@@ -704,6 +752,28 @@ LANDING PAGE
       left: 75%;
       top: 497px;
     }  
+
+    .landing-main-content {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      position: relative;
+      width: 100%;
+      height: calc(670px + 16vw);
+      left: 0px;
+      background: #f2f1ed;
+    }
+
+    .landing-text-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      width: 84vw;
+      height: 450px;
+      right: 8vw;
+      top: calc(180px + 12vw);
+    }
   }
 
   @media only screen and (min-width: 1000px) {
