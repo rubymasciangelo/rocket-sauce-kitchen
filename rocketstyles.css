@@ -335,7 +335,7 @@ LANDING PAGE
     /* font-family: Interstate; */
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 36px;
     letter-spacing: 0.01em;
     text-transform: uppercase;
@@ -363,7 +363,7 @@ LANDING PAGE
     align-items: flex-start;
     position: relative;
     width: 100%;
-    height: calc(990px + 16vw);
+    height: calc(840px + 16vw);
     left: 0px;
     background: #f2f1ed;
   }
@@ -391,7 +391,7 @@ LANDING PAGE
     width: 84vw;
     height: 450px;
     right: 8vw;
-    top: calc(500px + 12vw);
+    top: calc(350px + 12vw);
   }
   
   .vl {
@@ -443,7 +443,7 @@ LANDING PAGE
     /* font-family: Museo Sans; */
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 22px;
     text-align: center;
     text-transform: uppercase;
@@ -467,7 +467,7 @@ LANDING PAGE
     align-items: flex-start;
     position: relative;
     width: 100%;
-    height: calc(95.5vw + 152px);
+    height: calc(212vw + 152px);
     left: 0px;
     background: #292929;
   }
@@ -491,7 +491,7 @@ LANDING PAGE
     padding: 0px;
     position: static;
     width: 84vw;
-    height: 71.5vw;
+    height: 196vw;
     left: 8vw;
     top: 208px;
     margin: 32px 8vw;
@@ -503,13 +503,10 @@ LANDING PAGE
     align-items: flex-start;
     padding: 0px;
     position: static;
-    height: 34vw;
+    height: 60vw;
+    width: 84vw;
     flex: none;
     border-radius: 5px;
-  }
-
-  .project-one, .project-two {
-    width: calc(80vw / 2);
   }
   
   .project-one {
@@ -525,7 +522,7 @@ LANDING PAGE
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 3.5vw;
+    margin-top: 8vw;
   }
   
   .project-three {
@@ -533,8 +530,7 @@ LANDING PAGE
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 84vw;
-    margin-top: 3.5vw;
+    margin-top: 8vw;
   }
   
   .project-title-box {
@@ -545,7 +541,7 @@ LANDING PAGE
     width: 100%;
     height: 60px;
     left: 0px;
-    top: calc(34vw - 60px);
+    top: calc(60vw - 60px);
     background: rgba(249, 249, 249, 0.5);
     border-radius: 5px;
     flex: none;
@@ -576,7 +572,7 @@ LANDING PAGE
   
   a.projects-btn {
     position: absolute;
-    top: calc(79.5vw + 100px);
+    top: calc(204vw + 100px);
     border: 3px solid #ff2800;
     box-sizing: border-box;
     margin: 0px 8vw 8vw;
@@ -594,15 +590,33 @@ LANDING PAGE
     }
 
     .landing-main-content {
-      height: calc(940px + 16vw);
+      height: calc(790px + 16vw);
     }
   
     .landing-text-container {
-      top: calc(450px + 12vw);
+      top: calc(300px + 12vw);
     }
   }
 
   @media only screen and (min-width: 400px) {
+  .landing-main-content {
+    height: calc(740px + 16vw);
+  }
+
+  .landing-text-container {
+    top: calc(250px + 12vw);
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .heading {
+    /* font-family: Interstate; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
   .landing-main-content {
     height: calc(840px + 16vw);
   }
@@ -610,6 +624,92 @@ LANDING PAGE
   .landing-text-container {
     top: calc(350px + 12vw);
   }
+
+  .btn {
+    font-size: 22px;
+  }
+
+  .landing-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    height: calc(95.5vw + 152px);
+    left: 0px;
+    background: #292929;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px;
+    position: static;
+    width: 84vw;
+    height: 71.5vw;
+    left: 8vw;
+    top: 208px;
+    margin: 32px 8vw;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    height: 34vw;
+    flex: none;
+    border-radius: 5px;
+  }
+  
+  .project-one, .project-two {
+    width: calc(80vw / 2);
+  }
+
+  .project-two {
+    background: url(hele-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 3.5vw;
+    margin-top: 0px;
+  }
+  
+  .project-three {
+    background: url(hele-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 84vw;
+    margin-top: 3.5vw;
+  }
+
+  .project-title-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: calc(34vw - 60px);
+    background: rgba(249, 249, 249, 0.5);
+    border-radius: 5px;
+    flex: none;
+    order: 1;
+  }
+
+  a.projects-btn {
+    position: absolute;
+    top: calc(79.5vw + 100px);
+    border: 3px solid #ff2800;
+    box-sizing: border-box;
+    margin: 0px 8vw 8vw;
+  }
+
 }
 
   @media only screen and (min-width: 550px) {
