@@ -69,7 +69,12 @@ body {
     margin: 0px;
 }
 
-  .main {
+.main {
+  display: none;
+  /* background-color: greenyellow; */
+}
+
+  .main, .main-16, .main-21 {
     margin-left: -2.5%;
     overflow-x: hidden;
     min-width: 105%;
@@ -107,7 +112,7 @@ body {
     height: 0 !important;
   }
 
-#blastoff {
+#blastoff, #blastoff-16, #blastoff-21 {
     overflow: visible;
     display: block;
     object-fit: cover;
@@ -123,26 +128,58 @@ body {
 
 @media (max-aspect-ratio: 9/21) {
   .main {
-    background-color: blue;
+    display: none;
   } 
+
+  .main-16 {
+    display: none;
+  }
+
+  .main-21 {
+    display: block;
+  }
 }
 
 @media (min-aspect-ratio: 9/21) {
   .main {
-    /* background-color: rebeccapurple; */
+    display: none;
   } 
+
+  .main-16 {
+    display: none;
+  }
+
+  .main-21 {
+    display: block;
+  }
 }
 
 @media (min-aspect-ratio: 9/16) {
   .main {
-    /* background-color: hotpink; */
-  } 
+    display: none;
+  }
+
+  .main-16 {
+    display: block;
+  }
+
+  .main-21 {
+    display: none;
+  }
 }
 
 @media (min-aspect-ratio: 1/1) {
   .main {
-    background-color: transparent;
-  } 
+    display: block;
+  }
+
+  .main-16 {
+    display: none;
+  }
+
+  .main-21 {
+    display: none;
+  }
 
   .scroll-element {
     margin-left: -37vw;
