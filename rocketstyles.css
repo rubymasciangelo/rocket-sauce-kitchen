@@ -172,11 +172,15 @@ body {
   .main {
     display: none;
     height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
   }
 
   .main-16 {
-    display: block;
+    display: none;
     height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
   }
 
   .main-21 {
