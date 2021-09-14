@@ -172,15 +172,11 @@ body {
   .main {
     display: none;
     height: 0px;
-    position: absolute;
-    top: calc(-110vh * 5);
   }
 
   .main-16 {
     display: none;
     height: 0px;
-    position: absolute;
-    top: calc(-110vh * 5);
   }
 
   .main-21 {
@@ -193,7 +189,13 @@ body {
     width: 100vw;
     height: auto;
   }
+
+  #blastoff, #blastoff-16 {
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
 }
+
 
 @media (min-aspect-ratio: 1/2) {
   .main {
@@ -202,7 +204,7 @@ body {
   }
 
   .main-16 {
-    display: block;
+    display: none;
     height: 0px;
   }
 
@@ -215,6 +217,11 @@ body {
     margin-left: 6vw;
     width: 100vw;
     height: auto;
+  }
+
+  #blastoff, #blastoff-16 {
+    position: absolute;
+    top: calc(-110vh * 5);
   }
 }
 
@@ -238,6 +245,15 @@ body {
     margin-left: -21vw;
     width: 155vw;
     height: auto;
+  }
+
+  #blastoff, #blastoff-21 {
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
+
+  #blastoff-16 {
+    position: static;
   }
 }
 
