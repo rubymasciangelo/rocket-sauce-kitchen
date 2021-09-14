@@ -69,16 +69,11 @@ body {
     margin: 0px;
 }
 
-.main {
-  display: none;
-  /* background-color: greenyellow; */
-}
 
   .main, .main-16, .main-21 {
     margin-left: -2.5%;
     overflow-x: hidden;
     min-width: 105%;
-    min-height: 110%;
     z-index: 10;
     /* background-color: rgba(255, 0, 0, 0.548); */
     /*position: relative;
@@ -129,56 +124,76 @@ body {
 @media (max-aspect-ratio: 9/21) {
   .main {
     display: none;
+    height: 0px;
   } 
 
   .main-16 {
     display: none;
+    height: 0px;
   }
 
   .main-21 {
     display: block;
+    min-height: 110%;
   }
 }
 
 @media (min-aspect-ratio: 9/21) {
   .main {
     display: none;
+    height: 0px;
   } 
 
   .main-16 {
     display: none;
+    height: 0px;
   }
 
   .main-21 {
     display: block;
+    min-height: 110%;
   }
 }
 
 @media (min-aspect-ratio: 9/16) {
   .main {
     display: none;
+    height: 0px;
   }
 
   .main-16 {
     display: block;
+    min-height: 110%;
   }
 
   .main-21 {
     display: none;
+    height: 0px;
   }
+}
+
+.main {
+  display: none;
+  visibility: hidden;
+  height: 0px;
+  /* background-color: greenyellow; */
 }
 
 @media (min-aspect-ratio: 1/1) {
   .main {
     display: block;
+    visibility: visible;
+    min-height: 110%;
   }
 
   .main-16 {
     display: none;
+    height: 0px;
   }
 
   .main-21 {
     display: none;
+    height: 0px;
   }
 
   .scroll-element {
@@ -199,6 +214,20 @@ body {
     background-color: transparent;
   }  */
 
+  .main {
+    display: block;
+    visibility: visible;
+    min-height: 110%;
+  }
+
+  .main-16 {
+    display: none;
+  }
+
+  .main-21 {
+    display: none;
+  }
+
   .scroll-element {
     margin-left: -20vw;
     width: 145vw;
@@ -210,6 +239,20 @@ body {
   /* .main {
     background-color: aqua;
   } */
+
+  .main {
+    display: block;
+    visibility: visible;
+    min-height: 110%;
+  }
+
+  .main-16 {
+    display: none;
+  }
+
+  .main-21 {
+    display: none;
+  }
 
   .scroll-element {
     margin-left: -17vw;
@@ -223,6 +266,20 @@ body {
     background-color: chartreuse;
   }  */
 
+  .main {
+    display: block;
+    visibility: visible;
+    min-height: 110%;
+  }
+
+  .main-16 {
+    display: none;
+  }
+
+  .main-21 {
+    display: none;
+  }
+
   .scroll-element {
     margin-left: -2.5vw;
     width: 100%;
@@ -234,6 +291,9 @@ body {
     background-color: red;
   } 
 } */
+
+
+
 
 
 .shh {
