@@ -187,6 +187,7 @@ body {
 }
 }
 
+
 @media (min-aspect-ratio: 1/2) {
 .main {
   display: none;
