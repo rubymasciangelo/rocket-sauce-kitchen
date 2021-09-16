@@ -214,11 +214,11 @@ body {
   display: block;
   min-height: 110%;
   position: static;
+  margin-top: -50vh;
   background-color: rgb(154, 13, 167);
 }
 
 .scroll-element {
-  margin-top: -50vh;
   margin-left: 1vw;
   width: 110vw;
   height: auto;
