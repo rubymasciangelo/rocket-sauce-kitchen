@@ -204,22 +204,23 @@ body {
 }
 
 .main-16 {
-  display: block;
-  min-height: 110%;
-  position: static;
-  background-color: yellow;
-}
-
-.main-21 {
   display: none;
   height: 0px;
   position: absolute;
   top: calc(-110vh * 5);
 }
 
+.main-21 {
+  display: block;
+  min-height: 110%;
+  position: static;
+  background-color: orchid;
+}
+
 .scroll-element {
-  margin-left: -21vw;
-  width: 155vw;
+  margin-top: -10vh;
+  margin-left: 1vw;
+  width: 110vw;
   height: auto;
 }
 }
