@@ -160,7 +160,7 @@ body {
 }
 
 
-@media (max-aspect-ratio: 2/3) {
+@media (min-aspect-ratio: 1/2) and (max-aspect-ratio: 2/3) {
 .main {
   display: none;
   height: 0px;
@@ -183,7 +183,7 @@ body {
 }
 }
 
-@media (max-aspect-ratio: 3/4) {
+@media (min-aspect-ratio: 2/3) and (max-aspect-ratio: 3/4) {
 .main {
   display: none;
   height: 0px;
@@ -206,7 +206,7 @@ body {
 }
 }
 
-@media (max-aspect-ratio: 5/6) {
+@media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 5/6) {
 .main {
   display: none;
   height: 0px;
@@ -229,7 +229,7 @@ body {
 }
 }
 
-@media (max-aspect-ratio: 1/1) {
+@media (min-aspect-ratio: 5/6) and (max-aspect-ratio: 1/1) {
 .main {
   display: none;
   height: 0px;
