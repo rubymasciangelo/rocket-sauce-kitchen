@@ -842,19 +842,11 @@ a.projects-btn {
 }
 
 .project-two {
-  background: url(hele-2.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   margin-left: 3.5vw;
   margin-top: 0px;
 }
 
 .project-three {
-  background: url(hele-3.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 84vw;
   margin-top: 3.5vw;
 }
@@ -1181,26 +1173,14 @@ a.projects-btn {
   }
 
   .project-one {
-    background: url(hele-1.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
     left: 0px;
   }
 
   .project-two {
-    background: url(hele-2.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
     margin: 0px 3.5vw;
   }
 
   .project-three {
-    background: url(hele-3.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
     margin-top: 0px;
   }
 
