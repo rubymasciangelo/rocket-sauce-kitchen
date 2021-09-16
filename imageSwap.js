@@ -1,10 +1,10 @@
 var images = [
-    "bear-1.jpg",
-    "bear-2.jpg",
-    "bear-3.jpg",
-    "bear-4.jpg",
-    "bear-5.jpg",
-    "bear-6.jpg"
+    "BRM-1.jpg",
+    "BRM-2.png",
+    "BRM-3.png",
+    "BRM-4.png",
+    "BRM-5.png",
+    "BRM-6.png"
 ];
 
 //image shuffle function
