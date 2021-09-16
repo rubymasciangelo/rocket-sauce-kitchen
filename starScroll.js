@@ -64,7 +64,7 @@ gsap.from(".star-2", {
 });
 
 gsap.from(".star-1", {
-    y: "90px",
+    y: "80px",
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
