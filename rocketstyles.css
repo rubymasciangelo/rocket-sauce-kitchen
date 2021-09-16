@@ -213,9 +213,9 @@ body {
 .main-21 {
   display: block;
   min-height: 110%;
-  position: static;
-  margin-top: -70vh;
-  /* background-color: rgb(167, 13, 72); */
+  position: absolute;
+  top: -50%;
+  background-color: rgb(238, 131, 172);
 }
 
 .scroll-element {
