@@ -501,7 +501,7 @@ a {
 }
 
 .heading {
-  /* font-family: Interstate; */
+  font-family: Interstate;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -518,7 +518,7 @@ a {
   position: static;
   width: 100%;
   top: 52px;
-  /* font-family: Museo Sans; */
+  font-family: Museo Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -580,7 +580,8 @@ a {
   height: 384px;
   left: calc(50% - 84vw/2 + 18.16px);
   top: 0px;
-  /* font-style: normal; */
+  font-family: Museo Sans;
+  font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 24px;
@@ -609,7 +610,7 @@ a {
   justify-content: center;
   padding: 16px;
   border-radius: 5px;
-  /* font-family: Museo Sans; */
+  font-family: Museo Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -719,7 +720,7 @@ a.return-btn {
 
 .project-title {
   position: static;
-  /* font-family: Museo Sans; */
+  font-family: Museo Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -730,7 +731,7 @@ a.return-btn {
 
 .project-client {
   position: static;
-    /* font-family: Museo Sans; */
+    font-family: Museo Sans;
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
@@ -779,7 +780,7 @@ a.projects-btn {
 
 @media only screen and (min-width: 500px) {
 .heading {
-  /* font-family: Interstate; */
+  font-family: Interstate;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -947,7 +948,7 @@ a.projects-btn {
     position: static;
     width: 100%;
     top: 52px;
-    /* font-family: Museo Sans; */
+    font-family: Museo Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
