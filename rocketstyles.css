@@ -132,8 +132,9 @@ body {
   -ms-overflow-style: none;
 }
 
-#blastoff::-webkit-scrollbar {
+#blastoff::-webkit-scrollbar, #blastoff-16::-webkit-scrollbar, #blastoff-21::-webkit-scrollbar {
   width: 0 !important;
+  height: 0;
 }
 
 @media (max-aspect-ratio: 1/2) {
