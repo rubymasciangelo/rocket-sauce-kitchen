@@ -1243,9 +1243,9 @@ a.projects-btn {
 
 
 * {
-
-scrollbar-width: none;
--ms-overflow-style: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
 }
 
 *::-webkit-scrollbar {
