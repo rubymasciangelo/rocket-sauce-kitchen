@@ -155,6 +155,7 @@ body {
   display: block;
   min-height: 110%;
   position: static;
+  background-color: red;
 }
 
 .scroll-element {
@@ -184,6 +185,7 @@ body {
   display: block;
   min-height: 110%;
   position: static;
+  background-color: orange;
 }
 
 .scroll-element {
@@ -205,6 +207,7 @@ body {
   display: block;
   min-height: 110%;
   position: static;
+  background-color: yellow;
 }
 
 .main-21 {
@@ -233,6 +236,7 @@ body {
   display: block;
   min-height: 110%;
   position: static;
+  background-color: green;
 }
 
 .main-21 {
@@ -261,6 +265,7 @@ body {
   display: block;
   min-height: 110%;
   position: static;
+  background-color: blue;
 }
 
 .main-21 {
