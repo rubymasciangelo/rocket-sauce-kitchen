@@ -218,8 +218,8 @@ body {
   min-height: 100%;
   min-height: -webkit-fill-available;
   position: static;
-  margin-top: -50%;
-  background-color: rgb(238, 170, 131);
+  margin-top: -500px;
+  background-color: rgb(131, 181, 238);
 }
 
 .scroll-element {
