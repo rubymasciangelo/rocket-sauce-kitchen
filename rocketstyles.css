@@ -206,25 +206,24 @@ body {
   top: calc(-110vh * 5);
 }
 
-.main-16 {
+.main-21 {
   display: none;
   height: 0px;
   position: absolute;
   top: calc(-110vh * 5);
 }
 
-.main-21 {
+.main-16 {
   display: block;
   min-height: 100%;
   min-height: -webkit-fill-available;
+  background-color: rgb(131, 238, 140);
   position: static;
-  margin-top: -500px;
-  background-color: rgb(131, 181, 238);
 }
 
 .scroll-element {
-  margin-left: 1vw;
-  width: 110vw;
+  margin-left: -23.5vw;
+  width: 160vw;
   height: auto;
 }
 }
