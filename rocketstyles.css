@@ -219,7 +219,7 @@ body {
   display: block;
   min-height: 100%;
   min-height: -webkit-fill-available;
-  /* background-color: rgb(131, 238, 140); */
+  background-color: yellow;
   position: static;
 }
 
