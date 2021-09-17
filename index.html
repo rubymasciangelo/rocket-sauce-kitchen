@@ -9,6 +9,9 @@
         <link rel="stylesheet" href="https://use.typekit.net/hmd0ufc.css">
         <link rel="stylesheet" href="rocketstyles.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+        <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+        <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
         <script rel="preload" src="lottie16.js"></script>
         <script rel="preload" src="lottie21.js"></script>
     </head>
@@ -136,6 +139,26 @@ if(FF) {
 } else {
     main.style.display = "block";
     warning.style.display = "none";
+}
+
+var mainS = document.querySelector(".main-21");
+var blastoffS = document.getElementById("blastoff-21");
+	blastoffS.scrollTop = blastoffS.scrollHeight;
+
+function removeRunS(){
+	if (blastoffS.offsetHeight + blastoffS.scrollTop >= blastoffS.scrollHeight) {
+		mainS.remove();
+	}
+}
+
+var mainM = document.querySelector(".main-16");
+var blastoffM = document.getElementById("blastoff-16");
+	blastoffM.scrollTop = blastoffM.scrollHeight;
+
+function removeRunM(){
+	if (blastoffM.offsetHeight + blastoffM.scrollTop >= blastoffM.scrollHeight) {
+		mainM.remove();
+	}
 }
 </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
