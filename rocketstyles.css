@@ -570,7 +570,7 @@ a {
   align-items: flex-start;
   position: relative;
   width: 100%;
-  height: calc(840px + 16vw);
+  height: calc(848px + 16vw);
   left: 0px;
   background: #f2f1ed;
 }
@@ -580,7 +580,7 @@ a {
   flex-direction: column;
   position: static;
   width: 84vw;
-  height: 180px;
+  height: 250x;
   left: 8vw;
   top: 0px;
   margin: 8vw;
@@ -596,7 +596,7 @@ a {
   align-items: flex-start;
   position: absolute;
   width: 84vw;
-  height: 450px;
+  height: 500px;
   right: 8vw;
   top: calc(350px + 12vw);
 }
@@ -747,9 +747,9 @@ a.return-btn {
   align-items: flex-start;
   position: relative;
   width: 100%;
-  height: 60px;
+  height: 80px;
   left: 0px;
-  top: calc(60vw - 60px);
+  top: calc(60vw - 80px);
   background: rgba(249, 249, 249, 0.5);
   border-radius: 5px;
   flex: none;
@@ -798,7 +798,7 @@ a.projects-btn {
   }
 
   .landing-main-content {
-    height: calc(790px + 16vw);
+    height: calc(793px + 16vw);
   }
 
   .landing-text-container {
@@ -808,7 +808,7 @@ a.projects-btn {
 
 @media only screen and (min-width: 400px) {
 .landing-main-content {
-  height: calc(740px + 16vw);
+  height: calc(745px + 16vw);
 }
 
 .landing-text-container {
@@ -826,7 +826,7 @@ a.projects-btn {
 }
 
 .landing-main-content {
-  height: calc(840px + 16vw);
+  height: calc(846px + 16vw);
 }
 
 .landing-text-container {
@@ -893,9 +893,9 @@ a.projects-btn {
   align-items: flex-start;
   position: relative;
   width: 100%;
-  height: 60px;
+  height: 80px;
   left: 0px;
-  top: calc(34vw - 60px);
+  top: calc(34vw - 80px);
   background: rgba(249, 249, 249, 0.5);
   border-radius: 5px;
   flex: none;
@@ -986,7 +986,7 @@ a.projects-btn {
   }
 
   .landing-main-content {
-    height: calc(790px + 16vw);
+    height: calc(796px + 16vw);
   }
 
   .landing-text-container {
@@ -997,7 +997,7 @@ a.projects-btn {
 
 @media only screen and (min-width: 600px) {
   .landing-main-content {
-    height: calc(740px + 16vw);
+    height: calc(755px + 16vw);
   }
 
   .landing-text-container {
@@ -1058,7 +1058,7 @@ a.projects-btn {
     align-items: flex-start;
     position: relative;
     width: 100%;
-    height: calc(670px + 16vw);
+    height: calc(690px + 16vw);
     left: 0px;
     background: #f2f1ed;
   }
@@ -1069,7 +1069,7 @@ a.projects-btn {
     align-items: flex-start;
     position: absolute;
     width: 84vw;
-    height: 450px;
+    height: 500px;
     right: 8vw;
     top: calc(180px + 12vw);
   }
@@ -1119,7 +1119,7 @@ a.projects-btn {
   }
 
   .entry-text {
-    width: 40vw;
+    width: 50vw;
     top: 515px;
   }
   
@@ -1137,7 +1137,7 @@ a.projects-btn {
 
   .landing-heading {
     width: 40vw;
-    height: 336px;
+    height: 500px;
     top: 128px;
   }
 
@@ -1189,7 +1189,7 @@ a.projects-btn {
     padding: 0px;
     position: static;
     width: 84vw;
-    height: 260px;
+    height: 20vw;
     left: 8vw;
     top: 208px;
     margin: 32px 8vw;
@@ -1225,9 +1225,9 @@ a.projects-btn {
     align-items: flex-start;
     position: relative;
     width: calc(76vw / 3);
-    height: 60px;
+    height: 75px;
     left: 0px;
-    top: calc(20vw - 60px);
+    top: calc(20vw - 75px);
     background: rgba(249, 249, 249, 0.5);
     border-radius: 5px;
     flex: none;
@@ -1243,11 +1243,19 @@ a.projects-btn {
   }
 }
 
+@media only screen and (min-width: 1250px) {
+  .project-title-box {
+    height: 60px;
+    top: calc(20vw - 60px);
+  }
+}
+
 
 * {
   scrollbar-width: none;
   -ms-overflow-style: none;
   overflow-y: scroll !important;
+  overflow-x: hidden;
 }
 
 *::-webkit-scrollbar {
