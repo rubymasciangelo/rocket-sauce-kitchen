@@ -141,7 +141,32 @@ body {
   height: 0;
 }
 
+.numb, .letter {
+  position: fixed;
+  top: 50px;
+  right: 100px;
+  z-index: 10000;
+  color: white;
+}
+
+.letter {
+ right: 120px;
+}
+
+.six, .seven, .eight, .nine {
+  right: 150px;
+}
+
 @media (max-aspect-ratio: 1/2) {
+.two {
+  display: none;
+}
+
+.one {
+  color: red;
+  display: block;
+}
+
 .main {
   display: none;
   height: 0px;
@@ -160,7 +185,7 @@ body {
   display: block;
   min-height: 110%;
   position: static;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .scroll-element {
@@ -172,7 +197,15 @@ body {
 
 
 @media (min-aspect-ratio: 1/2) and (max-aspect-ratio: 2/3) {
-.main {
+.one {
+  display: none;
+}
+
+.two {
+  display: block;
+  color: orange;
+}
+  .main {
   display: none;
   height: 0px;
   position: absolute;
@@ -190,7 +223,7 @@ body {
   display: block;
   min-height: 110%;
   position: static;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .scroll-element {
@@ -201,6 +234,15 @@ body {
 }
 
 @media (min-aspect-ratio: 2/3) and (max-aspect-ratio: 3/4) {
+.three {
+  display: block;
+  color: yellow;
+}
+
+.four, .five {
+  display: none;
+}
+
 .main {
   display: none;
   height: 0px;
@@ -219,7 +261,7 @@ body {
   display: block;
   min-height: 100%;
   min-height: -webkit-fill-available;
-  background-color: yellow;
+  /* background-color: yellow; */
   position: static;
 }
 
@@ -231,6 +273,15 @@ body {
 }
 
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 5/6) {
+.four {
+  display: block;
+  color: green;
+}
+
+.three, .five {
+  display: none;
+}
+
 .main {
   display: none;
   height: 0px;
@@ -242,7 +293,7 @@ body {
   display: block;
   min-height: 110%;
   position: static;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .main-21 {
@@ -260,6 +311,15 @@ body {
 }
 
 @media (min-aspect-ratio: 5/6) and (max-aspect-ratio: 1/1) {
+.five {
+  display: block;
+  color: rgb(0, 89, 255);
+}
+
+.three, .four {
+  display: none;
+}
+
 .main {
   display: none;
   height: 0px;
@@ -271,7 +331,7 @@ body {
   display: block;
   min-height: 110%;
   position: static;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .main-21 {
@@ -290,6 +350,14 @@ body {
 
 
 @media (min-aspect-ratio: 1/1) {
+.six {
+  display: block;
+}
+
+.seven, .eight, .nine {
+  display: none;
+}
+
 .main {
   display: block;
   visibility: visible;
@@ -321,6 +389,14 @@ body {
 } */
 
 @media (min-aspect-ratio: 5/4) {
+  .seven {
+    display: block;
+  }
+  
+  .six, .eight, .nine {
+    display: none;
+  }
+
 /* .main {
   background-color: transparent;
 }  */
@@ -347,6 +423,14 @@ body {
 }
 
 @media (min-aspect-ratio: 4/3) {
+  .eight {
+    display: block;
+  }
+  
+  .seven, .six, .nine {
+    display: none;
+  }
+
 /* .main {
   background-color: aqua;
 } */
@@ -373,6 +457,14 @@ body {
 }
 
 @media (min-aspect-ratio: 16/9) {
+  .nine {
+    display: block;
+  }
+  
+  .seven, .eight, .six {
+    display: none;
+  }
+
 /* .main {
   background-color: chartreuse;
 }  */
@@ -787,13 +879,37 @@ a.projects-btn {
   margin: 0px 8vw 8vw;
 }
 
+.alpha {
+  display: block;
+}
+
+.bravo, .charlie, .delta, .echo, .foxtrot, .golf, .hotel, .india {
+  display: none;
+}
+
 @media only screen and (min-width: 300px) {
+  .bravo {
+    display: block;
+  }
+
+  .alpha, .charlie, .delta, .echo, .foxtrot, .golf, .hotel, .india {
+    display: none;
+  }
+
   .landing-entry {
     height: 975px;
   }
 }
 
 @media only screen and (min-width: 330px) {
+  .charlie {
+    display: block;
+  }
+
+  .alpha, .bravo, .delta, .echo, .foxtrot, .golf, .hotel, .india {
+    display: none;
+  }
+
   .landing-entry {
     height: 925px;
   }
@@ -808,6 +924,14 @@ a.projects-btn {
 }
 
 @media only screen and (min-width: 400px) {
+  .delta {
+    display: block;
+  }
+
+  .bravo, .alpha, .charlie, .echo, .foxtrot, .golf, .hotel, .india {
+    display: none;
+  }
+
 .landing-main-content {
   height: calc(745px + 16vw);
 }
@@ -818,6 +942,14 @@ a.projects-btn {
 }
 
 @media only screen and (min-width: 500px) {
+  .echo {
+    display: block;
+  }
+
+  .bravo, .charlie, .alpha, .delta, .foxtrot, .golf, .hotel, .india {
+    display: none;
+  }
+
 .heading {
   font-family: interstate-mono, monospace;
   font-style: normal;
@@ -914,6 +1046,14 @@ a.projects-btn {
 }
 
 @media only screen and (min-width: 550px) {
+  .foxtrot {
+    display: block;
+  }
+
+  .bravo, .charlie, .delta, .alpha, .echo, .golf, .hotel, .india {
+    display: none;
+  }
+
   .landing-entry {
     height: 950px;
   }
@@ -997,6 +1137,14 @@ a.projects-btn {
 }
 
 @media only screen and (min-width: 600px) {
+  .golf {
+    display: block;
+  }
+
+  .bravo, .charlie, .delta, .echo, .alpha, .foxtrot, .hotel, .india {
+    display: none;
+  }
+
   .landing-main-content {
     height: calc(755px + 16vw);
   }
@@ -1007,6 +1155,14 @@ a.projects-btn {
 }
 
 @media only screen and (min-width: 800px) {
+  .hotel {
+    display: block;
+  }
+
+  .bravo, .charlie, .delta, .echo, .foxtrot, .alpha, .golf, .india {
+    display: none;
+  }
+
   .landing-entry {
     height: 900px;
   }
@@ -1077,6 +1233,14 @@ a.projects-btn {
 }
 
 @media only screen and (min-width: 1000px) {
+  .india {
+    display: block;
+  }
+
+  .bravo, .charlie, .delta, .echo, .foxtrot, .golf, .alpha, .hotel {
+    display: none;
+  }
+
   .star-1 {
     width: 10vw;
     height: 10vw;
