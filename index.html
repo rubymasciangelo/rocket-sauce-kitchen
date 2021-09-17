@@ -142,23 +142,21 @@ if(FF) {
     warning.style.display = "none";
 }
 
-var mainS = document.querySelector(".main-21");
 var blastoffS = document.getElementById("blastoff-21");
 	blastoffS.scrollTop = blastoffS.scrollHeight;
 
 function removeRunS(){
 	if (blastoffS.offsetHeight + blastoffS.scrollTop >= blastoffS.scrollHeight) {
-		mainS.remove();
+		$( ".main-21" ).remove();
 	}
 }
 
-var mainM = document.querySelector(".main-16");
 var blastoffM = document.getElementById("blastoff-16");
 	blastoffM.scrollTop = blastoffM.scrollHeight;
 
 function removeRunM(){
 	if (blastoffM.offsetHeight + blastoffM.scrollTop >= blastoffM.scrollHeight) {
-		mainM.remove();
+		$( ".main-16" ).remove();
 	}
 }
 </script>
