@@ -1255,6 +1255,7 @@ a.projects-btn {
   position: absolute;
   width: 100%;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 * {
