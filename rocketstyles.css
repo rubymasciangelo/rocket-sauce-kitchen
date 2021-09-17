@@ -77,9 +77,10 @@ body {
 
 
 .main, .main-16, .main-21 {
+  position: relative;
   overflow-x: hidden;
   overflow-y: scroll;
-  background-color: rgba(238, 130, 238, 0.342);
+  background-color: rgba(130, 238, 135, 0.342);
 
   min-width: 105%;
   z-index: 10;
