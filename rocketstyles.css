@@ -817,6 +817,14 @@ a.projects-btn {
 }
 }
 
+@media only screen and (max-width: 500px) {
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+}
+
+
 @media only screen and (min-width: 500px) {
 .heading {
   font-family: interstate-mono, monospace;
