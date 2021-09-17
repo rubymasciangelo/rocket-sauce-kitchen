@@ -144,7 +144,7 @@ body {
 .numb, .letter {
   position: fixed;
   top: 50px;
-  right: 7%;
+  right: 3%;
   z-index: 10000;
   color: white;
 }
@@ -153,12 +153,12 @@ body {
  right: 8%;
 }
 
-.six, .seven, .eight, .nine {
+/* .six, .seven, .eight, .nine {
   right: 10%;
-}
+} */
 
 @media (max-aspect-ratio: 1/2) {
-.two {
+.two, .three, .four, .five, .six, .seven, .eight, .nine {
   display: none;
 }
 
@@ -197,9 +197,9 @@ body {
 
 
 @media (min-aspect-ratio: 1/2) and (max-aspect-ratio: 2/3) {
-.one {
-  display: none;
-}
+  .one, .three, .four, .five, .six, .seven, .eight, .nine {
+    display: none;
+  }
 
 .two {
   display: block;
@@ -239,7 +239,7 @@ body {
   color: yellow;
 }
 
-.four, .five {
+.two, .one, .four, .five, .six, .seven, .eight, .nine {
   display: none;
 }
 
@@ -278,7 +278,7 @@ body {
   color: green;
 }
 
-.three, .five {
+.two, .three, .one, .five, .six, .seven, .eight, .nine {
   display: none;
 }
 
@@ -316,7 +316,7 @@ body {
   color: rgb(0, 89, 255);
 }
 
-.three, .four {
+.two, .three, .four, .one, .six, .seven, .eight, .nine {
   display: none;
 }
 
@@ -354,7 +354,7 @@ body {
   display: block;
 }
 
-.seven, .eight, .nine {
+.two, .three, .four, .five, .one, .seven, .eight, .nine {
   display: none;
 }
 
@@ -393,7 +393,7 @@ body {
     display: block;
   }
   
-  .six, .eight, .nine {
+  .two, .three, .four, .five, .six, .one, .eight, .nine {
     display: none;
   }
 
@@ -427,7 +427,7 @@ body {
     display: block;
   }
   
-  .seven, .six, .nine {
+  .two, .three, .four, .five, .six, .seven, .one, .nine {
     display: none;
   }
 
@@ -461,7 +461,7 @@ body {
     display: block;
   }
   
-  .seven, .eight, .six {
+  .two, .three, .four, .five, .six, .seven, .eight, .one {
     display: none;
   }
 
