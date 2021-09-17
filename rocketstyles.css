@@ -144,17 +144,17 @@ body {
 .numb, .letter {
   position: fixed;
   top: 50px;
-  right: 100px;
+  right: 7%;
   z-index: 10000;
   color: white;
 }
 
 .letter {
- right: 120px;
+ right: 8%;
 }
 
 .six, .seven, .eight, .nine {
-  right: 150px;
+  right: 10%;
 }
 
 @media (max-aspect-ratio: 1/2) {
