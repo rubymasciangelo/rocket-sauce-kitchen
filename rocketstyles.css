@@ -2546,26 +2546,6 @@ a.projects-btn {
 width: 0 !important;
 }
 
-
-#wrapper {
-  position: sticky;
-  position: -webkit-sticky;
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-* {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  overflow-y: scroll !important;
-  overflow-x: hidden;
-}
-
-*::-webkit-scrollbar {
-width: 0 !important;
-}
-
 .pin-spacer {
   z-index: 10 !important;
 }
