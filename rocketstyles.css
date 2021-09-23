@@ -148,7 +148,7 @@ body {
   top: 50px;
   right: 3%;
   z-index: 10000;
-  color: rgba(245, 248, 244, 0.356);
+  color: rgb(145, 145, 145);
 }
 
 .letter {
