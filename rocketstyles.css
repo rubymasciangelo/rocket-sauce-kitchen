@@ -148,7 +148,7 @@ body {
   top: 50px;
   right: 3%;
   z-index: 10000;
-  color: grey;
+  color: rgb(182, 180, 180);
 }
 
 .letter {
@@ -1276,9 +1276,8 @@ a.projects-btn {
 }
 
 
-#wrapper {
-  position: sticky;
-  position: -webkit-sticky;
+html {
+  position: absolute;
   width: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
