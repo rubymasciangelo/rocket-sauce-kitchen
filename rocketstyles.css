@@ -148,7 +148,7 @@ body {
   top: 50px;
   right: 3%;
   z-index: 10000;
-  color: white;
+  color: grey;
 }
 
 .letter {
@@ -1293,4 +1293,8 @@ a.projects-btn {
 
 *::-webkit-scrollbar {
 width: 0 !important;
+}
+
+.pin-spacer {
+  z-index: 10 !important;
 }
