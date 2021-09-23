@@ -141,24 +141,6 @@ if(FF) {
     main.style.display = "block";
     warning.style.display = "none";
 }
-
-var blastoffS = document.getElementById("blastoff-21");
-	blastoffS.scrollTop = blastoffS.scrollHeight;
-
-function removeRunS(){
-	if (blastoffS.offsetHeight + blastoffS.scrollTop >= blastoffS.scrollHeight) {
-		$( ".main-21" ).remove();
-	}
-}
-
-var blastoffM = document.getElementById("blastoff-16");
-	blastoffM.scrollTop = blastoffM.scrollHeight;
-
-function removeRunM(){
-	if (blastoffM.offsetHeight + blastoffM.scrollTop >= blastoffM.scrollHeight) {
-		$( ".main-16" ).remove();
-	}
-}
 </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
