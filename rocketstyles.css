@@ -30,7 +30,7 @@ html {
   background-position: center;
   background-size: auto 30%;
   background-repeat: no-repeat;
-  top:-5vw;
+  top:0px;
   left:-5vw;
   width:110vw;
   height:120vh;
@@ -148,7 +148,7 @@ body {
   top: 50px;
   right: 3%;
   z-index: 10000;
-  color: rgb(182, 180, 180);
+  color: rgba(245, 248, 244, 0.356);
 }
 
 .letter {
@@ -1276,11 +1276,22 @@ a.projects-btn {
 }
 
 
-html {
-  position: absolute;
+#wrapper {
+  position: sticky;
+  position: -webkit-sticky;
   width: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
+}
+
+#wrapper::-webkit-scrollbar {
+  width: 0 !important;
+  }
+
+@media (hover: hover) and (pointer: fine) {
+  #wrapper {
+    position: static;
+  }
 }
 
 * {
