@@ -26,7 +26,7 @@ html {
 
 
 #loadingDiv2 {
-  position:absolute;
+  position:fixed;
   background-position: center;
   background-size: auto 30%;
   background-repeat: no-repeat;
