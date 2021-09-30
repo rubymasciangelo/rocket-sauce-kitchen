@@ -1427,7 +1427,9 @@ a.projects-btn {
   width: 0 !important;
   }
 
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) { */
+
+@media (hover: hover) {
   #wrapper {
     position: static;
   }
