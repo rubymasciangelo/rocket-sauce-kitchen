@@ -6,7 +6,7 @@ var hit = document.getElementsByClassName('main-21');
 
 LottieScrollTrigger({
   target: "#blastoff-21",
-  path: "LRS21.json",
+  path: "RocketSauce_9x21 V1.json",
   speed: "fast",
   pin: ".main-21",
   anticipatePin: true,
