@@ -33,7 +33,7 @@ html {
   top:0px;
   left:-5vw;
   width:110vw;
-  height:120vh;
+  height:120%;
   background-color: #333;
   background-image: url('Loading-Animation-V2_noDither.gif');
 }
@@ -44,7 +44,7 @@ html {
 
 .gif {
   position: relative;
-  height: 100vh;
+  height: 100%;
   background-color: #333;
 }
 
@@ -858,6 +858,13 @@ a.projects-btn {
   margin: 0px 8vw 8vw;
 }
 
+.buffer {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: #292929;
+}
+
 .alpha {
   display: block;
 }
@@ -1273,6 +1280,8 @@ a.projects-btn {
     height: 60px;
     top: calc(20vw - 60px);
   }
+
+  .buffer {display: none;}
 }
 
 
@@ -1288,7 +1297,9 @@ a.projects-btn {
   width: 0 !important;
   }
 
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) { */
+
+@media (hover: hover) {
   #wrapper {
     position: static;
   }
