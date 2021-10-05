@@ -26,14 +26,14 @@ html {
 
 
 #loadingDiv2 {
-  position: fixed;
+  position:fixed;
   background-position: center;
   background-size: auto 30%;
   background-repeat: no-repeat;
   top:0px;
   left:-5vw;
   width:110vw;
-  height: 120%;
+  height:120%;
   background-color: #333;
   background-image: url('Loading-Animation-V2_noDither.gif');
 }
@@ -1078,7 +1078,7 @@ a.projects-btn {
   }
 
   .landing-entry {
-    height: 920px;
+    height: 900px;
   }
 
   .star-1 {
@@ -1137,6 +1137,10 @@ a.projects-btn {
 
   .bravo, .charlie, .delta, .echo, .foxtrot, .golf, .alpha, .hotel {
     display: none;
+  }
+
+  .landing-entry {
+    height: 1000px;
   }
 
   .star-1 {
@@ -1297,7 +1301,7 @@ a.projects-btn {
 
 /* @media (hover: hover) and (pointer: fine) { */
 
-@media (hover: hover) { 
+@media (hover: hover) {  
   #wrapper {
     position: static;
   }
