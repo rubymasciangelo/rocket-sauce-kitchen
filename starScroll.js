@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-var elemStar = document.getElementById('stars');
+var elem = document.getElementById('stars');
 
 
 gsap.from(".star-6", {
@@ -8,8 +8,8 @@ gsap.from(".star-6", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => `+=${elemStar.offsetHeight * 1.5}`,
-        end: () => `+=${elemStar.offsetHeight * 2.5}`,
+        start: () => `+=${elem.offsetHeight * 1.5}`,
+        end: () => `+=${elem.offsetHeight * 2.5}`,
         scrub: 2,
         // markers: true
     },
@@ -20,8 +20,8 @@ gsap.from(".star-5", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => `+=${elemStar.offsetHeight * 1.5}`,
-        end: () => `+=${elemStar.offsetHeight * 2.5}`,
+        start: () => `+=${elem.offsetHeight * 1.5}`,
+        end: () => `+=${elem.offsetHeight * 2.5}`,
         scrub: 2,
         // markers: true
     },
@@ -32,8 +32,8 @@ gsap.from(".star-4", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => `+=${elemStar.offsetHeight * 1.5}`,
-        end: () => `+=${elemStar.offsetHeight * 2.5}`,
+        start: () => `+=${elem.offsetHeight * 1.5}`,
+        end: () => `+=${elem.offsetHeight * 2.5}`,
         scrub: 2,
         // markers: true
     },
@@ -44,8 +44,8 @@ gsap.from(".star-3", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => `+=${elemStar.offsetHeight * 1.5}`,
-        end: () => `+=${elemStar.offsetHeight * 2.5}`,
+        start: () => `+=${elem.offsetHeight * 1.5}`,
+        end: () => `+=${elem.offsetHeight * 2.5}`,
         scrub: 2,
         // markers: true
     },
@@ -56,8 +56,8 @@ gsap.from(".star-2", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => `+=${elemStar.offsetHeight * 1.5}`,
-        end: () => `+=${elemStar.offsetHeight * 2.5}`,
+        start: () => `+=${elem.offsetHeight * 1.5}`,
+        end: () => `+=${elem.offsetHeight * 2.5}`,
         scrub: 2,
         // markers: true
     },
@@ -68,8 +68,8 @@ gsap.from(".star-1", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => `+=${elemStar.offsetHeight * 1.5}`,
-        end: () => `+=${elemStar.offsetHeight * 2.5}`,
+        start: () => `+=${elem.offsetHeight * 1.5}`,
+        end: () => `+=${elem.offsetHeight * 2.5}`,
         scrub: 2,
         // markers: true
     },
