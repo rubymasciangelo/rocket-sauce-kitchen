@@ -11,7 +11,7 @@ LottieScrollTrigger({
   pin: ".main-21",
   anticipatePin: true,
   start: "top",
-  end: () => `+=${elem.offsetHeight * 4}`,
+  end: () => `+=${elem.offsetHeight * 2}`,
   scrub: 1,
   rotation: 0.1,
   force3D: true,
