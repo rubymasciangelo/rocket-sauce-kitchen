@@ -44,7 +44,7 @@ html {
 
 .gif {
   position: relative;
-  height: 120%;
+  height: 100%;
   background-color: #333;
 }
 
@@ -522,10 +522,9 @@ a {
 }
 
 .landing-entry {
-  position: fixed;
-  top: 0%;
+  position: relative;
   width: 100%;
-  height: 100vh;
+  height: 1100px;
   background: #292929;
 }
 
@@ -538,62 +537,62 @@ a {
 }
 
 .star-1 {
-  width: 15vw;
-  height: 15vw;
-  max-width: 100px;
-  max-height: 100px;
-  left: 6%;
-  top: 2vh;
+  width: 18vw;
+  height: 18vw;
+  max-width: 150px;
+  max-height: 150px;
+  left: 10%;
+  top: 124px;
   animation: blink 10s linear infinite;
 }
 
 .star-2 {
-  width: 15vw;
-    height: 15vw;
-    top: 4vh;
-    max-width: 110px;
-    max-height: 110px;
+  width: 18vw;
+  height: 18vw;
+  max-width: 150px;
+  max-height: 150px;
   left: 50%;
+  top: 60px;
   animation: blink 8s linear infinite;
 }
 
 .star-3 {
-  width: 10vw;
-    height: 10vw;
-    top: 22vh;
-    left: 38%;
-    max-width: 50px;
-    max-height: 50px;
+  width: 11vw;
+  height: 11vw;
+  max-width: 100px;
+  max-height: 100px;
+  left: 25%;
+  top: 300px;
   animation: blink 15s linear infinite;
 }
 
 .star-4 {
-  width: 20vw;
-    height: 20vw;
-    max-width: 150px;
-    max-height: 150px;
-    top: 35vh;
-    left: 60%;
+  width: 28vw;
+  height: 28vw;
+  max-width: 200px;
+  max-height: 200px;
+  left: 65%;
+  top: 200px;
   animation: blink 18s linear infinite;
 }
 
 .star-5 {
-  width: 18vw;
-    height: 18vw;
-    max-width: 130px;
-    max-height: 130px;
-    top: 54vh;
-    left: 70%;
+  width: 22vw;
+  height: 22vw;
+  max-width: 250px;
+  max-height: 250px;
+  left: 55%;
+  top: 400px;
   animation: blink 20s linear infinite;
 }
 
 .star-6 {
-  width: 25vw;
-    height: 25vw;
-    max-width: 170px;
-    max-height: 170px;
-    top: 40vh;
+  width: 35vw;
+  height: 35vw;
+  max-width: 300px;
+  max-height: 300px;
   left: 8%;
+  top: 450px;
   animation: blink 9s linear infinite;
 }
 @keyframes blink {
@@ -609,7 +608,7 @@ a {
   position: absolute;
   width: 84vw;
   left: 8vw;
-  top: 50vh;
+  top: 644px;
 }
 
 .heading {
@@ -883,6 +882,9 @@ a.projects-btn {
     display: none;
   }
 
+  .landing-entry {
+    height: 975px;
+  }
 }
 
 @media only screen and (min-width: 330px) {
@@ -894,61 +896,8 @@ a.projects-btn {
     display: none;
   }
 
-
-  .entry-text {
-    top: 55vh;
-  }
-
-  .star-1 {
-    width: 15vw;
-    height: 15vw;
-    max-width: 100px;
-    max-height: 100px;
-    left: 6%;
-    top: 2vh;
-  }
-  
-  .star-2 {
-    width: 15vw;
-    height: 15vw;
-    top: 4vh;
-    max-width: 110px;
-    max-height: 110px;
-  }
-  
-  .star-3 {
-    width: 10vw;
-    height: 10vw;
-    top: 22vh;
-    left: 38%;
-    max-width: 50px;
-    max-height: 50px;
-  }
-  
-  .star-4 {
-    width: 20vw;
-    height: 20vw;
-    max-width: 150px;
-    max-height: 150px;
-    top: 35vh;
-    left: 60%;
-  }
-  
-  .star-5 {
-    width: 18vw;
-    height: 18vw;
-    max-width: 130px;
-    max-height: 130px;
-    top: 54vh;
-    left: 70%;
-  }
-  
-  .star-6 {
-    width: 25vw;
-    height: 25vw;
-    max-width: 170px;
-    max-height: 170px;
-    top: 40vh;
+  .landing-entry {
+    height: 925px;
   }
 
   .landing-main-content {
@@ -969,32 +918,6 @@ a.projects-btn {
     display: none;
   }
 
-  .star-4 {
-    width: 20vw;
-    height: 20vw;
-    max-width: 150px;
-    max-height: 150px;
-    top: 23vh;
-    left: 70%;
-  }
-  
-  .star-5 {
-    width: 18vw;
-    height: 18vw;
-    max-width: 130px;
-    max-height: 130px;
-    top: 50vh;
-    left: 55%;
-  }
-  
-  .star-6 {
-    width: 25vw;
-    height: 25vw;
-    max-width: 170px;
-    max-height: 170px;
-    top: 35vh;
-  }
-
 .landing-main-content {
   height: calc(745px + 16vw);
 }
@@ -1011,32 +934,6 @@ a.projects-btn {
 
   .bravo, .charlie, .alpha, .delta, .foxtrot, .golf, .hotel, .india {
     display: none;
-  }
-
-  .star-4 {
-    width: 20vw;
-    height: 20vw;
-    max-width: 150px;
-    max-height: 150px;
-    top: 26vh;
-    left: 70%;
-  }
-  
-  .star-5 {
-    width: 18vw;
-    height: 18vw;
-    max-width: 130px;
-    max-height: 130px;
-    top: 50vh;
-    left: 60%;
-  }
-  
-  .star-6 {
-    width: 25vw;
-    height: 25vw;
-    max-width: 170px;
-    max-height: 170px;
-    top: 35vh;
   }
 
 .heading {
@@ -1108,61 +1005,39 @@ a.projects-btn {
     display: none;
   }
 
-
-
-  .entry-text {
-    top: 60vh;
+  .landing-entry {
+    height: 950px;
   }
 
   .star-1 {
     width: 15vw;
     height: 15vw;
-    max-width: 100px;
-    max-height: 100px;
-    left: 6%;
-    top: 2vh;
   }
   
   .star-2 {
     width: 15vw;
     height: 15vw;
-    top: 4vh;
-    max-width: 110px;
-    max-height: 110px;
   }
   
   .star-3 {
     width: 10vw;
     height: 10vw;
-    top: 22vh;
-    left: 38%;
-    max-width: 50px;
-    max-height: 50px;
+    top: 280px;
   }
   
   .star-4 {
     width: 20vw;
     height: 20vw;
-    max-width: 150px;
-    max-height: 150px;
-    top: 25vh;
-    left: 76%;
   }
   
   .star-5 {
     width: 18vw;
     height: 18vw;
-    max-width: 130px;
-    max-height: 130px;
-    top: 54vh;
   }
   
   .star-6 {
     width: 25vw;
     height: 25vw;
-    max-width: 170px;
-    max-height: 170px;
-    top: 35vh;
   }
 
   .landing-main-content {
@@ -1184,10 +1059,6 @@ a.projects-btn {
     display: none;
   }
 
-  .star-6 {
-    top: 35vh;
-  }
-
   .landing-main-content {
     height: calc(755px + 16vw);
   }
@@ -1207,48 +1078,47 @@ a.projects-btn {
   }
 
   .landing-entry {
-    height: 965px;
+    height: 920px;
   }
 
   .star-1 {
     width: 10vw;
     height: 10vw;
-    top: 20vh;
-    left: 4%;
+    top: 350px;
   }
 
   .star-2 {
     width: 10vw;
     height: 10vw;
-    top: 8vh;
+    top: 80px;
   }
 
   .star-3 {
     width: 8vw;
   height: 8vw;
-    left: 18%;
-    top: 45vh;
+    left: 35%;
+    top: 280px;
   }
 
   .star-4 {
-    width: 13vw;
-  height: 13vw;
+    width: 18vw;
+  height: 18vw;
     left: 70%;
-    top: 18vh;
+    top: 230px;
   }
 
   .star-5 {
     width: 15vw;
   height: 15vw;
     left: 38%;
-    top: 45vh;
+    top: 450px;
   }
 
   .star-6 {
     width: 20vw;
   height: 20vw;
     left: 75%;
-    top: 48vh;
+    top: 497px;
   }  
 
   .landing-main-content {
@@ -1272,58 +1142,46 @@ a.projects-btn {
   .star-1 {
     width: 10vw;
     height: 10vw;
-    max-height: 125px;
-    max-width: 125px;
-    left: 4%;
-    top: 13vh;
+    left: 18%;
+    top: 94px;
   }
 
   .star-2 {
-    left: 23%;
-    top: 8vh;
-    max-height: 125px;
-    max-width: 125px;
+    left: 38%;
+    top: 40px;
   }
 
   .star-3 {
     width: 8vw;
     height: 8vw;
-    max-height: 80px;
-    max-width: 80px;
-    left: 63%;
-    top: 40vh;
+    left: 62%;
+    top: 194px;
   }
 
   .star-4 {
     width: 15vw;
     height: 15vw;
-    max-height: 160px;
-    max-width: 160px;
     left: 80%;
-    top: 15vh;
+    top: 69px;
   }
 
   .star-5 {
     width: 20vw;
     height: 20vw;
-    max-height: 190px;
-    max-width: 190px;
-    left: 40%;
-    top: 25vh;
+    left: 48%;
+    top: 355px;
   }
 
   .star-6 {
     width: 25vw;
     height: 25vw;
-    max-height: 250px;
-    max-width: 250px;
     left: 75%;
-    top: 60vh;
+    top: 497px;
   }
 
   .entry-text {
     width: 50vw;
-    top: 40vh;
+    top: 515px;
   }
   
   .heading {
@@ -1439,7 +1297,7 @@ a.projects-btn {
 
 /* @media (hover: hover) and (pointer: fine) { */
 
-@media (hover: hover) {
+@media (hover: hover) { 
   #wrapper {
     position: static;
   }
