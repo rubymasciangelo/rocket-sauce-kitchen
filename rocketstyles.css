@@ -1320,22 +1320,12 @@ width: 10px !important;
   z-index: 10 !important;
 }
 
-.canvasbox {
-  height: 1200vh;
-  width: 300vw;
-  width: 100%;
-  /* background-color: rgba(126, 252, 0, 0.274); */
-}
-/* does not exceed dimension of viewport */
+
 canvas {
-  position: sticky;
+  position: fixed;
   left: 50%;
   top: 50%;
-  max-height: 120vh;
-  transform: translate(-24%, -50%);
-  /* background-color: rgba(26, 94, 94, 0.219); */
-}
-
-.c2 {
-  top: 60%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
 }

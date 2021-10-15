@@ -1,4 +1,4 @@
-var images = [
+var imgs = [
     "BRM-1.jpg",
     "BRM-2.jpg",
     "BRM-3.jpg",
@@ -17,7 +17,7 @@ function shuffle(o) {
 var $divs = $(".images_wrapper > div");
 //self executing function
 (function randomBackground() {
-    var randomImages = shuffle(images).slice(0, $divs.length);
+    var randomImages = shuffle(imgs).slice(0, $divs.length);
     //cycle through divs
     var done;
     $divs.animate({
