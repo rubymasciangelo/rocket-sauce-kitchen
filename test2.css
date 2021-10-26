@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: coral;
+}
+
+.skin {
+    height: 100%;
+    overflow: scroll;
+    background-color: rgb(255, 196, 0);
+}
+/* 
+.canvasbox {
+    position: sticky;
+    top: 0px;
+    background-color: rgba(95, 158, 160, 0.603);
+    height: 2000px;
+    overflow: scroll;
+    z-index: 100;
+} */
+
+canvas {
+    position: sticky;
+    width: 100%;
+    background-color: plum;
+}
+
+.orbit {
+    position: relative;
+    top: -2000px;
+    z-index: -100;
+    height: 5000px;
+    background-color: royalblue;
+}

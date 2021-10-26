@@ -11,7 +11,7 @@ canvas.height = 1080;
 
 const frameCount = 263;
 const currentFrame = index => (
-    `../rocket-sauce-kitchen/pngs/FSA/Full Animation V3(${index.toString().padStart(3, '0')}).png`
+    `./pngs/FSA/Full Animation V3${index.toString().padStart(3, '0')}.png`
 );
 
 const images = []
@@ -29,6 +29,7 @@ gsap.to(rocket, {
   frame: frameCount - 1,
   snap: "frame",
   scrollTrigger: {
+    end: () => `+=${canvas.offsetHeight * 5}`,
     scrub: 0.5
   },
   onUpdate: render // use animation onUpdate instead of scrollTrigger's onUpdate
