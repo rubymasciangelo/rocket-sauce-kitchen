@@ -9,9 +9,9 @@ const context = canvas.getContext("2d");
 canvas.width = 1920;
 canvas.height = 1080;
 
-const frameCount = 60;
+const frameCount = 263;
 const currentFrame = index => (
-    `../svgs/RSF/image2vector (${index.toString().padStart(2, '0')}).svg`
+    `../rocket-sauce-kitchen/pngs/FSA/Full Animation V3(${index.toString().padStart(3, '0')}).png`
 );
 
 const images = []
