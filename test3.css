@@ -11,8 +11,8 @@ html {
   }
 
   .canvasbox, .canvasbox-21, .canvasbox-16 {
-    height: 500%;
-    width: 100%;
+    height: 500vh;
+    width: 100vw;
     /* background-color: rgba(250, 128, 114, 0.877); */
   }
 
@@ -20,9 +20,9 @@ html {
       position: sticky;
       left: 50%;
       top: 50%;
-    max-height: 130%;
+    max-height: 130vh;
     transform: translate(-6%, -50%);
-    width: 110%;
+    width: 110vw;
     /* background-color: rgba(0, 255, 128, 0.274); */
   }
 
@@ -73,7 +73,7 @@ html {
   
   .canvasbox-21 {
     display: block;
-    height: 500%;
+    height: 500vh;
     position: static;
     /* background-color: red; */
   }
@@ -106,7 +106,7 @@ html {
   
   .canvasbox-21 {
     display: block;
-    height: 500%;
+    height: 500vh;
     position: static;
     /* background-color: orange; */
   }
@@ -139,7 +139,7 @@ html {
   
   .canvasbox-16 {
     display: block;
-    height: 500%;
+    height: 500vh;
     position: static;
   }
   
@@ -164,7 +164,7 @@ html {
   
   .canvasbox-16 {
     display: block;
-    height: 500%;
+    height: 500vh;
     position: static;
     /* background-color: green; */
   }
@@ -197,7 +197,7 @@ html {
   
   .canvasbox-16 {
     display: block;
-    height: 500%;
+    height: 500vh;
     position: static;
     /* background-color: blue; */
   }
@@ -208,6 +208,13 @@ html {
     position: absolute;
     top: calc(-110vh * 5);
   }
+
+  canvas {
+    transform: translate(-8.5%, -50%);
+  width: 140vw;
+  height: auto;
+  /* background-color: rgba(0, 255, 128, 0.274); */
+}
   
   }
   
@@ -224,7 +231,7 @@ html {
   .canvasbox {
     display: block;
     visibility: visible;
-    height: 500%;
+    height: 500vh;
     position: static;
   }
   
@@ -237,6 +244,12 @@ html {
     display: none;
     height: 0px;
   }
+
+  canvas {
+    transform: translate(-23%, -50%);
+  width: 180vw;
+  /* background-color: rgba(0, 255, 128, 0.274); */
+}
   
   }
   
@@ -252,7 +265,7 @@ html {
   .canvasbox {
     display: block;
     visibility: visible;
-    height: 500%;
+    height: 500vh;
   }
   
   .canvasbox-16 {
@@ -262,6 +275,12 @@ html {
   .canvasbox-21 {
     display: none;
   }
+
+  canvas {
+    transform: translate(-16%, -50%);
+  width: 145vw;
+  /* background-color: rgba(0, 255, 128, 0.274); */
+}
   
   }
   
@@ -278,7 +297,7 @@ html {
   .canvasbox {
     display: block;
     visibility: visible;
-    height: 500%;
+    height: 550vh;
   }
   
   .canvasbox-16 {
@@ -288,6 +307,12 @@ html {
   .canvasbox-21 {
     display: none;
   }
+
+  canvas {
+    transform: translate(-14%, -50%);
+  width: 140vw;
+  /* background-color: rgba(0, 255, 128, 0.274); */
+}
   
   }
   
@@ -304,7 +329,7 @@ html {
   .canvasbox {
     display: block;
     visibility: visible;
-    height: 500%;
+    height: 600vh;
   }
   
   .canvasbox-16 {
@@ -314,6 +339,13 @@ html {
   .canvasbox-21 {
     display: none;
   }
+
+
+  canvas {
+  transform: translate(-3%, -50%);
+  width: 110vw;
+  /* background-color: rgba(0, 255, 128, 0.274); */
+}
   
   }
   
@@ -338,7 +370,8 @@ html {
     -webkit-transform: translateZ(0);
     /* top: 1150vh; */
     top: 0%;
-    width: 100vw;
+    left: 0px;
+    width: 101vw;
     z-index: -10;
     margin: 0 auto;
     /* background-color: purple; */
