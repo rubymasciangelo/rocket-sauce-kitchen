@@ -172,7 +172,7 @@ html {
   
   .canvasbox-16 {
     display: block;
-    height: 500vh;
+    height: 200vh;
     position: static;
     /* background-color: green; */
   }
@@ -205,7 +205,7 @@ html {
   
   .canvasbox-16 {
     display: block;
-    height: 500vh;
+    height: 200vh;
     position: static;
     /* background-color: blue; */
   }
@@ -239,7 +239,7 @@ html {
   .canvasbox {
     display: block;
     visibility: visible;
-    height: 500vh;
+    height: 200vh;
     position: static;
   }
   
