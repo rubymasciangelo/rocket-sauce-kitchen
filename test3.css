@@ -10,9 +10,9 @@ html {
     font-family: Verdana, sans-serif;
   }
 
-  .canvasbox {
-    height: 500vh;
-    width: 100vw;
+  .canvasbox, .canvasbox-21, .canvasbox-16 {
+    height: 500%;
+    width: 100%;
     /* background-color: rgba(250, 128, 114, 0.877); */
   }
 
@@ -20,11 +20,308 @@ html {
       position: sticky;
       left: 50%;
       top: 50%;
-    max-height: 130vh;
+    max-height: 130%;
     transform: translate(-6%, -50%);
-    width: 110vw;
+    width: 110%;
     /* background-color: rgba(0, 255, 128, 0.274); */
   }
+
+
+/* ===========================================================
+    MARKERS
+=========================================================== */
+
+  .numb, .letter {
+    position: fixed;
+    top: 50px;
+    right: 3%;
+    z-index: 10000;
+    color: rgb(145, 145, 145);
+  }
+  
+  .letter {
+   right: 8%;
+  }
+
+/* =========================================================
+        ASPECT RATIOS
+======================================================== */
+  
+  @media (max-aspect-ratio: 1/2) {
+  .two, .three, .four, .five, .six, .seven, .eight, .nine {
+    display: none;
+  }
+  
+  .one {
+    color: red;
+    display: block;
+  }
+  
+  .canvasbox {
+    display: none;
+    height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
+  
+  .canvasbox-16 {
+    display: none;
+    height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
+  
+  .canvasbox-21 {
+    display: block;
+    height: 500%;
+    position: static;
+    /* background-color: red; */
+  }
+
+  }
+  
+  
+  @media (min-aspect-ratio: 1/2) and (max-aspect-ratio: 2/3) {
+    .one, .three, .four, .five, .six, .seven, .eight, .nine {
+      display: none;
+    }
+  
+  .two {
+    display: block;
+    color: orange;
+  }
+    .canvasbox {
+    display: none;
+    height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
+  
+  .canvasbox-16 {
+    display: none;
+    height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
+  
+  .canvasbox-21 {
+    display: block;
+    height: 500%;
+    position: static;
+    /* background-color: orange; */
+  }
+  
+}
+  
+  @media (min-aspect-ratio: 2/3) and (max-aspect-ratio: 3/4) {
+  .three {
+    display: block;
+    color: yellow;
+  }
+  
+  .two, .one, .four, .five, .six, .seven, .eight, .nine {
+    display: none;
+  }
+  
+  .canvasbox {
+    display: none;
+    height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
+  
+  .canvasbox-21 {
+    display: none;
+    height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
+  
+  .canvasbox-16 {
+    display: block;
+    height: 500%;
+    position: static;
+  }
+  
+  }
+  
+  @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 5/6) {
+  .four {
+    display: block;
+    color: green;
+  }
+  
+  .two, .three, .one, .five, .six, .seven, .eight, .nine {
+    display: none;
+  }
+  
+  .canvasbox {
+    display: none;
+    height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
+  
+  .canvasbox-16 {
+    display: block;
+    height: 500%;
+    position: static;
+    /* background-color: green; */
+  }
+  
+  .canvasbox-21 {
+    display: none;
+    height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
+  
+  }
+  
+  @media (min-aspect-ratio: 5/6) and (max-aspect-ratio: 1/1) {
+  .five {
+    display: block;
+    color: rgb(0, 89, 255);
+  }
+  
+  .two, .three, .four, .one, .six, .seven, .eight, .nine {
+    display: none;
+  }
+  
+  .canvasbox {
+    display: none;
+    height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
+  
+  .canvasbox-16 {
+    display: block;
+    height: 500%;
+    position: static;
+    /* background-color: blue; */
+  }
+  
+  .canvasbox-21 {
+    display: none;
+    height: 0px;
+    position: absolute;
+    top: calc(-110vh * 5);
+  }
+  
+  }
+  
+  
+  @media (min-aspect-ratio: 1/1) {
+  .six {
+    display: block;
+  }
+  
+  .two, .three, .four, .five, .one, .seven, .eight, .nine {
+    display: none;
+  }
+  
+  .canvasbox {
+    display: block;
+    visibility: visible;
+    height: 500%;
+    position: static;
+  }
+  
+  .canvasbox-16 {
+    display: none;
+    height: 0px;
+  }
+  
+  .canvasbox-21 {
+    display: none;
+    height: 0px;
+  }
+  
+  }
+  
+  @media (min-aspect-ratio: 5/4) {
+    .seven {
+      display: block;
+    }
+    
+    .two, .three, .four, .five, .six, .one, .eight, .nine {
+      display: none;
+    }
+  
+  .canvasbox {
+    display: block;
+    visibility: visible;
+    height: 500%;
+  }
+  
+  .canvasbox-16 {
+    display: none;
+  }
+  
+  .canvasbox-21 {
+    display: none;
+  }
+  
+  }
+  
+  @media (min-aspect-ratio: 4/3) {
+    .eight {
+      display: block;
+    }
+    
+    .two, .three, .four, .five, .six, .seven, .one, .nine {
+      display: none;
+    }
+  
+  
+  .canvasbox {
+    display: block;
+    visibility: visible;
+    height: 500%;
+  }
+  
+  .canvasbox-16 {
+    display: none;
+  }
+  
+  .canvasbox-21 {
+    display: none;
+  }
+  
+  }
+  
+  @media (min-aspect-ratio: 16/9) {
+    .nine {
+      display: block;
+    }
+    
+    .two, .three, .four, .five, .six, .seven, .eight, .one {
+      display: none;
+    }
+  
+  
+  .canvasbox {
+    display: block;
+    visibility: visible;
+    height: 500%;
+  }
+  
+  .canvasbox-16 {
+    display: none;
+  }
+  
+  .canvasbox-21 {
+    display: none;
+  }
+  
+  }
+  
+
+
+/* ==============================================================
+        CONTENT SLIDE REVEAL MECHANICS
+============================================================== */
 
   .slip {
     position: absolute;
