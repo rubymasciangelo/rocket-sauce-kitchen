@@ -13,6 +13,8 @@ html {
   
 
   .canvasbox, .canvasbox-21, .canvasbox-16 {
+      position: relative;
+      left: 0%;
     height: 500vh;
     width: 100vw;
     background-color: rgba(250, 128, 114, 0.877);
