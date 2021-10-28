@@ -30,7 +30,7 @@ gsap.to(rocket, {
   snap: "frame",
   scrollTrigger: {
     end: () => `+=${canvas.offsetHeight * 5}`,
-    scrub: 0.5
+    scrub: 2
   },
   onUpdate: render // use animation onUpdate instead of scrollTrigger's onUpdate
 });
