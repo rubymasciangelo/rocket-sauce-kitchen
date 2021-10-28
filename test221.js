@@ -6,8 +6,8 @@ const context21 = canvas21.getContext("2d");
 // canvas.width = document.body.clientWidth;
 // canvas.height = document.body.clientHeight;
 
-canvas21.width = 1080;
-canvas21.height = 2560;
+canvas21.width = 289;
+canvas21.height = 658;
 
 const frameCount21 = 263;
 const currentFrame21 = index => (
