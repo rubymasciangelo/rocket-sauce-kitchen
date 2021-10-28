@@ -4,19 +4,23 @@ html {
     overflow-x: hidden;
     background-color: black;
     color: white;
+    overflow-x: hidden;
   }
   
   body {
     font-family: Verdana, sans-serif;
+    overflow-x: hidden;
   }
 
   .canvasbox, .canvasbox-21, .canvasbox-16 {
     height: 500vh;
     width: 100vw;
+    overflow-x: hidden;
     /* background-color: rgba(250, 128, 114, 0.877); */
   }
 
   canvas {
+      overflow-x: hidden;
       position: sticky;
       left: 50%;
       top: 50%;
