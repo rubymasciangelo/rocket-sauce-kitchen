@@ -145,11 +145,12 @@ html {
     display: block;
     height: 500vh;
     position: static;
-    object-fit: cover;
+    width: 100%;
 }
   
   canvas {
       width: 100%;
+      transform: translate(0%, -50%);
   }
   }
   

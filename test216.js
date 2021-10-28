@@ -6,8 +6,8 @@ const context16 = canvas16.getContext("2d");
 // canvas.width = document.body.clientWidth;
 // canvas.height = document.body.clientHeight;
 
-canvas16.width = 646;
-canvas16.height = 658;
+canvas16.width = 1080;
+canvas16.height = 1620;
 
 const frameCount16 = 263;
 const currentFrame16 = index => (
