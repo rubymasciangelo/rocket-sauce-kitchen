@@ -9,6 +9,8 @@ html {
   body {
     font-family: Verdana, sans-serif;
   }
+  
+  
 
   .canvasbox, .canvasbox-21, .canvasbox-16 {
     height: 500vh;
@@ -141,8 +143,12 @@ html {
     display: block;
     height: 500vh;
     position: static;
+    width: 100%;
   }
   
+  canvas {
+      width: 100%;
+  }
   }
   
   @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 5/6) {
