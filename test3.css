@@ -143,8 +143,8 @@ html {
     display: block;
     height: 500vh;
     position: static;
-    width: fit-content;
-  }
+    object-fit: cover;
+}
   
   canvas {
       width: 100%;
