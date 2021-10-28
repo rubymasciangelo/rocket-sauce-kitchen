@@ -13,7 +13,7 @@ html {
   .canvasbox {
     height: 500vh;
     width: 100vw;
-    background-color: rgba(250, 128, 114, 0.877);
+    /* background-color: rgba(250, 128, 114, 0.877); */
   }
 
   canvas {
@@ -23,7 +23,7 @@ html {
     max-height: 130vh;
     transform: translate(-6%, -50%);
     width: 110vw;
-    background-color: rgba(0, 255, 128, 0.274);
+    /* background-color: rgba(0, 255, 128, 0.274); */
   }
 
   .slip {
@@ -32,8 +32,7 @@ html {
     height: 4000%;
     width: 100vw;
     z-index: -100;
-    background-color: violet;
-    /* background-color: rgba(255, 255, 0, 0.267); */
+    /* background-color: violet; */
   }
 
   .rsaucebox {
@@ -194,6 +193,7 @@ LANDING PAGE
     height: calc(848px + 16vw);
     left: 0px;
     background: #f2f1ed;
+    color: black;
   }
   
   .landing-heading {
