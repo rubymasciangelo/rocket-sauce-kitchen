@@ -367,6 +367,7 @@ html {
     height: 4000%;
     width: 100vw;
     z-index: -100;
+    overflow-x: hidden;
     /* background-color: violet; */
   }
 
