@@ -366,7 +366,7 @@ html {
   .slip {
     position: absolute;
     top: 0%;
-    height: 600%;
+    height: 1000%;
     width: 100vw;
     z-index: -100;
     overflow-x: hidden;
