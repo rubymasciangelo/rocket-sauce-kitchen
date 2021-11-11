@@ -14,22 +14,21 @@
         <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     </head>
     <body>
-    <div class="wrap">
-        <div class="canvasbox-21">
-            <canvas id="hero-lightpass-21">
-            </canvas>
+    <!--MOBILE IPHONE SE ISH SIZE-->
+        <div class="bg"></div>
+        <div class="uwu">
+            <div class="canvasbox-16" id="tall">
+              <!--sad-->  <canvas class="rocketnoise" id="hero-lightpass-16"></canvas>
+            </div>
         </div>
-        <div class="canvasbox-16">
-            <canvas id="hero-lightpass-16">
-            </canvas>
-        </div>
+    <!--DESKTOP SIZE-->
         <div class="canvasbox">
             <canvas id="hero-lightpass">
             </canvas>
         </div>
-        </div>
         <div class="slip"></div>
-        <div class="rsaucebox">
+    <!--LANDING CONTENT-->
+        <!--cry--><div class="rsaucebox">
                 <div class="landing-entry" id="stars">
                     <div class="images_wrapper ">
                         <div class="image-holder star-1"></div>
@@ -120,6 +119,15 @@ function removeLoader(){
       $( "#loadingDiv2" ).remove(); //makes page more lightweight 
   });  
 }
+</script>
+<script type="text/javascript">//<![CDATA[ 
+
+window.onload = window.onresize = function () {
+    var tall = document.getElementById("tall");
+    var height = window.innerHeight;
+    tall.style.height = height + "px";
+} 
+
 </script>
     </body>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>

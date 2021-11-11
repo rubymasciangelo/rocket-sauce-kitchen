@@ -16,7 +16,7 @@ width: 100%;
 top: 0%;
 z-index: 100;
 overflow-x: hidden;
-background-color: rgba(172, 182, 29, 0.925);
+/* background-color: rgba(172, 182, 29, 0.925); */
 }
 
 .sad {
@@ -55,12 +55,12 @@ background-color: rgba(172, 182, 29, 0.925);
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
     /* top: 1150vh; */
-    top: 990px;
-    left: -1%;
-    width: 100vw;
+    top: 2000px;
+    left: -5px;
+    width: 101.5%;
     margin: 0 auto;
-    /* background-color: purple; */
-    height: 100vh;
+    background-color: purple;
+    height: calc(2050px + 228vw);
     overflow-y: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
