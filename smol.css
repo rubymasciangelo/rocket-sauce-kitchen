@@ -1,4 +1,5 @@
 html, body {
+    -webkit-overflow-scrolling: none;
     overscroll-behavior: none;
 }
 .uwu {
