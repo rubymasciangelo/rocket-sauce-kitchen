@@ -1,7 +1,10 @@
-html, body {
-    -webkit-overflow-scrolling: none;
-    overscroll-behavior: none;
-}
+.bigboi {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; /* enables “momentum” (smooth) scrolling */
+  }
+  
 .uwu {
     display: initial;
     overflow:visible;
