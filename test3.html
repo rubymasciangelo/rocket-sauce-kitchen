@@ -111,7 +111,7 @@
         <script>
   $('body').append('<div style="" id="loadingDiv2"><div class="loader"><img class="gif" src="Loading-Animation.gif" alt="Loading..."></div></div>');
 $(window).on('load', function(){
-  setTimeout(removeLoader, 5000); //wait for page load PLUS two seconds.
+  setTimeout(removeLoader, 3000); //wait for page load PLUS two seconds.
 });
 function removeLoader(){
     $( "#loadingDiv2" ).fadeOut(500, function() {

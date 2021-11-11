@@ -1172,3 +1172,28 @@ LANDING PAGE
     .buffer {display: none;}
   }
 
+/*===========================================
+    LOADING GIF STUFF
+============================================*/
+#loadingDiv2 {
+  position:fixed;
+  background-position: center;
+  background-size: auto 30%;
+  background-repeat: no-repeat;
+  top:0px;
+  left:-5vw;
+  width:110vw;
+  height:120%;
+  background-color: #333;
+  background-image: url('Loading-Animation-V2_noDither.gif');
+}
+
+.loader {
+  display: none;
+}
+
+.gif {
+  position: relative;
+  height: 100%;
+  background-color: #333;
+}
