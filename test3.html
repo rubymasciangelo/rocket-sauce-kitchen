@@ -108,6 +108,19 @@
             <h1 class="letter hotel">H</h1>
             <h1 class="letter india">I</h1>
         </div>
+        <script>
+  $('body').append('<div style="" id="loadingDiv2"><div class="loader"><img class="gif" src="Loading-Animation.gif" alt="Loading..."></div></div>');
+$(window).on('load', function(){
+  setTimeout(removeLoader, 5000); //wait for page load PLUS two seconds.
+});
+function removeLoader(){
+    $( "#loadingDiv2" ).fadeOut(500, function() {
+            //$( "#loadingDiv" ).fadeOut(500, function() {
+      // fadeOut complete. Remove the loading div
+      $( "#loadingDiv2" ).remove(); //makes page more lightweight 
+  });  
+}
+</script>
     </body>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
