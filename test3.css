@@ -1,21 +1,11 @@
-html {
-    /* background-color: red; */
-    width: 99vw;
-    overflow-x: hidden;
-    background-color: black;
-    color: white;
-  }
-  
-  body {
-    font-family: Verdana, sans-serif;
-    width: 99%;
+html, body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #292929;
   }
 
-.wrap {
-  width: 99.9%;
-}
 
-  .canvasbox, .canvasbox-21, .canvasbox-16 {
+  .canvasbox {
       position: relative;
       left: 0%;
     height: 500vh;
@@ -23,17 +13,74 @@ html {
     /* background-color: rgba(250, 128, 114, 0.877); */
   }
 
-  canvas {
-      position: sticky;
-      left: 50%;
-      top: 50%;
-    max-height: 130vh;
-    transform: translate(-6%, -50%);
-    width: 110vw;
-    overflow-x: hidden;
-    /* background-color: rgba(0, 255, 128, 0.274); */
-  }
+  .bg {
+    position: absolute;
+    z-index: -10;
+    background-color: #29292952;
+    height: 3000px;
+    width: 101%;
+    left: -1%;
+    top: -2%;
+}
 
+  .uwu {
+    display: initial;
+    overflow:visible;
+    position: absolute;
+    top: 0%;
+    left: -5px;
+    height: 2300px;
+    width: 101%;
+    /* background-color: rgba(41, 43, 155, 0.384); */
+}
+
+.canvasbox-16 {
+  position: -webkit-sticky;
+  position: sticky;
+width: 100%;
+top: 0%;
+z-index: 100;
+overflow-x: hidden;
+/* background-color: rgba(172, 182, 29, 0.925); */
+}
+
+.rocketnoise {
+  height: 100%;
+  min-width: 100%;
+  position: absolute;
+  z-index: 100;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.rsaucebox {
+  position: absolute;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  /* top: 1150vh; */
+  top: 2000px;
+  left: -5px;
+  width: 101.5%;
+  margin: 0 auto;
+  /* background-color: purple; */
+  height: calc(2000px + 228vw);
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+}
+
+  
+.rsaucebox::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+
+
+.slip {
+  display: none;
+}
 
 /* ===========================================================
     MARKERS
@@ -72,20 +119,6 @@ html {
     top: calc(-110vh * 5);
   }
   
-  .canvasbox-16 {
-    display: none;
-    height: 0px;
-    position: absolute;
-    top: calc(-110vh * 5);
-  }
-  
-  .canvasbox-21 {
-    display: block;
-    height: 500vh;
-    position: static;
-    /* background-color: red; */
-  }
-
   }
   
   
@@ -103,20 +136,6 @@ html {
     height: 0px;
     position: absolute;
     top: calc(-110vh * 5);
-  }
-  
-  .canvasbox-16 {
-    display: none;
-    height: 0px;
-    position: absolute;
-    top: calc(-110vh * 5);
-  }
-  
-  .canvasbox-21 {
-    display: block;
-    height: 500vh;
-    position: static;
-    /* background-color: orange; */
   }
   
 }
@@ -137,20 +156,6 @@ html {
     position: absolute;
     top: calc(-110vh * 5);
   }
-  
-  .canvasbox-21 {
-    display: none;
-    height: 0px;
-    position: absolute;
-    top: calc(-110vh * 5);
-  }
-  
-  .canvasbox-16 {
-    display: block;
-    height: 500vh;
-    position: static;
-    width: 99%;
-}
   
   canvas {
       width: 100%;
@@ -175,19 +180,6 @@ html {
     top: calc(-110vh * 5);
   }
   
-  .canvasbox-16 {
-    display: block;
-    height: 200vh;
-    position: static;
-    /* background-color: green; */
-  }
-  
-  .canvasbox-21 {
-    display: none;
-    height: 0px;
-    position: absolute;
-    top: calc(-110vh * 5);
-  }
   
   }
   
@@ -208,26 +200,6 @@ html {
     top: calc(-110vh * 5);
   }
   
-  .canvasbox-16 {
-    display: block;
-    height: 200vh;
-    position: static;
-    /* background-color: blue; */
-  }
-  
-  .canvasbox-21 {
-    display: none;
-    height: 0px;
-    position: absolute;
-    top: calc(-110vh * 5);
-  }
-
-  canvas {
-    transform: translate(-8.5%, -50%);
-  width: 140vw;
-  height: auto;
-  /* background-color: rgba(0, 255, 128, 0.274); */
-}
   
   }
   
@@ -241,6 +213,14 @@ html {
     display: none;
   }
   
+  .bg, .uwu {
+    display: none;
+  }
+
+  .slip {
+    display: block;
+  }
+
   .canvasbox {
     display: block;
     visibility: visible;
@@ -248,20 +228,22 @@ html {
     position: static;
   }
   
-  .canvasbox-16 {
-    display: none;
-    height: 0px;
-  }
-  
-  .canvasbox-21 {
-    display: none;
-    height: 0px;
-  }
 
   canvas {
+    position: sticky;
+    overflow-x: hidden;
+    top: 50%;
+    left: 50%;
     transform: translate(-23%, -50%);
   width: 180vw;
   /* background-color: rgba(0, 255, 128, 0.274); */
+}
+
+.rsaucebox {
+  position: fixed;
+  top: 0%;
+  z-index: -10;
+  height: 100vh;
 }
   
   }
@@ -275,24 +257,33 @@ html {
       display: none;
     }
   
+    .bg, .uwu {
+      display: none;
+    }
+
   .canvasbox {
     display: block;
     visibility: visible;
     height: 500vh;
   }
-  
-  .canvasbox-16 {
-    display: none;
-  }
-  
-  .canvasbox-21 {
-    display: none;
-  }
 
   canvas {
+    top: 50%;
+    left: 50%;
     transform: translate(-16%, -50%);
   width: 145vw;
   /* background-color: rgba(0, 255, 128, 0.274); */
+}
+
+.slip {
+  display: block;
+}
+
+.rsaucebox {
+  position: fixed;
+  top: 0%;
+  z-index: -10;
+  height: 100vh;
 }
   
   }
@@ -306,25 +297,33 @@ html {
       display: none;
     }
   
+    .bg, .uwu {
+      display: none;
+    }
   
   .canvasbox {
     display: block;
     visibility: visible;
     height: 550vh;
   }
-  
-  .canvasbox-16 {
-    display: none;
-  }
-  
-  .canvasbox-21 {
-    display: none;
-  }
 
   canvas {
-    transform: translate(-14%, -50%);
+    top: 50%;
+  left: 50%;
+  transform: translate(-14%, -50%);
   width: 140vw;
   /* background-color: rgba(0, 255, 128, 0.274); */
+}
+
+.slip {
+  display: block;
+}
+
+.rsaucebox {
+  position: fixed;
+  top: 0%;
+  z-index: -10;
+  height: 100vh;
 }
   
   }
@@ -338,28 +337,33 @@ html {
       display: none;
     }
   
+    .bg, .uwu {
+      display: none;
+    }
   
   .canvasbox {
     display: block;
     visibility: visible;
     height: 600vh;
   }
-  
-  .canvasbox-16 {
-    display: none;
-  }
-  
-  .canvasbox-21 {
-    display: none;
-  }
-
 
   canvas {
   transform: translate(-3%, -50%);
   width: 110vw;
   /* background-color: rgba(0, 255, 128, 0.274); */
 }
+
+.slip {
+  display: block;
+}
   
+.rsaucebox {
+  position: fixed;
+  top: 0%;
+  z-index: -10;
+  height: 100vh;
+}
+
   }
   
 
@@ -377,29 +381,6 @@ html {
     overflow-x: hidden;
     background-color: rgba(238, 130, 238, 0.336);
   }
-
-  .rsaucebox {
-    position: fixed;
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-    /* top: 1150vh; */
-    top: 0%;
-    left: 0px;
-    width: 101vw;
-    z-index: -10;
-    margin: 0 auto;
-    /* background-color: purple; */
-    height: 100vh;
-    overflow-y: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    overflow-x: hidden;
-  }
-  
-  .rsaucebox::-webkit-scrollbar {
-    width: 0 !important;
-  }
-
 
 
 /*--------------------------------------------
@@ -944,6 +925,10 @@ LANDING PAGE
   }
   
   @media only screen and (min-width: 600px) {
+    html, body {
+      background-color: #29292900;
+      }
+
     .golf {
       display: block;
     }
