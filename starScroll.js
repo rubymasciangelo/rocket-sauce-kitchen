@@ -8,8 +8,8 @@ gsap.from(".star-6", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1}` : `+=${elem.offsetHeight * 1.5}` ),
-        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.5}` : `+=${elem.offsetHeight * 2.5}` ),
+        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 0.5}` : `+=${elem.offsetHeight * 1.5}` ),
+        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.2}` : `+=${elem.offsetHeight * 2.5}` ),
         scrub: 2,
         // markers: true
     },
@@ -20,8 +20,8 @@ gsap.from(".star-5", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1}` : `+=${elem.offsetHeight * 1.5}` ),
-        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.5}` : `+=${elem.offsetHeight * 2.5}` ),
+        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 0.5}` : `+=${elem.offsetHeight * 1.5}` ),
+        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.2}` : `+=${elem.offsetHeight * 2.5}` ),
         scrub: 2,
         // markers: true
     },
@@ -32,8 +32,8 @@ gsap.from(".star-4", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1}` : `+=${elem.offsetHeight * 1.5}` ),
-        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.5}` : `+=${elem.offsetHeight * 2.5}` ),
+        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 0.5}` : `+=${elem.offsetHeight * 1.5}` ),
+        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.2}` : `+=${elem.offsetHeight * 2.5}` ),
         scrub: 2,
         // markers: true
     },
@@ -44,8 +44,8 @@ gsap.from(".star-3", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1}` : `+=${elem.offsetHeight * 1.5}` ),
-        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.5}` : `+=${elem.offsetHeight * 2.5}` ),
+        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 0.5}` : `+=${elem.offsetHeight * 1.5}` ),
+        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.2}` : `+=${elem.offsetHeight * 2.5}` ),
         scrub: 2,
         // markers: true
     },
@@ -56,8 +56,8 @@ gsap.from(".star-2", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1}` : `+=${elem.offsetHeight * 1.5}` ),
-        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.5}` : `+=${elem.offsetHeight * 2.5}` ),
+        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 0.5}` : `+=${elem.offsetHeight * 1.5}` ),
+        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.2}` : `+=${elem.offsetHeight * 2.5}` ),
         scrub: 2,
         // markers: true
     },
@@ -68,8 +68,8 @@ gsap.from(".star-1", {
     ease: "none",
     scrollTrigger: {
         trigger: "#stars",
-        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1}` : `+=${elem.offsetHeight * 1.5}` ),
-        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.5}` : `+=${elem.offsetHeight * 2.5}` ),
+        start: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 0.5}` : `+=${elem.offsetHeight * 1.5}` ),
+        end: () => (window.innerWidth < 800 ? `+=${elem.offsetHeight * 1.2}` : `+=${elem.offsetHeight * 2.5}` ),
         scrub: 2,
         // markers: true
     },
