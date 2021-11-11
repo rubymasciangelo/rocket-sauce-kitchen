@@ -5,29 +5,34 @@
     position: absolute;
     top: 0%;
     left: -5px;
-    height: 800px;
+    height: 2300px;
     width: 101%;
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: rgba(41, 43, 155, 0.384);
 }
 .canvasbox-16 {
-    position: sticky;
     position: -webkit-sticky;
-height: 100px;
-width: 101%;
+    position: sticky;
+width: 100%;
 top: 0%;
+z-index: 100;
+overflow-x: hidden;
+background-color: rgba(114, 95, 160, 0.137);
 }
 
-#hero-lightpass-16 {
-
-  width: 110vw;
-  /* background-color: rgba(0, 255, 128, 0.274); */
+.sad {
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .bg {
     position: absolute;
     z-index: -10;
     background-color: #29292952;
-    height: 1000px;
+    height: 3000px;
     width: 101%;
     left: -1%;
     top: -2%;
@@ -35,12 +40,12 @@ top: 0%;
 
 .cry {
     position: absolute;
-    z-index: 10;
-    top: 880px;
+    z-index: 0;
+    top: 2000px;
     left: -5px;
     height: 800px;
     width: 101.5%;
-    background-color: rgba(0, 128, 128, 0.541);
+    background-color: rgba(0, 128, 79, 0.253);
 }
 
 

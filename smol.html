@@ -16,16 +16,24 @@
     <body>
         <div class="bg"></div>
         <div class="uwu">
-            
+            <div class="canvasbox-16" id="tall">
+                <canvas class="sad" id="hero-lightpass-16"></canvas>
+            </div>
         </div>
         <div class="cry">
         </div>
+<script type="text/javascript">//<![CDATA[ 
 
+window.onload = window.onresize = function () {
+    var tall = document.getElementById("tall");
+    var height = window.innerHeight;
+    tall.style.height = height + "px";
+} 
+
+        </script> 
     </body>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     <script type="text/javascript" src="test216.js"></script>
-    <script type="text/javascript" src="imageSwap.js"></script>
-    <script type="text/javascript" src="starScroll.js"></script>
 
 </html>
