@@ -64,7 +64,7 @@ overflow-x: hidden;
     width: 101.5%;
     margin: 0 auto;
     background-color: purple;
-    height: calc(2050px + 228vw);
+    height: calc(2000px + 228vw);
     overflow-y: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
