@@ -1,4 +1,6 @@
-
+html, body {
+    overscroll-behavior: none;
+}
 .uwu {
     display: initial;
     overflow:visible;
