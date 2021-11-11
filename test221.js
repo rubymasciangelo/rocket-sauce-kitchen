@@ -29,7 +29,7 @@ gsap.to(rocket21, {
   frame: frameCount21 - 1,
   snap: "frame",
   scrollTrigger: {
-    end: () => `+=${canvas21.offsetHeight * 1}`,
+    end: () => `+=${canvas21.offsetHeight * 0.1}`,
     scrub: 2
   },
   onUpdate: render // use animation onUpdate instead of scrollTrigger's onUpdate

@@ -1,6 +1,6 @@
 html {
     /* background-color: red; */
-    width: 100vw;
+    width: 99vw;
     overflow-x: hidden;
     background-color: black;
     color: white;
@@ -8,9 +8,12 @@ html {
   
   body {
     font-family: Verdana, sans-serif;
+    width: 99%;
   }
-  
-  
+
+.wrap {
+  width: 99.9%;
+}
 
   .canvasbox, .canvasbox-21, .canvasbox-16 {
       position: relative;
@@ -27,6 +30,7 @@ html {
     max-height: 130vh;
     transform: translate(-6%, -50%);
     width: 110vw;
+    overflow-x: hidden;
     background-color: rgba(0, 255, 128, 0.274);
   }
 
