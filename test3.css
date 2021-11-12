@@ -19,7 +19,7 @@ html, body {
   .bg {
     position: absolute;
     z-index: -10;
-    background-color: #29292952;
+    background-color: #292929;
     height: 3000px;
     width: 101%;
     left: -1%;
