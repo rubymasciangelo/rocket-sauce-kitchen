@@ -1179,7 +1179,7 @@ LANDING PAGE
   width:110vw;
   height:120%;
   background-color: #333;
-  background-image: url('Loading-Animation-V2_noDither.gif');
+  background-image: url('Loading-Animation.gif');
 }
 
 .loader {
