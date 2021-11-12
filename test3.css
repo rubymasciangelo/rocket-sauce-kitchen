@@ -382,7 +382,7 @@ transform: translate(-50%, -50%);
     width: 100vw;
     z-index: -100;
     overflow-x: hidden;
-    background-color: rgba(238, 130, 238, 0.336);
+    background-color: rgba(238, 130, 238, 0);
   }
 
 
