@@ -54,6 +54,7 @@ overflow-x: hidden;
   z-index: 100;
 top: 50%;
 left: 50%;
+-webkit-transform:  translate(-50%, -50%);
 transform: translate(-50%, -50%);
 }
 
@@ -164,6 +165,7 @@ transform: translate(-50%, -50%);
     display: block;
       width: 100%;
       transform: translate(0%, -50%);
+      -webkit-transform: translate(0%, -50%);
   }
   }
   
@@ -240,6 +242,7 @@ transform: translate(-50%, -50%);
     overflow-x: hidden;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-23%, -50%);
     transform: translate(-23%, -50%);
   width: 180vw;
   /* background-color: rgba(0, 255, 128, 0.274); */
@@ -277,6 +280,7 @@ transform: translate(-50%, -50%);
     display: block;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-16%, -50%);
     transform: translate(-16%, -50%);
   width: 145vw;
   /* background-color: rgba(0, 255, 128, 0.274); */
@@ -318,6 +322,7 @@ transform: translate(-50%, -50%);
     display: block;
     top: 50%;
   left: 50%;
+  -webkit-transform: translate(-14%, -50%);
   transform: translate(-14%, -50%);
   width: 140vw;
   /* background-color: rgba(0, 255, 128, 0.274); */
@@ -357,6 +362,7 @@ transform: translate(-50%, -50%);
 
   canvas {
     display: block;
+    -webkit-transform: translate(-3%, -50%);
   transform: translate(-3%, -50%);
   width: 110vw;
   /* background-color: rgba(0, 255, 128, 0.274); */
@@ -1195,16 +1201,4 @@ LANDING PAGE
   position: relative;
   height: 100%;
   background-color: #333;
-}
-
-.fixed {
-  position: fixed;
-  top: 0;
-  bottom: auto;
-}
-
-.abs {
-  position: absolute;
-  bottom: 0;
-  top: auto;
 }
