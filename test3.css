@@ -229,7 +229,7 @@ transform: translate(-50%, -50%);
     display: block;
     visibility: visible;
     height: 200vh;
-    position: absolute;
+    position: relative;
   }
   
 
