@@ -11,7 +11,7 @@ html, body {
   .canvasbox {
       position: relative;
       left: 0%;
-    height: 500vh;
+    height: 5000px;
     width: 100vw;
     /* background-color: rgba(250, 128, 114, 0.877); */
   }
@@ -228,7 +228,6 @@ transform: translate(-50%, -50%);
   .canvasbox {
     display: block;
     visibility: visible;
-    height: 200vh;
     position: static;
   }
   
@@ -270,7 +269,6 @@ transform: translate(-50%, -50%);
   .canvasbox {
     display: block;
     visibility: visible;
-    height: 500vh;
   }
 
   canvas {
@@ -311,7 +309,6 @@ transform: translate(-50%, -50%);
   .canvasbox {
     display: block;
     visibility: visible;
-    height: 550vh;
   }
 
   canvas {
@@ -352,7 +349,6 @@ transform: translate(-50%, -50%);
   .canvasbox {
     display: block;
     visibility: visible;
-    height: 600vh;
   }
 
   canvas {
