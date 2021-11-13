@@ -161,6 +161,7 @@ transform: translate(-50%, -50%);
   }
   
   canvas {
+    display: block;
       width: 100%;
       transform: translate(0%, -50%);
   }
@@ -235,6 +236,7 @@ transform: translate(-50%, -50%);
   canvas {
     position: -webkit-sticky;
     position: sticky;
+    display: block;
     overflow-x: hidden;
     top: 50%;
     left: 50%;
@@ -272,6 +274,7 @@ transform: translate(-50%, -50%);
   }
 
   canvas {
+    display: block;
     top: 50%;
     left: 50%;
     transform: translate(-16%, -50%);
@@ -312,6 +315,7 @@ transform: translate(-50%, -50%);
   }
 
   canvas {
+    display: block;
     top: 50%;
   left: 50%;
   transform: translate(-14%, -50%);
@@ -352,6 +356,7 @@ transform: translate(-50%, -50%);
   }
 
   canvas {
+    display: block;
   transform: translate(-3%, -50%);
   width: 110vw;
   /* background-color: rgba(0, 255, 128, 0.274); */
