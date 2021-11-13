@@ -234,8 +234,8 @@ transform: translate(-50%, -50%);
   
 
   canvas {
-    position: -webkit-sticky;
     position: sticky;
+    position: -webkit-sticky;
     display: block;
     overflow-x: hidden;
     top: 50%;
