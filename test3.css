@@ -229,13 +229,13 @@ transform: translate(-50%, -50%);
     display: block;
     visibility: visible;
     height: 200vh;
-    position: static;
-    will-change: transform;
+    position: absolute;
   }
   
 
   canvas {
-    position: fixed;
+    position: sticky;
+    position: -webkit-sticky;
     display: block;
     overflow-x: hidden;
     top: 50%;
