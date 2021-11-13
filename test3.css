@@ -230,12 +230,12 @@ transform: translate(-50%, -50%);
     visibility: visible;
     height: 200vh;
     position: static;
+    will-change: transform;
   }
   
 
   canvas {
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
     display: block;
     overflow-x: hidden;
     top: 50%;
