@@ -6,7 +6,7 @@ var hit = document.getElementsByClassName('uwu');
 
 LottieScrollTrigger({
   target: "#tall",
-  path: "LRS16.json",
+  path: "LRS21.json",
   speed: "fast",
   pin: ".uwu",
   anticipatePin: true,
