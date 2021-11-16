@@ -1,18 +1,18 @@
 gsap.registerPlugin(ScrollTrigger);
 
-var elem = document.getElementById('blastoff-16');
-var hit = document.getElementsByClassName('main-16');
+var elem = document.getElementById('tall');
+var hit = document.getElementsByClassName('uwu');
 
 
 LottieScrollTrigger({
-  target: "#blastoff-16",
+  target: "#tall",
   path: "LRS16.json",
   speed: "fast",
-  pin: ".main-16",
+  pin: ".uwu",
   anticipatePin: true,
   start: "top",
   end: () => `+=${elem.offsetHeight * 3}`,
-  scrub: 1,
+  scrub: 2,
   rotation: 0.1,
   force3D: true,
   markers: false
