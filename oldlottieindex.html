@@ -1,36 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="nd" lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, height=device-height, minimum-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <meta http-equiv="X-AU-compatible" content="ie=edge">
         <title>Kitchen</title>
-                <link rel="shortcut icon" href="./Favicon.ico" type="image/png" width="32" height="32">
-
-        <link rel="stylesheet" href="test3.css">
-                <link rel="stylesheet" href="https://use.typekit.net/hmd0ufc.css">
-
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="shortcut icon" href="./Favicon.ico" type="image/png" width="32" height="32">
+        <link rel="stylesheet" href="https://use.typekit.net/hmd0ufc.css">
+        <link rel="stylesheet" href="rocketstyles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
         <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+        <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
+        <script rel="preload" src="lottie16.js"></script>
+        <script rel="preload" src="lottie21.js"></script>
     </head>
     <body>
-    <!--MOBILE IPHONE SE ISH SIZE-->
-        <div class="bg"></div>
-        <div class="uwu">
-            <div class="canvasbox-16" id="tall">
-              <!--sad-->  <canvas class="rocketnoise" id="hero-lightpass-16"></canvas>
+    <div id="wrapper">
+        <div class="main-21">
+            <div class="scroll-element">
+                <div id="blastoff-21"></div>
             </div>
         </div>
-    <!--DESKTOP SIZE-->
-        <div class="canvasbox">
-            <canvas id="hero-lightpass">
-            </canvas>
+        
+        <div class="main-16">
+            <div class="scroll-element">
+                <div id="blastoff-16"></div>
+            </div>
         </div>
-        <div class="slip"></div>
-    <!--LANDING CONTENT-->
-        <!--cry--><div class="rsaucebox">
+        
+        <div class="main" style="display:none;">
+            <div class="scroll-element">
+                <div id="blastoff"></div>
+            </div>
+        </div>
+
+        <div class="ffwarning">
+            <p>Hi there! It looks like you're using Firefox, please use Chrome or Safari to view this page!</p>
+        </div>
+
+        <div class="shh">
+            <div class="rsaucebox">
                 <div class="landing-entry" id="stars">
-                    <div class="images_wrapper" id="stars-smol">
+                    <div class="images_wrapper">
                         <div class="image-holder star-1"></div>
                         <div class="image-holder star-2"></div>
                         <div class="image-holder star-3"></div>
@@ -85,7 +97,9 @@
                 </div>
                 <div class="buffer">
                 </div>
+            </div>
         </div>
+
         <div class="markers">
             <h1 class="numb one">1</h1>
             <h1 class="numb two">2</h1>
@@ -107,10 +121,11 @@
             <h1 class="letter hotel">H</h1>
             <h1 class="letter india">I</h1>
         </div>
-        <script>
+</div>
+<script>
   $('body').append('<div style="" id="loadingDiv2"><div class="loader"><img class="gif" src="Loading-Animation.gif" alt="Loading..."></div></div>');
 $(window).on('load', function(){
-  setTimeout(removeLoader, 1000); //wait for page load PLUS two seconds.
+  setTimeout(removeLoader, 10000); //wait for page load PLUS two seconds.
 });
 function removeLoader(){
     $( "#loadingDiv2" ).fadeOut(500, function() {
@@ -119,22 +134,27 @@ function removeLoader(){
       $( "#loadingDiv2" ).remove(); //makes page more lightweight 
   });  
 }
-</script>
-<script type="text/javascript">//<![CDATA[ 
 
-window.onload = window.onresize = function () {
-    var tall = document.getElementById("tall");
-    var height = window.innerHeight;
-    tall.style.height = height + "px";
-} 
-
+var main = document.querySelector(".main");
+var warning = document.querySelector(".ffwarning");
+var FF = !(window.mozInnerScreenX == null);
+if(FF) {
+    main.style.display = "none";
+    warning.style.display = "block";
+} else {
+    main.style.display = "block";
+    warning.style.display = "none";
+}
 </script>
-    </body>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
-    <script type="text/javascript" src="test216.js"></script>
-    <script type="text/javascript" src="test2.js"></script>
-    <script type="text/javascript" src="imageSwap.js"></script>
-    <script type="text/javascript" src="starScroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
+    <script src="fastestScript.js"></script>
+    <script src="lottie16.js"></script>
+    <script src="lottie21.js"></script>
+    <script src="imageSwap.js"></script>
+    <script src="starScroll.js"></script>
+    </body>
+     
 
 </html>
