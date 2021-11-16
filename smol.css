@@ -76,7 +76,7 @@ overflow-x: hidden;
     z-index: -10;
     width: 101.5%;
     margin: 0 auto;
-    background-color: purple;
+    /* background-color: purple; */
     height: calc(2000px + 228vw);
     overflow-y: scroll;
     scrollbar-width: none;
