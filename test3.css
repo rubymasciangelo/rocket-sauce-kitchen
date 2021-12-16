@@ -141,6 +141,10 @@ transform: translate(-50%, -50%);
     top: calc(-110vh * 5);
   }
   
+  .uwu {
+    left: -26%;
+    width: 151%;
+  }
 }
   
   @media (min-aspect-ratio: 2/3) and (max-aspect-ratio: 3/4) {
