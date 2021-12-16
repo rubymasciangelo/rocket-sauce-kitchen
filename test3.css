@@ -169,6 +169,11 @@ transform: translate(-50%, -50%);
       width: 100%;
       transform: translate(0%, -50%);
   }
+
+  .uwu {
+    left: -25.5%;
+    width: 151%;
+  }
   }
   
   @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 5/6) {
