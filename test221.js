@@ -1,6 +1,6 @@
 console.clear();
 
-const canvas21 = document.getElementById("hero-lightpass-21");
+const canvas21 = document.getElementById("hero-lightpass-16");
 const context21 = canvas21.getContext("2d");
 
 // canvas.width = document.body.clientWidth;
