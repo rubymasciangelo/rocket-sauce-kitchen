@@ -141,10 +141,10 @@ transform: translate(-50%, -50%);
     top: calc(-110vh * 5);
   }
   
-  .uwu {
+  /* .uwu {
     left: -26%;
     width: 151%;
-  }
+  } */
 }
   
   @media (min-aspect-ratio: 2/3) and (max-aspect-ratio: 3/4) {
@@ -170,10 +170,10 @@ transform: translate(-50%, -50%);
       transform: translate(0%, -50%);
   }
 
-  .uwu {
+  /* .uwu {
     left: -25.5%;
     width: 151%;
-  }
+  } */
   }
   
   @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 5/6) {
