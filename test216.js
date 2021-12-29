@@ -11,7 +11,7 @@ canvas16.height = 1620;
 
 const frameCount16 = 263;
 const currentFrame16 = index => (
-    `./pngs/16A/RocketSauce_9x16${index.toString().padStart(3, '0')}.png`
+    `./pngs/16Rocket/9x16_Rocket-Exhaust${index.toString().padStart(3, '0')}.png`
 );
 
 const images16 = []
