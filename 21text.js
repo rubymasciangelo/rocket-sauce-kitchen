@@ -1,13 +1,13 @@
 console.clear();
 
-const canvas21text = document.getElementById("hero-lightpass-16");
-const context21text = canvas21text.getContext("2d");
+const canvas16 = document.getElementById("hero-lightpass-16");
+const context16 = canvas16.getContext("2d");
 
 // canvas.width = document.body.clientWidth;
 // canvas.height = document.body.clientHeight;
 
-canvas21text.width = 1080;
-canvas21text.height = 1620;
+canvas16.width = 1080;
+canvas16.height = 1620;
 
 const frameCount16 = 263;
 const currentFrame16 = index => (
@@ -29,7 +29,7 @@ gsap.to(rocket16, {
   frame: frameCount16 - 1,
   snap: "frame",
   scrollTrigger: {
-    end: () => `+=${canvas21text.offsetHeight * 3}`,
+    end: () => `+=${canvas16.offsetHeight * 3}`,
     scrub: 2
   },
   onUpdate: render // use animation onUpdate instead of scrollTrigger's onUpdate
@@ -38,7 +38,7 @@ gsap.to(rocket16, {
 images16[0].onload = render;
 
 function render() {
-  context21text.clearRect(0, 0, canvas21text.width, canvas21text.height);
-  context21text.drawImage(images16[rocket16.frame], 0, 0, images16[rocket16.frame].width, images16[rocket16.frame].height, //source rectangle
-    0, 0, canvas21text.width, canvas21text.height); //destination rectangle
+  context16.clearRect(0, 0, canvas16.width, canvas16.height);
+  context16.drawImage(images16[rocket16.frame], 0, 0, images16[rocket16.frame].width, images16[rocket16.frame].height, //source rectangle
+    0, 0, canvas16.width, canvas16.height); //destination rectangle
 }
