@@ -1189,6 +1189,7 @@ LANDING PAGE
   left:-5vw;
   width:110vw;
   height:120%;
+  z-index: 5000;
   background-color: #343434;
   background-image: url('Loading-Animation.gif');
 }
