@@ -26,7 +26,7 @@ html, body {
     top: -2%;
 }
 
-  .uwu, .uwu-21 {
+  .uwu, .uwu21, .uwu-21 {
     display: initial;
     overflow:visible;
     position: absolute;
@@ -37,7 +37,7 @@ html, body {
     /* background-color: rgba(41, 43, 155, 0.384); */
 }
 
-.canvasbox-16 {
+.canvasbox-16, .canvasbox-21 {
   position: -webkit-sticky;
   position: sticky;
 width: 100%;
@@ -47,7 +47,7 @@ overflow-x: hidden;
 /* background-color: rgba(172, 182, 29, 0.925); */
 }
 
-.rocketnoise {
+.rocketnoise, .rocketnoise21 {
   height: 100%;
   min-width: 100%;
   position: absolute;
@@ -56,6 +56,7 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
+
 
 .rsaucebox {
   position: absolute;
@@ -226,7 +227,7 @@ transform: translate(-50%, -50%);
     display: none;
   }
   
-  .bg, .uwu, .uwu-21 {
+  .bg, .uwu, .uwu-21, .uwu21 {
     display: none;
   }
 
@@ -271,7 +272,7 @@ transform: translate(-50%, -50%);
       display: none;
     }
   
-    .bg, .uwu, .uwu-21 {
+    .bg, .uwu, .uwu-21, .uwu21 {
       display: none;
     }
 
@@ -311,7 +312,7 @@ transform: translate(-50%, -50%);
       display: none;
     }
   
-    .bg, .uwu, .uwu-21 {
+    .bg, .uwu, .uwu21, .uwu-21 {
       display: none;
     }
   
@@ -351,7 +352,7 @@ transform: translate(-50%, -50%);
       display: none;
     }
   
-    .bg, .uwu, .uwu-21 {
+    .bg, .uwu, .uwu21, .uwu-21 {
       display: none;
     }
   

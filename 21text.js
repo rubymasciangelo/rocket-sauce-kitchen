@@ -1,44 +1,44 @@
 console.clear();
 
-const canvas16 = document.getElementById("hero-lightpass-16");
-const context16 = canvas16.getContext("2d");
+const canvas21 = document.getElementById("hero-lightpass-21");
+const context21 = canvas21.getContext("2d");
 
 // canvas.width = document.body.clientWidth;
 // canvas.height = document.body.clientHeight;
 
-canvas16.width = 1080;
-canvas16.height = 1620;
+canvas21.width = 1080;
+canvas21.height = 1620;
 
-const frameCount16 = 263;
-const currentFrame16 = index => (
-    `./pngs/21Text/9x21_Text${index.toString().padStart(3, '0')}.png`
+const frameCount21 = 263;
+const currentFrame21 = index => (
+    `./pngs/16Rocket/9x16_Rocket-Exhaust${index.toString().padStart(3, '0')}.png`
 );
 
-const images16 = []
-const rocket16 = {
+const images21 = []
+const rocket21 = {
   frame: 0
 };
 
-for (let i = 0; i < frameCount16; i++) {
+for (let i = 0; i < frameCount21; i++) {
   const img = new Image();
-  img.src = currentFrame16(i);
-  images16.push(img);
+  img.src = currentFrame21(i);
+  images21.push(img);
 }
 
-gsap.to(rocket16, {
-  frame: frameCount16 - 1,
+gsap.to(rocket21, {
+  frame: frameCount21 - 1,
   snap: "frame",
   scrollTrigger: {
-    end: () => `+=${canvas16.offsetHeight * 3}`,
+    end: () => `+=${canvas21.offsetHeight * 3}`,
     scrub: 2
   },
   onUpdate: render // use animation onUpdate instead of scrollTrigger's onUpdate
 });
 
-images16[0].onload = render;
+images21[0].onload = render;
 
 function render() {
-  context16.clearRect(0, 0, canvas16.width, canvas16.height);
-  context16.drawImage(images16[rocket16.frame], 0, 0, images16[rocket16.frame].width, images16[rocket16.frame].height, //source rectangle
-    0, 0, canvas16.width, canvas16.height); //destination rectangle
+  context21.clearRect(0, 0, canvas21.width, canvas21.height);
+  context21.drawImage(images21[rocket21.frame], 0, 0, images21[rocket21.frame].width, images21[rocket21.frame].height, //source rectangle
+    0, 0, canvas21.width, canvas21.height); //destination rectangle
 }
